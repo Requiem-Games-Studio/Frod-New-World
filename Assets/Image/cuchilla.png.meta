@@ -1,0 +1,617 @@
+fileFormatVersion: 2
+guid: 8e0c35f4736fbbf47b18b0cbb263fe42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5060627609763284394
+    second: cuchilla_0
+  - first:
+      213: 7056564596501049533
+    second: cuchilla_1
+  - first:
+      213: 8961081266280148315
+    second: cuchilla_2
+  - first:
+      213: 835216406676449997
+    second: cuchilla_3
+  - first:
+      213: -6641266376667341479
+    second: cuchilla_4
+  - first:
+      213: -8558172045568575207
+    second: cuchilla_5
+  - first:
+      213: 7576383835912973595
+    second: cuchilla_6
+  - first:
+      213: 676191710039911457
+    second: cuchilla_7
+  - first:
+      213: 9087897010198349802
+    second: cuchilla_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cuchilla_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 846
+        width: 134
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5897caff5fa3640800000000000000
+      internalID: 5060627609763284394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 887
+        width: 224
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0fa0dfc14fde160800000000000000
+      internalID: 7056564596501049533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_2
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 952
+        width: 260
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5171577, y: 0.20587002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d29001fe72c5c70800000000000000
+      internalID: 8961081266280148315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_3
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 891
+        width: 269
+        height: 177
+      alignment: 9
+      pivot: {x: 0.58528674, y: 0.4315913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca278e85e8479b00800000000000000
+      internalID: 835216406676449997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_4
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 920
+        width: 214
+        height: 143
+      alignment: 9
+      pivot: {x: 0.47022113, y: 0.5356522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d5ff7da6b75d3a0800000000000000
+      internalID: -6641266376667341479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_5
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 891
+        width: 184
+        height: 175
+      alignment: 9
+      pivot: {x: 0.48268262, y: 0.50364155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919f4312ed34b3980800000000000000
+      internalID: -8558172045568575207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 711
+        width: 244
+        height: 88
+      alignment: 9
+      pivot: {x: 0.47910547, y: 0.724497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1daa9515f8b42960800000000000000
+      internalID: 7576383835912973595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 703
+        width: 260
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5269619, y: 0.79412997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c2ef417c0526900800000000000000
+      internalID: 676191710039911457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_8
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 653
+        width: 268
+        height: 177
+      alignment: 9
+      pivot: {x: 0.5689595, y: 0.48199773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae705385e22be1e70800000000000000
+      internalID: 9087897010198349802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_9
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 663
+        width: 242
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5079008, y: 0.35546184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783e9bc4742f29e4cb72dc97814c035b
+      internalID: 1478647944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 450
+        width: 174
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ac8f9b99f97a841bd34293f5b67bb2
+      internalID: -1779669816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 522
+        width: 242
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5079003, y: 0.33729002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48636f6687a7866438779e2635f4bf48
+      internalID: -1189447808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_12
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 511
+        width: 243
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5157355, y: 0.316951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fffd35887a6b246b950d80f8bd7797
+      internalID: -1636076840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_13
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 459
+        width: 210
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5364159, y: 0.4783238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15d3c75484c8734f9f60398661d5c5b
+      internalID: 1059128871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 146
+        width: 92
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5969776, y: 0.51448345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fa4ad68b53d8941a6c8b2309ee9657
+      internalID: 729905539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 182
+        width: 163
+        height: 255
+      alignment: 9
+      pivot: {x: 0.5312776, y: 0.56747687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e30c0748d99b814390cea2aa9a3a3ff
+      internalID: 935245216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_16
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 192
+        width: 86
+        height: 249
+      alignment: 9
+      pivot: {x: 0.2925131, y: 0.4846438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ca93fb342e85d48b99ab759da10791
+      internalID: 749218689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 294
+        width: 230
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5110832, y: 0.5241389}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f15492f9a530c54bb0ea59e6a5457db
+      internalID: 939279912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_18
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 306
+        width: 233
+        height: 120
+      alignment: 9
+      pivot: {x: 0.4699136, y: 0.5902812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff2b796bbd80f74bbd952a2724219ef
+      internalID: 754665660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_19
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 223
+        width: 130
+        height: 226
+      alignment: 9
+      pivot: {x: 0.5294133, y: 0.5028199}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ceba8502c15c26428df870ba1786374
+      internalID: 59713007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6cc26651af66e8d42b7bfc68e74771d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cuchilla_0: 5060627609763284394
+      cuchilla_1: 7056564596501049533
+      cuchilla_10: -1779669816
+      cuchilla_11: -1189447808
+      cuchilla_12: -1636076840
+      cuchilla_13: 1059128871
+      cuchilla_14: 729905539
+      cuchilla_15: 935245216
+      cuchilla_16: 749218689
+      cuchilla_17: 939279912
+      cuchilla_18: 754665660
+      cuchilla_19: 59713007
+      cuchilla_2: 8961081266280148315
+      cuchilla_3: 835216406676449997
+      cuchilla_4: -6641266376667341479
+      cuchilla_5: -8558172045568575207
+      cuchilla_6: 7576383835912973595
+      cuchilla_7: 676191710039911457
+      cuchilla_8: 9087897010198349802
+      cuchilla_9: 1478647944
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

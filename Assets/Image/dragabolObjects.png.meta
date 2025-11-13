@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: ac1d8b5b1e3cb774fa3152ffb9497a68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8445431117418615317
+    second: dragabolObjects_0
+  - first:
+      213: 2147956541944966858
+    second: dragabolObjects_1
+  - first:
+      213: -5346815095984681084
+    second: dragabolObjects_2
+  - first:
+      213: -3605546134138885399
+    second: dragabolObjects_3
+  - first:
+      213: -2025654212448815507
+    second: dragabolObjects_4
+  - first:
+      213: -4546567756571072117
+    second: dragabolObjects_5
+  - first:
+      213: -774915403299426983
+    second: dragabolObjects_6
+  - first:
+      213: 6601643417921265202
+    second: dragabolObjects_7
+  - first:
+      213: -5843358996724326177
+    second: dragabolObjects_8
+  - first:
+      213: -6162846250821116122
+    second: dragabolObjects_9
+  - first:
+      213: -7683287794258155447
+    second: dragabolObjects_10
+  - first:
+      213: -2151452969474961923
+    second: dragabolObjects_11
+  - first:
+      213: -1877728770422696311
+    second: dragabolObjects_12
+  - first:
+      213: -4249869761099992736
+    second: dragabolObjects_13
+  - first:
+      213: 328700443689340426
+    second: dragabolObjects_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragabolObjects_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 539
+        width: 245
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbad514555dbed54bbbef39bfbfc36da
+      internalID: -1064624466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 619
+        width: 117
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e8acc8c5b7a56478ee2db7365ce3b1
+      internalID: -146421819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 618
+        width: 414
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddb7c2b744f98b45ab5a93ff0689980
+      internalID: 351969941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_3
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 442
+        width: 160
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d43017cd8d11540ba204377d12e3bf
+      internalID: -581760119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 366
+        width: 186
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9353618e7dc4ca144a19674842abcd81
+      internalID: -741082126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 437
+        width: 244
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a7da6cc58cc23449a38364f0decad7
+      internalID: -118953343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 396
+        width: 112
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fe76537abb6e64c82b3a2905b2e275
+      internalID: -1113808355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_7
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 435
+        width: 291
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8449961e8848204bb03ab8a9aa3c465
+      internalID: 1755831043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_8
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 360
+        width: 186
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37e348f0b30ceb4f92d446770484709
+      internalID: 378598891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 149
+        width: 196
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff80d8e7dec33b4d845ad563dd64094
+      internalID: 2094478152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 150
+        width: 240
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c0028ddc4367d4189e7974818a6e41
+      internalID: 1161590096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_11
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 8
+        width: 170
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed607a9884409540b28187b1e9cbd29
+      internalID: -1510584394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_12
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 8
+        width: 172
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729c448009d7451488e59634d7a59965
+      internalID: -1346888122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_13
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 6
+        width: 162
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8a686a4cb10e04db0abf8f5df9e6aa
+      internalID: -1800663996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragabolObjects_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 408
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bef46133555d98499426e40df1cc2f3
+      internalID: 1433343988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5999a7ea1abeadb45bc577387fd42e97
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dragabolObjects_0: -1064624466
+      dragabolObjects_1: -146421819
+      dragabolObjects_10: 1161590096
+      dragabolObjects_11: -1510584394
+      dragabolObjects_12: -1346888122
+      dragabolObjects_13: -1800663996
+      dragabolObjects_14: 1433343988
+      dragabolObjects_2: 351969941
+      dragabolObjects_3: -581760119
+      dragabolObjects_4: -741082126
+      dragabolObjects_5: -118953343
+      dragabolObjects_6: -1113808355
+      dragabolObjects_7: 1755831043
+      dragabolObjects_8: 378598891
+      dragabolObjects_9: 2094478152
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
