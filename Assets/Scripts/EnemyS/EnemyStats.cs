@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class EnemyStats : MonoBehaviour
 {
@@ -19,10 +20,19 @@ public class EnemyStats : MonoBehaviour
     public BossController enemyBehavior;
 
     public Slider healthBar;
+    public Slider delayedBar;
+    public float delayBeforeDrop = 0.3f; // Tiempo que espera antes de bajar
+    public float dropSpeed = 0.5f;       // Velocidad de bajada
+    private Coroutine delayedRoutine;
     public Slider postureBar;
     public GameObject canvas;
 
     public bool isBoss;
+    bool isBlocking;
+    public AudioSource audioSource;
+    public AudioClip blockClip;
+    public GameObject parryParticle;
+
 
     void Start()
     {
@@ -40,6 +50,24 @@ public class EnemyStats : MonoBehaviour
     public void Damage(float damage, float postureDamage, bool isHeavyAttack = false)
     {
         if (!isAlive) return;
+
+        if (isBlocking)
+        {
+            ReducePosture(10f);
+            if (currentPosture >= 10 && !isStaggered)
+            {
+                animator.Play("ParryAttack");
+                Instantiate(parryParticle, gameObject.transform);
+                GameFeelManager.Instance.DoParryImpact();
+            }
+            else
+            {
+                audioSource.clip = blockClip;
+                audioSource.Play();
+                animator.Play("BlockBreak");
+            }
+            return;
+        }
 
         if (isStaggered)
         {
@@ -61,16 +89,39 @@ public class EnemyStats : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            GameFeelManager.Instance.DoImpactToKill();
             Die();
+            return;
         }
+        GameFeelManager.Instance.DoImpact();
     }
 
     private void UpdateHealthBar()
     {
         if (healthBar != null)
         {
-            healthBar.value = (float)currentHealth / maxHealth;
+            float newValue = (float)currentHealth / maxHealth;
+            healthBar.value = newValue;
+            // Iniciar la corrutina cada vez que cambie la vida
+            if (delayedRoutine != null)
+                StopCoroutine(delayedRoutine);
+
+            delayedRoutine = StartCoroutine(UpdateDelayedBar(newValue));
         }
+    }
+    private IEnumerator UpdateDelayedBar(float targetValue)
+    {
+        // Esperar antes de empezar a bajar
+        yield return new WaitForSeconds(delayBeforeDrop);
+
+        // Bajar lentamente hasta el valor real
+        while (delayedBar.value > targetValue)
+        {
+            delayedBar.value -= dropSpeed * Time.deltaTime;
+            yield return null;
+        }
+
+        delayedBar.value = targetValue; // Asegurar que llegue exacto
     }
     public void ActivateBossBar()
     {
@@ -103,6 +154,17 @@ public class EnemyStats : MonoBehaviour
         postureBar.value = currentPosture / maxPosture;
     }
 
+    // Llamado desde la aniamcion
+    public void SetBlock()
+    {
+        isBlocking = true;
+    }
+
+    public void StopBlock()
+    {
+        isBlocking = false;
+    }
+
     // Revisar si se rompe la postura
     void CheckPostureBreak()
     {
@@ -119,7 +181,7 @@ public class EnemyStats : MonoBehaviour
         animator.Play("Stagger"); // Agrega esta animación
         Debug.Log("¡Enemigo tambaleado!");
         yield return new WaitForSeconds(postureBreakTime);
-        currentPosture = maxPosture * 0.5f;
+        currentPosture = maxPosture * 0.4f;
         isStaggered = false;
     }
 

@@ -576,6 +576,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: cuchilla_20
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 193
+        width: 170
+        height: 257
+      alignment: 9
+      pivot: {x: 0.50469327, y: 0.44769382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7808cdf5d7166364aa1f04bae1fd12cd
+      internalID: 138237802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuchilla_21
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 203
+        width: 90
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5871677, y: 0.49713504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba675786501d6c419dc7bc1dc5b8c84
+      internalID: -1150301586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -603,6 +647,8 @@ TextureImporter:
       cuchilla_18: 754665660
       cuchilla_19: 59713007
       cuchilla_2: 8961081266280148315
+      cuchilla_20: 138237802
+      cuchilla_21: -1150301586
       cuchilla_3: 835216406676449997
       cuchilla_4: -6641266376667341479
       cuchilla_5: -8558172045568575207

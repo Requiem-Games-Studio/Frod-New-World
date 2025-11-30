@@ -397,8 +397,8 @@ TextureImporter:
       name: Boss2_10
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1616
+        x: 107
+        y: 1676
         width: 363
         height: 302
       alignment: 0
@@ -419,8 +419,8 @@ TextureImporter:
       name: Boss2_12
       rect:
         serializedVersion: 2
-        x: 546
-        y: 1613
+        x: 535
+        y: 1656
         width: 435
         height: 344
       alignment: 0
@@ -441,12 +441,12 @@ TextureImporter:
       name: Boss2_13
       rect:
         serializedVersion: 2
-        x: 1041
-        y: 1582
-        width: 322
-        height: 358
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1101
+        y: 1639
+        width: 325
+        height: 337
+      alignment: 9
+      pivot: {x: 0.62032676, y: 0.45988125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -463,12 +463,12 @@ TextureImporter:
       name: Boss2_14
       rect:
         serializedVersion: 2
-        x: 1550
-        y: 1627
-        width: 359
-        height: 340
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1610
+        y: 1631
+        width: 322
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6223808, y: 0.46310496}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -485,12 +485,12 @@ TextureImporter:
       name: Boss2_15
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 1636
-        width: 507
-        height: 336
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2001
+        y: 1620
+        width: 397
+        height: 301
+      alignment: 9
+      pivot: {x: 0.6403544, y: 0.54035985}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

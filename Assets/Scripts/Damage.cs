@@ -1,10 +1,20 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Damage : MonoBehaviour
 {
     public int damage, postureDamage;
     public bool damToPlayer, damToEnemy;
     public GameObject enemyObject;
+
+    private void Start()
+    {
+        if (enemyObject == null)
+        {
+            enemyObject = this.gameObject;
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -23,6 +33,7 @@ public class Damage : MonoBehaviour
             if (stats != null)
             {
                 stats.Damage(damage, postureDamage);
+                
             }
         }
     }

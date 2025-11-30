@@ -31,6 +31,7 @@ public class WeaponInventory : MonoBehaviour
         newWeapon.GetComponent<Weapon>().playerStats = this.gameObject.GetComponent<PlayerStats>();
 
         playerController.weaponAnim = newWeapon.GetComponent<Animator>();
+        playerController.weapon = newWeapon.GetComponent<Weapon>();
         //newWeapon.SetActive(false);
 
         // Buscar un slot vacío

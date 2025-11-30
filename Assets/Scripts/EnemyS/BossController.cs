@@ -23,7 +23,7 @@ public class BossController : MonoBehaviour
 
     public bool rightView;
     public string startCombatAnim;
-    public string closeAction;
+    public string[] closeAction;
     public float closeDistance = 2.5f;
     public string[] actionAnimations;
     int randomAnimation;
@@ -65,7 +65,6 @@ public class BossController : MonoBehaviour
             //Accion del jefe
             if (timer >= timeAttack)
             {
-                Debug.Log("Ataque");
                 timer = 0;
                 DirectionBoss();
                 if (!isInteracting)
@@ -87,7 +86,8 @@ public class BossController : MonoBehaviour
 
                     if (distanceToPlayer < closeDistance)
                     {
-                        PlayTargetAnimation(closeAction, true);
+                        randomAnimation = Random.Range(0, closeAction.Length);
+                        PlayTargetAnimation(closeAction[randomAnimation], true);
                         return;
                     }
 
@@ -103,12 +103,12 @@ public class BossController : MonoBehaviour
             {
                 if (player.transform.position.x > transform.position.x)
                 {
-                    spriteRenderer.flipX = false;
+                    transform.localScale = new Vector3(1, 1, 1);  // Mira a la derecha
                     rightView = true;
                 }
                 if (player.transform.position.x < transform.position.x)
                 {
-                    spriteRenderer.flipX = true;
+                    transform.localScale = new Vector3(-1, 1, 1); // Mira a la izquierda
                     rightView = false;
                 }
             }

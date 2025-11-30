@@ -11,6 +11,8 @@ public class AnimationEvent : MonoBehaviour
     public float speedBoost = 2f; // multiplicador de velocidad temporal
 
     float originalSpeed, originalGravity;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
 
     void Start()
     {
@@ -121,5 +123,11 @@ public class AnimationEvent : MonoBehaviour
     {
         rb.linearVelocity = Vector2.zero;
         boss.chase = false;
+    }
+
+    public void PlayClip()
+    {
+        audioSource.clip = audioClip;
+        audioSource.Play();
     }
 }

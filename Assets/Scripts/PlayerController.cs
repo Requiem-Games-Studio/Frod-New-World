@@ -6,6 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     public Animator animator,weaponAnim;
+    [HideInInspector]
+    public Weapon weapon;
+    public PlayerStats stats;
     private SpriteRenderer spriteRenderer;
     public Transform espadaPivot; // arrastra aquí tu EspadaPivot en el inspector
 
@@ -39,7 +42,8 @@ public class PlayerController : MonoBehaviour
 
     private bool isGrounded;
     private bool canDodge = true;
-    private bool isJumping, isInteracting, isBallForm, isAttacking,isDown;
+    public bool isDown;
+    private bool isJumping, isInteracting, isBallForm, isAttacking;
     private float jumpTimeCounter;
     private float coyoteTimeCounter;
 
@@ -71,7 +75,7 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity = new Vector2(horizontal * currentSpeed, rb.linearVelocity.y);
         }        
 
-        if (weaponAnim!=null)
+        if (weaponAnim!=null && !stats.isStaggered)
         {
             if (Input.GetMouseButtonDown(0)) // Click izquierdo
             {
@@ -81,6 +85,7 @@ public class PlayerController : MonoBehaviour
                 }
                 else if (vertical < 0 && !isGrounded)
                 {
+                    rb.linearVelocity = Vector2.zero;
                     weaponAnim.Play("DownAttack");
                 }
                 else
@@ -88,7 +93,7 @@ public class PlayerController : MonoBehaviour
                     weaponAnim.Play("Attack");
                 }
 
-                if (!isInteracting && !isDown)
+                if (!isInteracting && !isDown && isGrounded)
                 {
                     if (isBallForm)
                     {
@@ -96,6 +101,7 @@ public class PlayerController : MonoBehaviour
                     }
                     else
                     {
+                        DisableWalk(0.2f);
                         animator.Play("Attack");
                     }
                 }
@@ -133,9 +139,15 @@ public class PlayerController : MonoBehaviour
             spriteRenderer.flipX = horizontal < 0;
 
             // **Flip del pivote de la espada**
-            Vector3 scale = espadaPivot.localScale;
-            scale.x = horizontal < 0 ? -1 : 1;
-            espadaPivot.localScale = scale;
+            if (weapon != null)
+            {
+                Vector3 scale = espadaPivot.localScale;
+                scale.x = horizontal < 0 ? -1 : 1;
+                if (weapon.canFlip)
+                {
+                    espadaPivot.localScale = scale;
+                }
+            }
         }
 
         // **Control de animación Walk**
@@ -159,7 +171,6 @@ public class PlayerController : MonoBehaviour
 
             if (isDown && PowerupManager.Instance.HasPower(PowerType.SuperJump))
             {
-                Debug.Log("SuperJump");
                 animator.Play("SuperJump");
                 jumpTimeCounter = superJumpDuration; // opcional: que dure más
             }
@@ -215,7 +226,6 @@ public class PlayerController : MonoBehaviour
         // Detectar mantener presionado "DownArrow"
         if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
         {
-            Debug.Log("KeyDown Arrow");
             currentSpeed = 0;
             animator.SetBool("Down", true);
             animator.Play("StartDown");
@@ -278,7 +288,6 @@ public class PlayerController : MonoBehaviour
     IEnumerator Dodge()
     {
         canDodge = false;
-        Debug.Log("Dodgeeee");
 
         // Reproducir la animación
         animator.SetBool("isInteracting", true);
@@ -424,5 +433,11 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSeconds(smashStunTime);
 
+    }
+
+    public void PlayTargetAnimation(string targetAnim, bool isInteracting = false)
+    {
+        animator.CrossFade(targetAnim, 0.2f);
+        animator.SetBool("isInteracting", isInteracting);
     }
 }

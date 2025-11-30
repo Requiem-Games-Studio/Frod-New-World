@@ -58,5 +58,6 @@ public class CameraFollow : MonoBehaviour
 
         // Movimiento suave
         transform.position = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed * Time.deltaTime);
+
     }
 }
