@@ -19,8 +19,9 @@ public class FlashSprite : MonoBehaviour
         originalMaterial = sr.material;
     }
 
-    public void Flash(float duration = 0.05f)
+    public void Flash(float duration = 0.1f)
     {
+               
         if (flashRoutine != null)
             StopCoroutine(flashRoutine);
 
@@ -29,6 +30,7 @@ public class FlashSprite : MonoBehaviour
 
     private IEnumerator FlashRoutine(float duration)
     {
+        Debug.Log("Flash Sprite");
         sr.material = flashMaterial;
         yield return new WaitForSecondsRealtime(duration);
         sr.material = originalMaterial;

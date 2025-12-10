@@ -6127,7 +6127,8 @@ MonoBehaviour:
   audioSource: {fileID: 2011730952445163118}
   blockClip: {fileID: 8300000, guid: fcdb8148aa8c9184eb107ce7088dd567, type: 3}
   parryParticle: {fileID: 8736935566856717279, guid: 7ea02d8fb76faa446b1968d67d19c5d4, type: 3}
-  flash: {fileID: 8068513022803617599}
+  hitParticle: {fileID: 2894347033598683775, guid: 20c95cb28746b28449967df83d3692f3, type: 3}
+  flashSprite: {fileID: 8068513022803617599}
 --- !u!114 &904369196734095568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6157,7 +6158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4afe195f6c2ed434a83ef5332b31e3ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flashMaterial: {fileID: 2100000, guid: 970bcbee80d4d6d48906432e1a51426e, type: 2}
+  flashMaterial: {fileID: 2100000, guid: b4f9dbab3ac8d364e9b3e9fc20a8bc42, type: 2}
+  sr: {fileID: 7830183523686440517}
 --- !u!1 &6276834970150205786
 GameObject:
   m_ObjectHideFlags: 0

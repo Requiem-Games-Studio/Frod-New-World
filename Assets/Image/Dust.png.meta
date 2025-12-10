@@ -1,34 +1,94 @@
 fileFormatVersion: 2
-guid: 488929fb5fe59ad4fa8d719cad5ed58d
+guid: fb9751d7dd1213c439287cc821b6e216
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4066897690235725093
-    second: ParticulasFrod_0
+      213: 1670660276820739667
+    second: Dust_0
   - first:
-      213: 1566866595593436426
-    second: ParticulasFrod_1
+      213: -5929832237704200204
+    second: Dust_1
   - first:
-      213: -2588832413814293785
-    second: ParticulasFrod_2
+      213: 3207967757382678166
+    second: Dust_2
   - first:
-      213: -3716493851954046607
-    second: ParticulasFrod_3
+      213: -2696115198898644070
+    second: Dust_3
   - first:
-      213: 3772401621247393545
-    second: ParticulasFrod_4
+      213: 952623855650433617
+    second: Dust_4
   - first:
-      213: 473663254753995460
-    second: ParticulasFrod_5
+      213: -4267497323730781568
+    second: Dust_5
   - first:
-      213: 7966574740559223086
-    second: ParticulasFrod_6
+      213: 4867414469933269289
+    second: Dust_6
   - first:
-      213: 5800164947064008689
-    second: ParticulasFrod_7
+      213: -5132074842684296794
+    second: Dust_7
   - first:
-      213: 2796306918096515308
-    second: ParticulasFrod_8
+      213: -4167334906893894227
+    second: Dust_8
+  - first:
+      213: 7712811751892379816
+    second: Dust_9
+  - first:
+      213: 8778968618952597531
+    second: Dust_10
+  - first:
+      213: 732066408308869517
+    second: Dust_11
+  - first:
+      213: -5233488869146944602
+    second: Dust_12
+  - first:
+      213: 128696812379698709
+    second: Dust_13
+  - first:
+      213: 2659908252812518693
+    second: Dust_14
+  - first:
+      213: 356068233938281049
+    second: Dust_15
+  - first:
+      213: -3720201005490435438
+    second: Dust_16
+  - first:
+      213: 7184914488884311640
+    second: Dust_17
+  - first:
+      213: 1950286065093246947
+    second: Dust_18
+  - first:
+      213: 8151196432992889693
+    second: Dust_19
+  - first:
+      213: 6981261848417969210
+    second: Dust_20
+  - first:
+      213: 3721310999147875956
+    second: Dust_21
+  - first:
+      213: 7172017812777354097
+    second: Dust_22
+  - first:
+      213: 8183243169257206618
+    second: Dust_23
+  - first:
+      213: 4949881794814601935
+    second: Dust_24
+  - first:
+      213: 277940030480554964
+    second: Dust_25
+  - first:
+      213: 1551159391230666577
+    second: Dust_26
+  - first:
+      213: 1688731591522489137
+    second: Dust_27
+  - first:
+      213: 5676407848719416915
+    second: Dust_28
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +132,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -101,7 +161,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -137,199 +197,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ParticulasFrod_0
+      name: Dust_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 146
-        width: 84
-        height: 35
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bda94ab191a7f87c0800000000000000
-      internalID: -4066897690235725093
+      spriteID: f3bb0950da4b7514da4743edf6ac57d0
+      internalID: 1698486976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ParticulasFrod_1
+      name: Dust_1
       rect:
         serializedVersion: 2
-        x: 93
-        y: 131
-        width: 51
-        height: 49
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a0db5c8fdd0aeb510800000000000000
-      internalID: 1566866595593436426
+      spriteID: e56e1bf9f9fab004da1b4af7e9364413
+      internalID: -1414361066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ParticulasFrod_2
+      name: Dust_2
       rect:
         serializedVersion: 2
-        x: 151
-        y: 133
-        width: 51
-        height: 48
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7eaf497c2ae921cd0800000000000000
-      internalID: -2588832413814293785
+      spriteID: a7d9e85ab365dff488d577f4e4b47403
+      internalID: -457246057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ParticulasFrod_3
+      name: Dust_3
       rect:
         serializedVersion: 2
-        x: 201
-        y: 117
-        width: 65
-        height: 64
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1791b50588c5c6cc0800000000000000
-      internalID: -3716493851954046607
+      spriteID: 4a58165acd409774e8862f209f373f3f
+      internalID: -2008059689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ParticulasFrod_4
+      name: Dust_4
       rect:
         serializedVersion: 2
-        x: 6
-        y: 52
-        width: 61
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90ffe8899434a5430800000000000000
-      internalID: 3772401621247393545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ParticulasFrod_5
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 50
-        width: 73
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ca64ca783ac29600800000000000000
-      internalID: 473663254753995460
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ParticulasFrod_6
-      rect:
-        serializedVersion: 2
-        x: 140
+        x: 0
         y: 0
-        width: 70
-        height: 67
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e29d1af8485fe8e60800000000000000
-      internalID: 7966574740559223086
+      spriteID: aa93d5124aacf964a9cb6213d4df062f
+      internalID: 1186523785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ParticulasFrod_7
+      name: Dust_5
       rect:
         serializedVersion: 2
-        x: 162
-        y: 65
-        width: 104
-        height: 38
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ff2c6ce9435e7050800000000000000
-      internalID: 5800164947064008689
+      spriteID: 4a7d64156a1b07f458bc7e50ab51f7ca
+      internalID: 2031190201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ParticulasFrod_8
+      name: Dust_6
       rect:
         serializedVersion: 2
-        x: 7
-        y: 7
-        width: 60
-        height: 36
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ce03c18935a7ec620800000000000000
-      internalID: 2796306918096515308
+      spriteID: f8ec0c90a6aaa70489e3a53f8a802622
+      internalID: 1504076545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dust_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab980bd21aca7a74aaa805a4d256eb13
+      internalID: 308053076
       vertices: []
       indices: 
       edges: []
@@ -338,7 +376,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4fa129ec56d89aa4baef4b78fe56bc29
     internalID: 0
     vertices: []
     indices: 
@@ -348,15 +386,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ParticulasFrod_0: -4066897690235725093
-      ParticulasFrod_1: 1566866595593436426
-      ParticulasFrod_2: -2588832413814293785
-      ParticulasFrod_3: -3716493851954046607
-      ParticulasFrod_4: 3772401621247393545
-      ParticulasFrod_5: 473663254753995460
-      ParticulasFrod_6: 7966574740559223086
-      ParticulasFrod_7: 5800164947064008689
-      ParticulasFrod_8: 2796306918096515308
+      Dust_0: 1698486976
+      Dust_1: -1414361066
+      Dust_2: -457246057
+      Dust_3: -2008059689
+      Dust_4: 1186523785
+      Dust_5: 2031190201
+      Dust_6: 1504076545
+      Dust_7: 308053076
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

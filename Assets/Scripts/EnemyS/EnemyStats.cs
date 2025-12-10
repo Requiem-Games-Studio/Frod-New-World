@@ -31,7 +31,9 @@ public class EnemyStats : MonoBehaviour
     bool isBlocking;
     public AudioSource audioSource;
     public AudioClip blockClip;
-    public GameObject parryParticle;
+    public GameObject parryParticle,hitParticle;
+
+    public FlashSprite flashSprite;
 
 
     void Start()
@@ -39,6 +41,7 @@ public class EnemyStats : MonoBehaviour
         canvas.GetComponent<Canvas>().worldCamera = Camera.main;
         currentHealth = maxHealth;
         currentPosture = maxPosture;
+
     }
 
     void Update()
@@ -90,10 +93,13 @@ public class EnemyStats : MonoBehaviour
         if (currentHealth <= 0)
         {
             GameFeelManager.Instance.DoImpactToKill();
+            flashSprite.Flash();
             Die();
             return;
         }
         GameFeelManager.Instance.DoImpact();
+        Instantiate(hitParticle, transform.position, transform.rotation);
+        flashSprite.Flash();
     }
 
     private void UpdateHealthBar()

@@ -42,6 +42,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private RectTransform shakeIcon;
     [SerializeField] private Image warningImage;
     private bool isShaking = false;
+    public FlashSprite flashSprite;
 
     void Start()
     {
@@ -109,6 +110,7 @@ public class PlayerStats : MonoBehaviour
             playerController.DisableWalk(0.5f);
             //audioSource.clip = damageSound;
             //audioSource.Play();
+            flashSprite.Flash();
             Instantiate(bloodParticle, transform.position, Quaternion.identity);
             animator.SetTrigger("Damage"); // Activa la animación de daño
             UpdateHealthBar();
