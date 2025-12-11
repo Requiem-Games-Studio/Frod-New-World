@@ -1811,7 +1811,7 @@ MonoBehaviour:
   blockSound: {fileID: 8300000, guid: fcdb8148aa8c9184eb107ce7088dd567, type: 3}
   damageSound: {fileID: 8300000, guid: 0fc40b96ac3c6724595749a7ea11cf7d, type: 3}
   parryParticle: {fileID: 8736935566856717279, guid: 7ea02d8fb76faa446b1968d67d19c5d4, type: 3}
-  bloodParticle: {fileID: 4828812981935447978, guid: 70dc4d1bc5d6ee24b8a0ba16a0d38915, type: 3}
+  bloodParticle: {fileID: 2894347033598683775, guid: 00a3fdda22a0afa4297f5e83d46c7173, type: 3}
   maxPosture: 100
   currentPosture: 0
   postureRecoveryRate: 2
@@ -3121,7 +3121,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -617.37744, y: 476.00015}
+  m_AnchoredPosition: {x: -617.3774, y: 476.00015}
   m_SizeDelta: {x: -1643.8002, y: -516.705}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948296328
