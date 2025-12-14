@@ -127,7 +127,7 @@ public class AnimationEvent : MonoBehaviour
 
     public void PlayClip()
     {
-        audioSource.clip = audioClip;
-        audioSource.Play();
+        audioSource.pitch = Random.Range(0.95f, 1.08f);
+        audioSource.PlayOneShot(audioClip);
     }
 }

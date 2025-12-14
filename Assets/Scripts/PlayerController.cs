@@ -22,8 +22,7 @@ public class PlayerController : MonoBehaviour
     public float LegsSpeed = 5f;
     public float downSpeed = 1f;
     public float ballSpeed = 6f;
-    public float jumpForce;
-    public float jumpForceB;
+    public float jumpForce, bounceForce, jumpForceB;
     public float maxJumpTime = 0.2f; // Tiempo máximo de salto variable
     public float coyoteTime = 0.15f; // Tiempo extra después de dejar el suelo
                                      // SuperJump
@@ -85,7 +84,7 @@ public class PlayerController : MonoBehaviour
                 }
                 else if (vertical < 0 && !isGrounded)
                 {
-                    rb.linearVelocity = Vector2.zero;
+                    //rb.linearVelocity = Vector2.zero;
                     weaponAnim.Play("DownAttack");
                 }
                 else
@@ -224,7 +223,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Detectar mantener presionado "DownArrow"
-        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S) && isGrounded)
         {
             currentSpeed = 0;
             animator.SetBool("Down", true);
@@ -246,6 +245,20 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(Dodge());
         }
     }
+    
+    public void PogoJump()
+    {
+        // Cancela la velocidad hacia abajo para que el impulso sea limpio
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+
+        // Aplica fuerza hacia arriba
+        rb.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
+
+        stats.PlayPogoSound();
+
+    }
+
+    //Change Form
     void ToggleCurrentForm()
     {
         if (isBall)

@@ -29,7 +29,7 @@ public class PlayerStats : MonoBehaviour
     public bool isBlocking = false;
     public bool isPerfectBlock = false;
     public AudioSource audioSource;
-    public AudioClip blockSound, damageSound;
+    public AudioClip blockSound, damageSound,pogoSound;
     public GameObject parryParticle,bloodParticle;
 
     [Header("Posture / Resistance")]
@@ -278,5 +278,11 @@ public class PlayerStats : MonoBehaviour
     {
         isBlocking = false;
         isPerfectBlock = false;
+    }
+
+    public void PlayPogoSound()
+    {
+        audioSource.clip = pogoSound;
+        audioSource.Play();
     }
 }

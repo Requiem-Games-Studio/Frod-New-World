@@ -29,6 +29,7 @@ public class WeaponInventory : MonoBehaviour
         // Instanciar el arma como hijo del weaponpivot
         GameObject newWeapon = Instantiate(weaponPrefab, weaponPivot.transform);
         newWeapon.GetComponent<Weapon>().playerStats = this.gameObject.GetComponent<PlayerStats>();
+        newWeapon.GetComponent<DamagePlayer>().controller = playerController;
 
         playerController.weaponAnim = newWeapon.GetComponent<Animator>();
         playerController.weapon = newWeapon.GetComponent<Weapon>();

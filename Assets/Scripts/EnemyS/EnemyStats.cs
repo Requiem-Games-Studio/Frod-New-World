@@ -31,7 +31,7 @@ public class EnemyStats : MonoBehaviour
     bool isBlocking;
     public AudioSource audioSource;
     public AudioClip blockClip;
-    public GameObject parryParticle,hitParticle;
+    public GameObject parryParticle,hitParticle,deadParticle;
 
     public FlashSprite flashSprite;
 
@@ -93,6 +93,7 @@ public class EnemyStats : MonoBehaviour
         if (currentHealth <= 0)
         {
             GameFeelManager.Instance.DoImpactToKill();
+            Instantiate(deadParticle, transform.position, transform.rotation);
             flashSprite.Flash();
             Die();
             return;

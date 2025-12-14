@@ -38,7 +38,8 @@ public class Weapon : MonoBehaviour
 
     public void PlaySound()
     {
-        AudioSource.Play();
+        AudioSource.pitch = Random.Range(0.95f, 1.08f);
+        AudioSource.PlayOneShot(AudioSource.clip);
     }
 
 }

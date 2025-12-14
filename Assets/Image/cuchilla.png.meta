@@ -211,7 +211,7 @@ TextureImporter:
         width: 269
         height: 177
       alignment: 9
-      pivot: {x: 0.58528674, y: 0.4315913}
+      pivot: {x: 0.6626333, y: 0.42841473}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -316,12 +316,12 @@ TextureImporter:
       name: cuchilla_8
       rect:
         serializedVersion: 2
-        x: 629
+        x: 655
         y: 653
-        width: 268
-        height: 177
+        width: 432
+        height: 148
       alignment: 9
-      pivot: {x: 0.5689595, y: 0.48199773}
+      pivot: {x: 0.6561727, y: 0.5085952}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -338,7 +338,7 @@ TextureImporter:
       name: cuchilla_9
       rect:
         serializedVersion: 2
-        x: 969
+        x: 1253
         y: 663
         width: 242
         height: 97
@@ -470,10 +470,10 @@ TextureImporter:
       name: cuchilla_15
       rect:
         serializedVersion: 2
-        x: 163
-        y: 182
-        width: 163
-        height: 255
+        x: 154
+        y: 144
+        width: 234
+        height: 309
       alignment: 9
       pivot: {x: 0.5312776, y: 0.56747687}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,8 +492,8 @@ TextureImporter:
       name: cuchilla_16
       rect:
         serializedVersion: 2
-        x: 379
-        y: 192
+        x: 479
+        y: 193
         width: 86
         height: 249
       alignment: 9
@@ -514,8 +514,8 @@ TextureImporter:
       name: cuchilla_17
       rect:
         serializedVersion: 2
-        x: 510
-        y: 294
+        x: 610
+        y: 293
         width: 230
         height: 132
       alignment: 9
@@ -536,7 +536,7 @@ TextureImporter:
       name: cuchilla_18
       rect:
         serializedVersion: 2
-        x: 756
+        x: 856
         y: 306
         width: 233
         height: 120
@@ -558,8 +558,8 @@ TextureImporter:
       name: cuchilla_19
       rect:
         serializedVersion: 2
-        x: 1018
-        y: 223
+        x: 1117
+        y: 222
         width: 130
         height: 226
       alignment: 9
@@ -580,12 +580,12 @@ TextureImporter:
       name: cuchilla_20
       rect:
         serializedVersion: 2
-        x: 1414
-        y: 193
-        width: 170
-        height: 257
+        x: 1509
+        y: 165
+        width: 328
+        height: 239
       alignment: 9
-      pivot: {x: 0.50469327, y: 0.44769382}
+      pivot: {x: 0.5235923, y: 0.58822465}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -602,8 +602,8 @@ TextureImporter:
       name: cuchilla_21
       rect:
         serializedVersion: 2
-        x: 1234
-        y: 203
+        x: 1333
+        y: 200
         width: 90
         height: 265
       alignment: 9
