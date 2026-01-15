@@ -7,7 +7,7 @@ public class TransitionZone : MonoBehaviour
     public Collider2D newCameraBounds;   // Los límites de cámara de esta zona
 
     [Header("Opcional: Transición de cámara")]
-    public float transitionTime = 1f;    // Tiempo para suavizar el cambio de límites
+    public float transitionTime = 0.5f;    // Tiempo para suavizar el cambio de límites
 
     private bool isTransitioning = false;
 

@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: 02d136498306929489d4067b8cbb1964
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6808097430212738301
+    second: DecoracionFortalezaBatallaHD_0
+  - first:
+      213: 4377459865876358423
+    second: DecoracionFortalezaBatallaHD_1
+  - first:
+      213: -4277589380732541175
+    second: DecoracionFortalezaBatallaHD_2
+  - first:
+      213: -7486281922777373199
+    second: DecoracionFortalezaBatallaHD_3
+  - first:
+      213: 6879885884899562319
+    second: DecoracionFortalezaBatallaHD_4
+  - first:
+      213: 5612471212934147320
+    second: DecoracionFortalezaBatallaHD_5
+  - first:
+      213: -6438929547318592079
+    second: DecoracionFortalezaBatallaHD_6
+  - first:
+      213: -1817599630553875214
+    second: DecoracionFortalezaBatallaHD_7
+  - first:
+      213: -2080089865543240019
+    second: DecoracionFortalezaBatallaHD_8
+  - first:
+      213: 2792831715130871598
+    second: DecoracionFortalezaBatallaHD_9
+  - first:
+      213: 9112893339883528684
+    second: DecoracionFortalezaBatallaHD_10
+  - first:
+      213: 223042884662717183
+    second: DecoracionFortalezaBatallaHD_11
+  - first:
+      213: 3213650441946154119
+    second: DecoracionFortalezaBatallaHD_12
+  - first:
+      213: 490810481018783699
+    second: DecoracionFortalezaBatallaHD_13
+  - first:
+      213: -2455255694870879706
+    second: DecoracionFortalezaBatallaHD_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 639
+        height: 961
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc741cba883b7e50800000000000000
+      internalID: 6808097430212738301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_1
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 918
+        width: 77
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715e6142e8cdfbc30800000000000000
+      internalID: 4377459865876358423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_2
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 779
+        width: 376
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90724723f13f2a4c0800000000000000
+      internalID: -4277589380732541175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_3
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1227
+        width: 238
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f52d6851426b1890800000000000000
+      internalID: -7486281922777373199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_4
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 811
+        width: 6
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4399a8d2c34a7f50800000000000000
+      internalID: 6879885884899562319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_5
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 675
+        width: 198
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcab0ff4d083ed40800000000000000
+      internalID: 5612471212934147320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_6
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 749
+        width: 9
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdfe4e01b354a6a0800000000000000
+      internalID: -6438929547318592079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_7
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 703
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc74fc14c696c6e0800000000000000
+      internalID: -1817599630553875214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_8
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 0
+        width: 128
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6b76fb9490223e0800000000000000
+      internalID: -2080089865543240019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 529
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f02d9d5a122c620800000000000000
+      internalID: 2792831715130871598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 3
+        width: 54
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1e7cfd530877e70800000000000000
+      internalID: 9112893339883528684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_11
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 3
+        width: 201
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaeff56258681300800000000000000
+      internalID: 223042884662717183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_12
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 75
+        width: 202
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7844a70ec0e299c20800000000000000
+      internalID: 3213650441946154119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 522
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7c9253885bfc600800000000000000
+      internalID: 490810481018783699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecoracionFortalezaBatallaHD_14
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622677a34fd2dedd0800000000000000
+      internalID: -2455255694870879706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,9 +11,25 @@ public class DragObject : MonoBehaviour
     private Vector3 grabOffset;
     private bool isDragging;
 
+    [Header("References")]
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private ParticleSystem particles;
+    [SerializeField] private AudioSource audioSource;
+
+    private Color originalColor;
+
     private void Awake()
     {
         cam = Camera.main;
+
+        // Si no los asignaste a mano
+        if (!spriteRenderer)
+            spriteRenderer = GetComponent<SpriteRenderer>();
+
+        originalColor = spriteRenderer.color;
+
+        if (particles)
+            particles.Stop();
     }
 
     private void Update()
@@ -46,6 +62,11 @@ public class DragObject : MonoBehaviour
             return;
 
         isDragging = true;
+        // Cambiar a morado, activar particulas y sonido
+        spriteRenderer.color = Color.magenta;
+        audioSource.Play();
+        if (particles)
+            particles.Play();
 
         // Plano perpendicular a la cámara que pasa por el objeto
         dragPlane = new Plane(-cam.transform.forward, transform.position);
@@ -72,5 +93,10 @@ public class DragObject : MonoBehaviour
     private void StopDrag()
     {
         isDragging = false;
+        // Volver al color original
+        spriteRenderer.color = originalColor;
+        audioSource.Pause();
+        if (particles)
+            particles.Stop();
     }
 }

@@ -32,7 +32,10 @@ public class Damage : MonoBehaviour
             if (stats != null)
             {
                 stats.Damage(damage, postureDamage);
-                
+            }
+            else
+            {
+                collision.SendMessage("Damage", damage);
             }
         }
     }

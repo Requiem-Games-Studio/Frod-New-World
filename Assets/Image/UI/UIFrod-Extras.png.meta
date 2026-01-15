@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: daa442e23c1733e4fb965809765eaca8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1133971059288658642
+    second: UIFrod-Extras_0
+  - first:
+      213: -3104463042052404040
+    second: UIFrod-Extras_1
+  - first:
+      213: -2855350892232442380
+    second: UIFrod-Extras_2
+  - first:
+      213: -7999682202888449965
+    second: UIFrod-Extras_3
+  - first:
+      213: -7597636875465607817
+    second: UIFrod-Extras_4
+  - first:
+      213: 319474792469207482
+    second: UIFrod-Extras_5
+  - first:
+      213: 7371902285455344134
+    second: UIFrod-Extras_6
+  - first:
+      213: -3489218798217968992
+    second: UIFrod-Extras_7
+  - first:
+      213: -7561263160778590482
+    second: UIFrod-Extras_8
+  - first:
+      213: -3097472034908588965
+    second: UIFrod-Extras_9
+  - first:
+      213: 7793372365246190830
+    second: UIFrod-Extras_10
+  - first:
+      213: -4791511282829520688
+    second: UIFrod-Extras_11
+  - first:
+      213: -2884847737341003141
+    second: UIFrod-Extras_12
+  - first:
+      213: -1930370443144332376
+    second: UIFrod-Extras_13
+  - first:
+      213: -5011279789834055536
+    second: UIFrod-Extras_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UIFrod-Extras_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 662
+        width: 206
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2da68164535340f0800000000000000
+      internalID: -1133971059288658642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 638
+        width: 219
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc4328bf4bbae4d0800000000000000
+      internalID: -3104463042052404040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_2
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 638
+        width: 219
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdf367ed71cf58d0800000000000000
+      internalID: -2855350892232442380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 503
+        width: 123
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350d1dcab6b6bf090800000000000000
+      internalID: -7999682202888449965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 548
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775b6790485cf8690800000000000000
+      internalID: -7597636875465607817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 529
+        width: 34
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab991df81a00f6400800000000000000
+      internalID: 319474792469207482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 507
+        width: 44
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602c47312124e4660800000000000000
+      internalID: 7371902285455344134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 400
+        width: 219
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a24a9c5dfdc39fc0800000000000000
+      internalID: -3489218798217968992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_8
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 400
+        width: 219
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee67b80773ff01790800000000000000
+      internalID: -7561263160778590482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 342
+        width: 227
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54319968919305d0800000000000000
+      internalID: -3097472034908588965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 106
+        width: 99
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee458d800ee972c60800000000000000
+      internalID: 7793372365246190830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 113
+        width: 36
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d09ba1ffd1218db0800000000000000
+      internalID: -4791511282829520688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_12
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 113
+        width: 159
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a33b87446f6f7d0800000000000000
+      internalID: -2884847737341003141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 61333f156f1fc044f875a2a2bd9801be
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UIFrod-Extras_0: -1133971059288658642
+      UIFrod-Extras_1: -3104463042052404040
+      UIFrod-Extras_10: 7793372365246190830
+      UIFrod-Extras_11: -4791511282829520688
+      UIFrod-Extras_12: -2884847737341003141
+      UIFrod-Extras_2: -2855350892232442380
+      UIFrod-Extras_3: -7999682202888449965
+      UIFrod-Extras_4: -7597636875465607817
+      UIFrod-Extras_5: 319474792469207482
+      UIFrod-Extras_6: 7371902285455344134
+      UIFrod-Extras_7: -3489218798217968992
+      UIFrod-Extras_8: -7561263160778590482
+      UIFrod-Extras_9: -3097472034908588965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -42,6 +42,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackGround
+    uniqueID: 1029190555
+    locked: 0
+  - name: CameraSortingLayer
+    uniqueID: 2625145783
+    locked: 0
   - name: Back
     uniqueID: 3160611801
     locked: 0
