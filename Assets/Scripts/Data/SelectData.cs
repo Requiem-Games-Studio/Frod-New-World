@@ -1,12 +1,17 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SelectData : MonoBehaviour
 {
     public TMPro.TextMeshProUGUI[] coins;
     public TMPro.TextMeshProUGUI[] time;
     public TMPro.TextMeshProUGUI[] progress;
+    public TMPro.TextMeshProUGUI[] place;
+    public Image[] image;
+
+    public Sprite defaultImage;
 
     private void Start()
     {
@@ -23,9 +28,9 @@ public class SelectData : MonoBehaviour
 
                 Debug.Log("Slot " + i + " ocupado");
 
-                coins[i].text = "Monedas: " + data.coins;
-                time[i].text = "Tiempo: " + data.playTime.ToString("F1") + "s";
-                progress[i].text = "Progreso: " + data.playProgress + "%";
+                coins[i].text = "Coins: " + data.coins;
+                time[i].text = "Time: " + data.playTime.ToString("F1") + "s";
+                progress[i].text = "%: " + data.playProgress + "%";
             }
             else
             {

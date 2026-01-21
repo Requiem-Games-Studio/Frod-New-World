@@ -152,6 +152,7 @@ MonoBehaviour:
   _material: {fileID: 0}
   _playerRB: {fileID: 0}
   particle: {fileID: 421487749826947341, guid: d80bc3ffc3e11f841a0832b56fa8b90e, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &163169195607786436
 GameObject:
   m_ObjectHideFlags: 0
@@ -8008,6 +8009,7 @@ MonoBehaviour:
   _material: {fileID: 0}
   _playerRB: {fileID: 0}
   particle: {fileID: 421487749826947341, guid: d80bc3ffc3e11f841a0832b56fa8b90e, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &4387807512826521813
 GameObject:
   m_ObjectHideFlags: 0
@@ -8584,7 +8586,7 @@ AudioSource:
   m_GameObject: {fileID: 5403656365012950426}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1725517651274803353, guid: 7bfd041fb417ad44f966d160f8d68e2c, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -9080,6 +9082,7 @@ MonoBehaviour:
   _material: {fileID: 0}
   _playerRB: {fileID: 0}
   particle: {fileID: 421487749826947341, guid: d80bc3ffc3e11f841a0832b56fa8b90e, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &6276834970150205786
 GameObject:
   m_ObjectHideFlags: 0
@@ -9889,6 +9892,7 @@ MonoBehaviour:
   _material: {fileID: 0}
   _playerRB: {fileID: 0}
   particle: {fileID: 421487749826947341, guid: d80bc3ffc3e11f841a0832b56fa8b90e, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &7468795107142320311
 GameObject:
   m_ObjectHideFlags: 0
@@ -10548,6 +10552,7 @@ MonoBehaviour:
   _material: {fileID: 0}
   _playerRB: {fileID: 0}
   particle: {fileID: 421487749826947341, guid: d80bc3ffc3e11f841a0832b56fa8b90e, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &8471033123810960806
 GameObject:
   m_ObjectHideFlags: 0
