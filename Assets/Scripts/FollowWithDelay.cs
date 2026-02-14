@@ -24,4 +24,9 @@ public class FollowWithDelay : MonoBehaviour
             smoothSpeed * Time.deltaTime
         );
     }
+
+    public void EqualsXTarget()
+    {
+        transform.position = new Vector2(target.position.x,transform.position.y);
+    }
 }

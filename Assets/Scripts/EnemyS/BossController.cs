@@ -7,6 +7,7 @@ public class BossController : MonoBehaviour
     public Animator anim;
     GameObject player;
     public bool facePlayer = true;
+    public bool isRightView = true;
 
     float timer;
     public float timeAttack;
@@ -60,8 +61,6 @@ public class BossController : MonoBehaviour
                 rgb2D.linearVelocity = new Vector2(moveDirection.x, 0) * moveSpeed;
             }
 
-
-
             //Accion del jefe
             if (timer >= timeAttack)
             {
@@ -101,16 +100,32 @@ public class BossController : MonoBehaviour
             //Vista al jugador
             if (facePlayer)
             {
-                if (player.transform.position.x > transform.position.x)
+                if (isRightView)
                 {
-                    transform.localScale = new Vector3(1, 1, 1);  // Mira a la derecha
-                    rightView = true;
+                    if (player.transform.position.x > transform.position.x)
+                    {
+                        transform.localScale = new Vector3(1, 1, 1);  // Mira a la derecha
+                        rightView = true;
+                    }
+                    if (player.transform.position.x < transform.position.x)
+                    {
+                        transform.localScale = new Vector3(-1, 1, 1); // Mira a la izquierda
+                        rightView = false;
+                    }
                 }
-                if (player.transform.position.x < transform.position.x)
+                else
                 {
-                    transform.localScale = new Vector3(-1, 1, 1); // Mira a la izquierda
-                    rightView = false;
-                }
+                    if (player.transform.position.x > transform.position.x)
+                    {
+                        transform.localScale = new Vector3(-1, 1, 1);  // Mira a la derecha
+                        rightView = false;
+                    }
+                    if (player.transform.position.x < transform.position.x)
+                    {
+                        transform.localScale = new Vector3(1, 1, 1); // Mira a la izquierda
+                        rightView = true;
+                    }
+                }                               
             }
         }
     }

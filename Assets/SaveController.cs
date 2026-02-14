@@ -6,12 +6,13 @@ public class SaveController : MonoBehaviour
 {
 
     public GameObject player,mainCamera;
-    SaveData data;
+    public SaveData data;
 
     void Start()
     {
         data = SaveManager.Instance.currentData;
         player.transform.position = data.playerPosition;
+        Debug.Log("posicion del jugador" + data.playerPosition);
         mainCamera.transform.position = new Vector3(data.playerPosition.x, data.playerPosition.y, -10);
     }
 
@@ -25,7 +26,7 @@ public class SaveController : MonoBehaviour
     }
 
 
-    void SavePlayerData()
+    public void SavePlayerData()
     {       
         // Llenar datos
         data.playerName = "Roper";
@@ -33,8 +34,7 @@ public class SaveController : MonoBehaviour
         data.playProgress = GetProgress();
         data.playerPosition = player.transform.position;
         data.health = GetHealth();
-        data.coins = GetCoins();
-        data.unlockedPowers = GetUnlockedPowers();
+        data.collectables = GetCollectables();
 
         // Guardar en disco
         SaveManager.Instance.SaveGame(
@@ -47,6 +47,5 @@ public class SaveController : MonoBehaviour
 
     float GetProgress() => 0.5f;
     int GetHealth() => 100;
-    int GetCoins() => 250;
-    List<PowerType> GetUnlockedPowers() => new List<PowerType> { PowerType.Dash };
+    int GetCollectables() => 250;
 }

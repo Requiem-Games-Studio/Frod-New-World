@@ -3,15 +3,24 @@ using UnityEngine;
 public class WeaponInventory : MonoBehaviour
 {
     public PlayerController playerController;
+    public SaveController saveController;
     public GameObject weaponPivot;
     
     public GameObject[] allWeapons; // Todas las armas posibles
     public GameObject[] equippedWeapons = new GameObject[3];
     private int currentWeaponIndex = 0;
 
+    public GameObject[] wPrefab;
+
     void Start()
     {
         EquipWeapon(0);
+        saveController = GameObject.FindWithTag("Manager").GetComponent<SaveController>();
+        
+        if(saveController.data.takenCollectables.Contains("Sword"))
+        {
+            AddWeapon(wPrefab[0]);
+        }
     }
 
     void Update()

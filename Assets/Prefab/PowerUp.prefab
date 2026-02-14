@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75a5e99a9b5b35640b897c6f8feb4898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 0
+  collectableID: Hand
 --- !u!58 &8830180406028818941
 CircleCollider2D:
   m_ObjectHideFlags: 0

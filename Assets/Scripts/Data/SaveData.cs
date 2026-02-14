@@ -7,8 +7,10 @@ public class SaveData
     public string playerName;
     public float playTime;
     public float playProgress;
-    public Vector2 playerPosition;
-    public List<PowerType> unlockedPowers = new List<PowerType>();
+    public Vector2 playerPosition = new Vector3(-547, -48.4f, 0);
     public int health;
-    public int coins;
+    public int collectables;
+
+    // NUEVO: IDs de collectables ya tomados
+    public List<string> takenCollectables = new List<string>();
 }

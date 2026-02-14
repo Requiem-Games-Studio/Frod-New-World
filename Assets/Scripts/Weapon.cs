@@ -36,6 +36,11 @@ public class Weapon : MonoBehaviour
         followWithDelay.follow = false;
     }
 
+    public void SetXEqualsToPlayer()
+    {
+        followWithDelay.EqualsXTarget();
+    }
+
     public void PlaySound()
     {
         AudioSource.pitch = Random.Range(0.95f, 1.08f);

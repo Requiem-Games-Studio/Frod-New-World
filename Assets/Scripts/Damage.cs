@@ -4,7 +4,7 @@ using UnityEngine;
 public class Damage : MonoBehaviour
 {
     public int damage, postureDamage;
-    public bool damToPlayer, damToEnemy;
+    public bool damToPlayer, damToEnemy,damToObject;
     public GameObject enemyObject;
 
     private void Start()
@@ -37,6 +37,11 @@ public class Damage : MonoBehaviour
             {
                 collision.SendMessage("Damage", damage);
             }
+        }
+
+        if(collision.CompareTag("Object")&& damToObject)
+        {
+            collision.SendMessage("Damage", damage);
         }
     }
 }

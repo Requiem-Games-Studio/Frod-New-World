@@ -330,6 +330,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 751637783}
   mainCamera: {fileID: 519420028}
+  data:
+    playerName: 
+    playTime: 0
+    playProgress: 0
+    playerPosition: {x: -547, y: -48.4}
+    health: 0
+    collectables: 0
+    takenCollectables: []
 --- !u!82 &247838568
 AudioSource:
   m_ObjectHideFlags: 0
@@ -442,7 +450,7 @@ GameObject:
   - component: {fileID: 294679248}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1121,7 +1129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &618383531
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1739,7 +1747,6 @@ GameObject:
   - component: {fileID: 751637789}
   - component: {fileID: 751637790}
   - component: {fileID: 751637791}
-  - component: {fileID: 751637792}
   - component: {fileID: 751637793}
   - component: {fileID: 751637794}
   - component: {fileID: 751637795}
@@ -1759,7 +1766,7 @@ Transform:
   m_GameObject: {fileID: 751637783}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -547, y: -49, z: 0}
+  m_LocalPosition: {x: -547, y: -48.39983, z: 0}
   m_LocalScale: {x: 0.93, y: 0.93, z: 0.93}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1786,6 +1793,7 @@ MonoBehaviour:
   weapon: {fileID: 0}
   stats: {fileID: 751637790}
   espadaPivot: {fileID: 1174576730}
+  saveController: {fileID: 247838567}
   normalCollider: {fileID: 751637789}
   balloonCollider: {fileID: 751637787}
   ballCollider: {fileID: 751637787}
@@ -1988,18 +1996,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.38}
   m_Size: {x: 1.35, y: 0.52}
   m_Direction: 1
---- !u!114 &751637792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 751637783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9a86d3259caba04fb2065c1f1bde618, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &751637793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2013,12 +2009,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: 751637786}
+  saveController: {fileID: 0}
   weaponPivot: {fileID: 1174576729}
   allWeapons: []
   equippedWeapons:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  wPrefab:
+  - {fileID: 4264291389047110871, guid: 615f8e739a3052e429e88a723b0610db, type: 3}
 --- !u!82 &751637794
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2437,8 +2436,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1168720196}
   - component: {fileID: 1168720197}
+  - component: {fileID: 1168720198}
   m_Layer: 0
-  m_Name: ChunkManager1
+  m_Name: ChunkManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2466,7 +2466,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168720194}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a0a70a018c076743ada34bcd43a8f53, type: 3}
   m_Name: 
@@ -2488,7 +2488,7 @@ MonoBehaviour:
   chunkPositions:
   - {x: -16, y: -2}
   - {x: -17, y: -2}
-  - {x: -15, y: -2}
+  - {x: -13, y: -2}
   - {x: 3, y: 0}
   - {x: 4, y: 0}
   - {x: 5, y: 0}
@@ -2499,6 +2499,36 @@ MonoBehaviour:
   - {x: -18, y: -1}
   - {x: -14, y: -2}
   - {x: -15, y: -2}
+  chunkWidth: 34
+  chunkHeight: 24
+  loadRadius: 2
+--- !u!114 &1168720198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168720194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93aeec9316e90de42bea49a33fd15e5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chunkPrefabs:
+  - {fileID: 4233129108531763440, guid: d76912a1b5ad34240981f892ab15752e, type: 3}
+  - {fileID: 4233129108531763440, guid: 2cbaca95186cf2645b82900a67af16ae, type: 3}
+  - {fileID: 4233129108531763440, guid: 434355d4c60a4084185cfae49d8b933e, type: 3}
+  - {fileID: 4233129108531763440, guid: f5e3c85c4675d8e49a85fbc59a11da8e, type: 3}
+  - {fileID: 4233129108531763440, guid: e8fb861d1a3d1da41a4ad6f721ddfeee, type: 3}
+  - {fileID: 4233129108531763440, guid: 02f25d3883d228a47974eb5b3396c25b, type: 3}
+  - {fileID: 4233129108531763440, guid: 029897b20dd199a4489cb825e7f17115, type: 3}
+  - {fileID: 4233129108531763440, guid: efe4dbe375b035647bf575fe8973e5ad, type: 3}
+  - {fileID: 4233129108531763440, guid: 934e01a675cb9af4a9011d9d6426694c, type: 3}
+  - {fileID: 4233129108531763440, guid: f8ed9d92ed16bb143a32c3a3e176839b, type: 3}
+  - {fileID: 4233129108531763440, guid: abdc2685b4e88f642a33981439373ef2, type: 3}
+  - {fileID: 4233129108531763440, guid: bb084f4af48fde94ba8dcffda1bcf695, type: 3}
+  - {fileID: 4233129108531763440, guid: 823a9ee6fa611e34d9f966f94b6bfe07, type: 3}
+  chunkPositions: []
   chunkWidth: 34
   chunkHeight: 24
   loadRadius: 2
@@ -2642,7 +2672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!70 &1297022232
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3260,7 +3290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -617.37744, y: 476.00015}
+  m_AnchoredPosition: {x: -617.3774, y: 476.00015}
   m_SizeDelta: {x: -1643.8002, y: -516.705}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948296328
@@ -3456,13 +3486,13 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 247838566}
+  - {fileID: 1168720196}
   - {fileID: 519420032}
   - {fileID: 631698387}
   - {fileID: 556925707}
   - {fileID: 744842480}
   - {fileID: 1506280925}
-  - {fileID: 1168720196}
   - {fileID: 15038609}
-  - {fileID: 1297022236}
   - {fileID: 751637785}
   - {fileID: 618383535}
+  - {fileID: 1297022236}

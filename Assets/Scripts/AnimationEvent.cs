@@ -3,7 +3,7 @@ using UnityEngine;
 public class AnimationEvent : MonoBehaviour
 {
     Rigidbody2D rb;
-    BossController boss; // Tu script de lógica del boss
+    public BossController boss; // Tu script de lógica del boss
 
     [Header("Impulse Settings")]
     public float dashForce = 10f;

@@ -138,3 +138,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponPrefab: {fileID: 4264291389047110871, guid: 615f8e739a3052e429e88a723b0610db, type: 3}
+  collectableID: Sword

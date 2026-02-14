@@ -1,0 +1,699 @@
+fileFormatVersion: 2
+guid: e0f1a255cf10c294fa35c1611ee7d339
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4705456940759055284
+    second: PoliSprites_0
+  - first:
+      213: 6185715321790338545
+    second: PoliSprites_1
+  - first:
+      213: 2877173099442911855
+    second: PoliSprites_2
+  - first:
+      213: 1311545705411004623
+    second: PoliSprites_3
+  - first:
+      213: 7823615837356595034
+    second: PoliSprites_4
+  - first:
+      213: -5545336200292487329
+    second: PoliSprites_5
+  - first:
+      213: 4988998534213667005
+    second: PoliSprites_6
+  - first:
+      213: 7495152014201789283
+    second: PoliSprites_7
+  - first:
+      213: -1248055691915259822
+    second: PoliSprites_8
+  - first:
+      213: 4645017048880053638
+    second: PoliSprites_9
+  - first:
+      213: 2447205755018789943
+    second: PoliSprites_10
+  - first:
+      213: 7754987621292442166
+    second: PoliSprites_11
+  - first:
+      213: 2971928751407504601
+    second: PoliSprites_12
+  - first:
+      213: 2285658394617368876
+    second: PoliSprites_13
+  - first:
+      213: 7205506529071656548
+    second: PoliSprites_14
+  - first:
+      213: 3937735442325166054
+    second: PoliSprites_15
+  - first:
+      213: -5768884126343964166
+    second: PoliSprites_16
+  - first:
+      213: -8234716597718425993
+    second: PoliSprites_17
+  - first:
+      213: -231733095311488872
+    second: PoliSprites_18
+  - first:
+      213: -7721143604433680647
+    second: PoliSprites_19
+  - first:
+      213: -2428222585063426402
+    second: PoliSprites_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PoliSprites_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1059
+        width: 266
+        height: 319
+      alignment: 9
+      pivot: {x: 0.39008027, y: 0.26056847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbf6d338242d4140800000000000000
+      internalID: 4705456940759055284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_1
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1051
+        width: 269
+        height: 331
+      alignment: 9
+      pivot: {x: 0.38495192, y: 0.2829553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f51105df4318d550800000000000000
+      internalID: 6185715321790338545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_2
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1051
+        width: 266
+        height: 333
+      alignment: 9
+      pivot: {x: 0.37651005, y: 0.28765044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6aba95a0b5cde720800000000000000
+      internalID: 2877173099442911855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_3
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1056
+        width: 267
+        height: 330
+      alignment: 9
+      pivot: {x: 0.39298913, y: 0.27552527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc846b5cedb833210800000000000000
+      internalID: 1311545705411004623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_4
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1051
+        width: 267
+        height: 337
+      alignment: 9
+      pivot: {x: 0.41460198, y: 0.2898496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5792cc1721139c60800000000000000
+      internalID: 7823615837356595034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_5
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 703
+        width: 270
+        height: 328
+      alignment: 9
+      pivot: {x: 0.37228033, y: 0.2771744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fa3753b120b03b0800000000000000
+      internalID: -5545336200292487329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 704
+        width: 271
+        height: 329
+      alignment: 9
+      pivot: {x: 0.37660763, y: 0.26944998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db800c8ebbb7c3540800000000000000
+      internalID: 4988998534213667005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_7
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 718
+        width: 283
+        height: 327
+      alignment: 9
+      pivot: {x: 0.36583868, y: 0.28175023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b1d00cb01240860800000000000000
+      internalID: 7495152014201789283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_8
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 707
+        width: 274
+        height: 338
+      alignment: 9
+      pivot: {x: 0.36651745, y: 0.29782936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2509c7fe5f30eaee0800000000000000
+      internalID: -1248055691915259822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 378
+        width: 269
+        height: 320
+      alignment: 9
+      pivot: {x: 0.36338863, y: 0.26070052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68df026456a667040800000000000000
+      internalID: 4645017048880053638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_10
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 370
+        width: 271
+        height: 323
+      alignment: 9
+      pivot: {x: 0.35989818, y: 0.2642103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734cf281ba836f120800000000000000
+      internalID: 2447205755018789943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_11
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 377
+        width: 281
+        height: 321
+      alignment: 9
+      pivot: {x: 0.352488, y: 0.26477137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63200b467204f9b60800000000000000
+      internalID: 7754987621292442166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_12
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 381
+        width: 276
+        height: 319
+      alignment: 9
+      pivot: {x: 0.36180535, y: 0.25987986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc1a6514796e3920800000000000000
+      internalID: 2971928751407504601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_13
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 369
+        width: 275
+        height: 322
+      alignment: 9
+      pivot: {x: 0.35243607, y: 0.26449007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21de01333a48bf10800000000000000
+      internalID: 2285658394617368876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_14
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 362
+        width: 284
+        height: 322
+      alignment: 9
+      pivot: {x: 0.3479137, y: 0.26773536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ee214030a1ff360800000000000000
+      internalID: 7205506529071656548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_15
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 576
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7d1439585a5a630800000000000000
+      internalID: 3937735442325166054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 29
+        width: 248
+        height: 328
+      alignment: 9
+      pivot: {x: 0.39536163, y: 0.2941658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9d0e2b37ec0ffa0800000000000000
+      internalID: -5768884126343964166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_17
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 33
+        width: 248
+        height: 328
+      alignment: 9
+      pivot: {x: 0.39746845, y: 0.29469708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77edafe32e868bd80800000000000000
+      internalID: -8234716597718425993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_18
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 32
+        width: 266
+        height: 331
+      alignment: 9
+      pivot: {x: 0.37887138, y: 0.2925523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898c1434af7b8ccf0800000000000000
+      internalID: -231733095311488872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_19
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 23
+        width: 300
+        height: 334
+      alignment: 9
+      pivot: {x: 0.38098836, y: 0.28366706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f683f5dcccf8d490800000000000000
+      internalID: -7721143604433680647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_20
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 13
+        width: 296
+        height: 324
+      alignment: 9
+      pivot: {x: 0.3091109, y: 0.28618884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96b6b59c683d4ed0800000000000000
+      internalID: -2428222585063426402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites_21
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 23
+        width: 400
+        height: 223
+      alignment: 9
+      pivot: {x: 0.24335907, y: 0.5046111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfb80a47113db6488389aeb583a3270
+      internalID: -158334055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3fee975d5d9288747a84ef76ceddb932
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PoliSprites_0: 4705456940759055284
+      PoliSprites_1: 6185715321790338545
+      PoliSprites_10: 2447205755018789943
+      PoliSprites_11: 7754987621292442166
+      PoliSprites_12: 2971928751407504601
+      PoliSprites_13: 2285658394617368876
+      PoliSprites_14: 7205506529071656548
+      PoliSprites_15: 3937735442325166054
+      PoliSprites_16: -5768884126343964166
+      PoliSprites_17: -8234716597718425993
+      PoliSprites_18: -231733095311488872
+      PoliSprites_19: -7721143604433680647
+      PoliSprites_2: 2877173099442911855
+      PoliSprites_20: -2428222585063426402
+      PoliSprites_21: -158334055
+      PoliSprites_3: 1311545705411004623
+      PoliSprites_4: 7823615837356595034
+      PoliSprites_5: -5545336200292487329
+      PoliSprites_6: 4988998534213667005
+      PoliSprites_7: 7495152014201789283
+      PoliSprites_8: -1248055691915259822
+      PoliSprites_9: 4645017048880053638
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -159,8 +160,15 @@ public class PlayerStats : MonoBehaviour
         animator.SetBool("isInteracting", true);
         animator.SetBool("isDying", true);
         Debug.Log("Jugador ha muerto");
-        // Aquí puedes agregar lógica para desactivar controles, reiniciar nivel, etc.
+
+        Invoke("LoadSceneGame", 3);
     }
+
+    public void LoadSceneGame()
+    {
+        SceneManager.LoadScene("Game");
+    }
+
     // Revisar si se rompe la resistencia
     void CheckPostureBreak()
     {

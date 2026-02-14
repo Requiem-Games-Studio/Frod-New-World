@@ -29,7 +29,13 @@ public class GrassExternalVelocityTrigger : MonoBehaviour
 
         _material = GetComponent<SpriteRenderer>().material;
         _startingXVelocity = _material.GetFloat(_externalInfluence);
+
+        if (!_material.HasProperty(_externalInfluence))
+        {
+            Debug.LogError("El material NO tiene _ExternalInfluence");
+        }
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -47,6 +53,7 @@ public class GrassExternalVelocityTrigger : MonoBehaviour
 
             if (!_easeInCoroutineRunning && Mathf.Abs(_playerRB.linearVelocity.x) > Mathf.Abs(_grassVelocityController.VelocityThreshold))
             {
+                StopAllCoroutines();
                 StartCoroutine(EaseIn(_playerRB.linearVelocity.x * _grassVelocityController.ExternalInfluenceStrenght));
             }                     
         }
@@ -71,12 +78,14 @@ public class GrassExternalVelocityTrigger : MonoBehaviour
             if(Mathf.Abs(_velocityLastframe)>Mathf.Abs(_grassVelocityController.VelocityThreshold)&&
                 Mathf.Abs(_playerRB.linearVelocity.x) < Mathf.Abs(_grassVelocityController.VelocityThreshold))
             {
+                StopAllCoroutines();
                 StartCoroutine(EaseOut());
             }
 
             else if(Mathf.Abs(_velocityLastframe)<Mathf.Abs(_grassVelocityController.VelocityThreshold)&&
                 Mathf.Abs(_playerRB.linearVelocity.x) > Mathf.Abs(_grassVelocityController.VelocityThreshold))
             {
+                StopAllCoroutines();
                 StartCoroutine(EaseIn(_playerRB.linearVelocity.x * _grassVelocityController.ExternalInfluenceStrenght));
             }
 

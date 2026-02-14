@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 using System.IO;
+using System.Collections.Generic;
 
 public class SaveManager : MonoBehaviour
 {
     public static SaveManager Instance;
 
-    public int currentSlot;        // Slot actual en uso
-    public SaveData currentData;   // Datos cargados del slot
+    public int currentSlot;
+    public SaveData currentData;
+
+    public Vector2 defaultStartPosition = new Vector2(-547, -48.4f);
 
     private void Awake()
     {
@@ -21,7 +24,29 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    // Guardar partida en un slot
+    // Crear partida nueva
+    public void NewGame(int slotIndex)
+    {
+        currentSlot = slotIndex;
+        currentData = new SaveData();
+
+        // Posición inicial correcta
+        currentData.playerPosition = defaultStartPosition;
+
+        SaveGame();
+    }
+
+    // Guardar usando slot actual
+    public void SaveGame()
+    {
+        if (currentData == null) return;
+
+        string path = GetSlotPath(currentSlot);
+        string json = JsonUtility.ToJson(currentData, true);
+        File.WriteAllText(path, json);
+    }
+
+    // Guardar con parámetros (como ya lo tienes)
     public void SaveGame(int slotIndex, SaveData data)
     {
         string path = GetSlotPath(slotIndex);
@@ -29,7 +54,24 @@ public class SaveManager : MonoBehaviour
         File.WriteAllText(path, json);
     }
 
-    //  Cargar partida de un slot
+    // Cargar slot y preparar datos
+    public void LoadSlot(int slotIndex)
+    {
+        currentSlot = slotIndex;
+        currentData = LoadGame(slotIndex);
+
+        if (currentData == null)
+        {
+            Debug.Log("No había save, creando nuevo...");
+            currentData = new SaveData();
+            SaveGame();
+        }
+
+        if (currentData.takenCollectables == null)
+            currentData.takenCollectables = new List<string>();
+    }
+
+    // Cargar archivo directo
     public SaveData LoadGame(int slotIndex)
     {
         string path = GetSlotPath(slotIndex);
@@ -46,15 +88,26 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    //  Verificar si existe save en un slot
+    // Verificar si existe save
     public bool SaveExists(int slotIndex)
     {
         return File.Exists(GetSlotPath(slotIndex));
     }
 
-    //  Obtener la ruta del slot
+    // Ruta del slot
     private string GetSlotPath(int slotIndex)
     {
         return Application.persistentDataPath + "/saveSlot" + slotIndex + ".json";
+    }
+
+    public void DeleteSlot(int slotIndex)
+    {
+        string path = GetSlotPath(slotIndex);
+
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+            Debug.Log("Slot " + slotIndex + " borrado");
+        }
     }
 }

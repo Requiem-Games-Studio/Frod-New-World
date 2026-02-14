@@ -130,7 +130,7 @@ TextureImporter:
         width: 604
         height: 315
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -152,7 +152,7 @@ TextureImporter:
         width: 515
         height: 288
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -174,7 +174,7 @@ TextureImporter:
         width: 141
         height: 331
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,7 +196,7 @@ TextureImporter:
         width: 515
         height: 267
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,11 +209,121 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Decoracion Madera_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 14
+        width: 1687
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef7d6ef74a299e46b3f18444ce302ef
+      internalID: -271626648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoracion Madera_5
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 340
+        width: 483
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4e6065d25ef7b48af5aa9c6b19b12b
+      internalID: 249081205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoracion Madera_6
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 262
+        width: 482
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81c989a95d07324eb1291e297b4a7c8
+      internalID: -1048340268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoracion Madera_7
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 183
+        width: 485
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6e91332fe20c643b7a22ba3b5915f4
+      internalID: 618851267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoracion Madera_8
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 417
+        width: 301
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add589b446e8e8d4eb11b9829426e5bb
+      internalID: 304673545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dd7a47b121d37344d8e65e8890f25731
     internalID: 0
     vertices: []
     indices: 
@@ -222,7 +332,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Decoracion Madera_0: -4857714084527243389
+      Decoracion Madera_1: -2297442907770728374
+      Decoracion Madera_2: 5732442915612008003
+      Decoracion Madera_3: -8461560640617163673
+      Decoracion Madera_4: -271626648
+      Decoracion Madera_5: 249081205
+      Decoracion Madera_6: -1048340268
+      Decoracion Madera_7: 618851267
+      Decoracion Madera_8: 304673545
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -163,7 +163,7 @@ TextureImporter:
         width: 639
         height: 961
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -185,7 +185,7 @@ TextureImporter:
         width: 77
         height: 346
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,7 +207,7 @@ TextureImporter:
         width: 376
         height: 485
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -229,7 +229,7 @@ TextureImporter:
         width: 238
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,28 +243,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DecoracionFortalezaBatallaHD_4
-      rect:
-        serializedVersion: 2
-        x: 633
-        y: 811
-        width: 6
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4399a8d2c34a7f50800000000000000
-      internalID: 6879885884899562319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DecoracionFortalezaBatallaHD_5
       rect:
         serializedVersion: 2
@@ -273,7 +251,7 @@ TextureImporter:
         width: 198
         height: 510
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,50 +265,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DecoracionFortalezaBatallaHD_6
-      rect:
-        serializedVersion: 2
-        x: 637
-        y: 749
-        width: 9
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1bdfe4e01b354a6a0800000000000000
-      internalID: -6438929547318592079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DecoracionFortalezaBatallaHD_7
-      rect:
-        serializedVersion: 2
-        x: 628
-        y: 703
-        width: 19
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2fc74fc14c696c6e0800000000000000
-      internalID: -1817599630553875214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DecoracionFortalezaBatallaHD_8
       rect:
         serializedVersion: 2
@@ -339,7 +273,7 @@ TextureImporter:
         width: 128
         height: 734
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -361,7 +295,7 @@ TextureImporter:
         width: 529
         height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -383,7 +317,7 @@ TextureImporter:
         width: 54
         height: 266
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -405,7 +339,7 @@ TextureImporter:
         width: 201
         height: 169
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -427,7 +361,7 @@ TextureImporter:
         width: 202
         height: 510
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -449,7 +383,7 @@ TextureImporter:
         width: 522
         height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -462,33 +396,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: DecoracionFortalezaBatallaHD_14
-      rect:
-        serializedVersion: 2
-        x: 551
-        y: 3
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 622677a34fd2dedd0800000000000000
-      internalID: -2455255694870879706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1373e533a5e5b4a4ea22863036c38393
     internalID: 0
     vertices: []
     indices: 
@@ -497,7 +409,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DecoracionFortalezaBatallaHD_0: 6808097430212738301
+      DecoracionFortalezaBatallaHD_1: 4377459865876358423
+      DecoracionFortalezaBatallaHD_10: 9112893339883528684
+      DecoracionFortalezaBatallaHD_11: 223042884662717183
+      DecoracionFortalezaBatallaHD_12: 3213650441946154119
+      DecoracionFortalezaBatallaHD_13: 490810481018783699
+      DecoracionFortalezaBatallaHD_2: -4277589380732541175
+      DecoracionFortalezaBatallaHD_3: -7486281922777373199
+      DecoracionFortalezaBatallaHD_5: 5612471212934147320
+      DecoracionFortalezaBatallaHD_8: -2080089865543240019
+      DecoracionFortalezaBatallaHD_9: 2792831715130871598
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

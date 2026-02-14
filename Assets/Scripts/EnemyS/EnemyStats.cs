@@ -5,8 +5,8 @@ using System.Collections;
 public class EnemyStats : MonoBehaviour
 {
     [Header("Health")]
-    public float maxHealth = 100f;
-    public float currentHealth;
+    public float maxHp = 100f;
+    public float currentHp;
 
     [Header("Posture / Resistance")]
     public float maxPosture = 100f;
@@ -15,9 +15,9 @@ public class EnemyStats : MonoBehaviour
     public float postureBreakTime = 2f;
     public bool isStaggered = false;
 
-    public Animator animator;
+    public Animator anim;
     private bool isAlive = true;
-    public BossController enemyBehavior;
+    public GameObject enemyBehavior;
 
     public Slider healthBar;
     public Slider delayedBar;
@@ -39,9 +39,8 @@ public class EnemyStats : MonoBehaviour
     void Start()
     {
         canvas.GetComponent<Canvas>().worldCamera = Camera.main;
-        currentHealth = maxHealth;
+        currentHp = maxHp;
         currentPosture = maxPosture;
-
     }
 
     void Update()
@@ -59,7 +58,7 @@ public class EnemyStats : MonoBehaviour
             ReducePosture(10f);
             if (currentPosture >= 10 && !isStaggered)
             {
-                animator.Play("ParryAttack");
+                anim.Play("ParryAttack");
                 Instantiate(parryParticle, gameObject.transform);
                 GameFeelManager.Instance.DoParryImpact();
             }
@@ -67,30 +66,30 @@ public class EnemyStats : MonoBehaviour
             {
                 audioSource.clip = blockClip;
                 audioSource.Play();
-                animator.Play("BlockBreak");
+                anim.Play("BlockBreak");
             }
             return;
         }
 
         if (isStaggered)
         {
-            animator.Play("Damage");
-            currentHealth -= damage * 2;
+            PlayTargetAnimation("Damage",true);
+            currentHp -= damage * 2;
             UpdateHealthBar();
         }
         else
         {
             if (!isBoss)
             {
-                animator.Play("Damage");
+                PlayTargetAnimation("Damage", true);
             }
-            currentHealth -= damage;
+            currentHp -= damage;
             UpdateHealthBar();
             currentPosture -= postureDamage * (isHeavyAttack ? 2f : 1f);
             CheckPostureBreak();
         }
 
-        if (currentHealth <= 0)
+        if (currentHp <= 0)
         {
             GameFeelManager.Instance.DoImpactToKill();
             Instantiate(deadParticle, transform.position, transform.rotation);
@@ -103,11 +102,17 @@ public class EnemyStats : MonoBehaviour
         flashSprite.Flash();
     }
 
+    public void BreakObject(float postureDamage)
+    {
+        currentPosture -= postureDamage;
+        CheckPostureBreak();
+    }
+
     private void UpdateHealthBar()
     {
         if (healthBar != null)
         {
-            float newValue = (float)currentHealth / maxHealth;
+            float newValue = (float)currentHp / maxHp;
             healthBar.value = newValue;
             // Iniciar la corrutina cada vez que cambie la vida
             if (delayedRoutine != null)
@@ -185,10 +190,10 @@ public class EnemyStats : MonoBehaviour
     System.Collections.IEnumerator Stagger()
     {
         isStaggered = true;
-        animator.Play("Stagger"); // Agrega esta animación
+        PlayTargetAnimation("Stagger",true);
         Debug.Log("¡Enemigo tambaleado!");
         yield return new WaitForSeconds(postureBreakTime);
-        currentPosture = maxPosture * 0.4f;
+        currentPosture = maxPosture * 0.6f;
         isStaggered = false;
     }
 
@@ -196,10 +201,16 @@ public class EnemyStats : MonoBehaviour
     void Die()
     {
         isAlive = false;
-        enemyBehavior.DieEvent();
-        animator.SetBool("dead", true);
+        enemyBehavior.SendMessage("DieEvent");
+        anim.SetBool("dead", true);
         canvas.SetActive(false);
         Debug.Log("Enemigo muerto.");
         // Aquí puedes desactivar IA, colisiones, etc.
+    }
+
+    public void PlayTargetAnimation(string targetAnim, bool isInteracting = false)
+    {
+        anim.CrossFade(targetAnim, 0.2f);
+        anim.SetBool("isInteracting", isInteracting);
     }
 }

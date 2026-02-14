@@ -16,7 +16,7 @@ public class BabaScript : MonoBehaviour
 
     [Header("States")]
     public bool dead;
-    public StatsEnemy stats; // asumo que aquí está confused
+    public WeakEnemyStats stats; // asumo que aquí está confused
 
     private bool chasing;
 

@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 2cd88f2f8b0710549900bd14f8d6cf99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2650609910657027603
+    second: EfectoAtaque01_0
+  - first:
+      213: -222600228781552074
+    second: EfectoAtaque01_1
+  - first:
+      213: -3103300030360117152
+    second: EfectoAtaque01_2
+  - first:
+      213: -2497972863877931074
+    second: EfectoAtaque01_3
+  - first:
+      213: 2195843929094218911
+    second: EfectoAtaque01_4
+  - first:
+      213: 4682238645385155227
+    second: EfectoAtaque01_5
+  - first:
+      213: 7841399874894674163
+    second: EfectoAtaque01_6
+  - first:
+      213: -7810096206073121166
+    second: EfectoAtaque01_7
+  - first:
+      213: 8177539864713076909
+    second: EfectoAtaque01_8
+  - first:
+      213: -5812574985311723418
+    second: EfectoAtaque01_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EfectoAtaque01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 435
+        width: 311
+        height: 465
+      alignment: 9
+      pivot: {x: 0.77993184, y: 0.11922818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1782d6454273bd0800000000000000
+      internalID: -2650609910657027603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoAtaque01_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 406
+        width: 327
+        height: 494
+      alignment: 9
+      pivot: {x: 0.8112069, y: 0.15587038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e0e84754a29ecf0800000000000000
+      internalID: -222600228781552074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoAtaque01_4
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 410
+        width: 299
+        height: 486
+      alignment: 9
+      pivot: {x: 0.81084, y: 0.16351965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94ebdf5b64397e10800000000000000
+      internalID: 2195843929094218911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoAtaque01_5
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 435
+        width: 290
+        height: 461
+      alignment: 9
+      pivot: {x: 0.85699797, y: 0.09678441}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92d9cb8d37aaf040800000000000000
+      internalID: 4682238645385155227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoAtaque01_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 193
+        height: 307
+      alignment: 9
+      pivot: {x: 0.8413594, y: 0.10145619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6606c22e8d5955fa0800000000000000
+      internalID: -5812574985311723418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoAtaque01_2
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 28
+        width: 216
+        height: 344
+      alignment: 9
+      pivot: {x: 0.7796432, y: 0.16177362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8df02366667f024aa91c2c906675e45
+      internalID: 306451503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoAtaque01_3
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 12
+        width: 229
+        height: 383
+      alignment: 9
+      pivot: {x: 0.8113329, y: 0.14709167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a82096c5151b1149975fa0417fdabc5
+      internalID: 1243663282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoAtaque01_6
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 0
+        width: 249
+        height: 410
+      alignment: 9
+      pivot: {x: 0.7903028, y: 0.12685928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f41707c9302e74b93e0ffafc2943fc
+      internalID: 1778396132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dba21c8445568c24d979ede316a963af
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EfectoAtaque01_0: -2650609910657027603
+      EfectoAtaque01_1: -222600228781552074
+      EfectoAtaque01_2: 306451503
+      EfectoAtaque01_3: 1243663282
+      EfectoAtaque01_4: 2195843929094218911
+      EfectoAtaque01_5: 4682238645385155227
+      EfectoAtaque01_6: 1778396132
+      EfectoAtaque01_9: -5812574985311723418
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

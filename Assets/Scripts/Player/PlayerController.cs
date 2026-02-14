@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System;
+using Unity.VisualScripting;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public PlayerStats stats;
     private SpriteRenderer spriteRenderer;
     public Transform espadaPivot; // arrastra aquí tu EspadaPivot en el inspector
+    public SaveController saveController;
 
     public Collider2D normalCollider, balloonCollider, ballCollider, wormCollider;
     public PhysicsMaterial2D ballMaterial, normalMaterial;
@@ -51,6 +53,8 @@ public class PlayerController : MonoBehaviour
     private bool isBall = true;
     private enum Form { Normal, Balloon, Ball,Worm }
     private Form currentForm = Form.Ball;
+
+    public bool isHidden;
 
     void Start()
     {
@@ -168,7 +172,7 @@ public class PlayerController : MonoBehaviour
             isJumping = true;
             jumpTimeCounter = maxJumpTime;
 
-            if (isDown && PowerupManager.Instance.HasPower(PowerType.SuperJump))
+            if (isDown && saveController.data.takenCollectables.Contains("SuperJump"))
             {
                 animator.Play("SuperJump");
                 jumpTimeCounter = superJumpDuration; // opcional: que dure más
@@ -183,7 +187,7 @@ public class PlayerController : MonoBehaviour
         {
             if (jumpTimeCounter > 0)
             {
-                if (isDown && PowerupManager.Instance.HasPower(PowerType.SuperJump))
+                if (isDown && saveController.data.takenCollectables.Contains("SuperJump"))
                 {
                     rb.linearVelocity = new Vector2(rb.linearVelocity.x, superJumpForce);
                 }
@@ -210,7 +214,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Detectar doble tap abajo Y arriba
-        if (PowerupManager.Instance.HasPower(PowerType.Leg))
+        if (saveController.data.takenCollectables.Contains("Leg"))
         {
             if ((Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S)) && !isBall && isGrounded)
             {
@@ -226,12 +230,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S) && isGrounded)
         {
             currentSpeed = 0;
+            gameObject.layer = LayerMask.NameToLayer("BackPlayer");
             animator.SetBool("Down", true);
             animator.Play("StartDown");
             ChangeForm(Form.Worm);
         }
         if (Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S))
         {
+            gameObject.layer = LayerMask.NameToLayer("Player");
             animator.SetBool("Down", false);
             animator.Play("FinishDown");
             ToggleCurrentForm();
@@ -240,7 +246,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha2))
             ChangeForm(Form.Balloon);
 
-        if (PowerupManager.Instance.HasPower(PowerType.Dash) && Input.GetKeyDown(KeyCode.LeftShift) && canDodge)
+        if (saveController.data.takenCollectables.Contains("Dash") && Input.GetKeyDown(KeyCode.LeftShift) && canDodge)
         {
             StartCoroutine(Dodge());
         }
@@ -413,7 +419,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.contacts[0].normal.y < -0.5f)
         {
-            if (isDown && PowerupManager.Instance.HasPower(PowerType.SuperJump))
+            if (isDown && saveController.data.takenCollectables.Contains("SuperJump"))
             {
                 StartCoroutine(SuperSmashStun());
             }
@@ -422,6 +428,22 @@ public class PlayerController : MonoBehaviour
             {
                 StartCoroutine(SmashStun());
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("HidingPlace"))
+        {
+            isHidden = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("HidingPlace"))
+        {
+            isHidden = false;
         }
     }
 

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4807062623468479439}
   - component: {fileID: 159118378013020575}
   - component: {fileID: 3213457184851270415}
-  - component: {fileID: 1948668855349156392}
   - component: {fileID: 5003969616900704628}
   - component: {fileID: 6125765901897005649}
+  - component: {fileID: 8340081863345012908}
   m_Layer: 3
   m_Name: RockDrag
   m_TagString: Untagged
@@ -120,24 +120,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &1948668855349156392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392921112751124173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a250087e6792b249a5bfd2b0f9411f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  draggableMask:
-    serializedVersion: 2
-    m_Bits: 1032
-  spriteRenderer: {fileID: 159118378013020575}
-  particles: {fileID: 2240903334750698191}
-  audioSource: {fileID: 6125765901897005649}
 --- !u!61 &5003969616900704628
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -281,6 +263,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8340081863345012908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392921112751124173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 914c5a4dad1698f4f854c6b745114369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  draggableMask:
+    serializedVersion: 2
+    m_Bits: 1032
+  dragSpeed: 15
+  dragGravity: 0
+  spriteRenderer: {fileID: 159118378013020575}
+  particles: {fileID: 2240903334750698191}
+  audioSource: {fileID: 6125765901897005649}
 --- !u!1 &1714253968139597929
 GameObject:
   m_ObjectHideFlags: 0

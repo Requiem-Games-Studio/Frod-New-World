@@ -18,6 +18,13 @@ public class DragObject : MonoBehaviour
 
     private Color originalColor;
 
+    private bool canDrag;
+
+    private void Start()
+    {
+        canDrag = SaveManager.Instance.currentData.takenCollectables.Contains("Hand");
+    }
+
     private void Awake()
     {
         cam = Camera.main;
@@ -34,6 +41,9 @@ public class DragObject : MonoBehaviour
 
     private void Update()
     {
+        if (!canDrag)
+            return;
+
         if (Input.GetMouseButtonDown(0))
             TryStartDrag();
 

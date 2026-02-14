@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SelectData : MonoBehaviour
 {
-    public TMPro.TextMeshProUGUI[] coins;
+    public TMPro.TextMeshProUGUI[] collectables;
     public TMPro.TextMeshProUGUI[] time;
     public TMPro.TextMeshProUGUI[] progress;
     public TMPro.TextMeshProUGUI[] place;
@@ -20,23 +20,24 @@ public class SelectData : MonoBehaviour
 
     public void CheckSlot()
     {
-        for (int i = 0; i < 3; i++) // 4 slots
+        for (int i = 0; i < 4; i++) // 4 slots
         {
             if (SaveManager.Instance.SaveExists(i))
             {
                 SaveData data = SaveManager.Instance.LoadGame(i);
 
                 Debug.Log("Slot " + i + " ocupado");
-
-                coins[i].text = "Coins: " + data.coins;
+                place[i].text = "" + data.playerName;
+                collectables[i].text = "Collect:" + data.collectables;
                 time[i].text = "Time: " + data.playTime.ToString("F1") + "s";
-                progress[i].text = "%: " + data.playProgress + "%";
+                progress[i].text = "" + data.playProgress + "%";
             }
             else
             {
                 Debug.Log("Slot " + i + " vacío");
 
-                coins[i].text = "Vacío";
+                place[i].text = "";
+                collectables[i].text = "Vacío";
                 time[i].text = "";
                 progress[i].text = "";
             }
@@ -55,9 +56,10 @@ public class SelectData : MonoBehaviour
         {
             Debug.Log("Slot vacío, creando nueva partida...");
             SaveData newData = new SaveData();
-            newData.coins = 0;
+            newData.collectables = 0;
             newData.playTime = 0f;
             newData.playProgress = 0f;
+            newData.playerPosition = new Vector2(-547, -48.4f);
 
             SaveManager.Instance.SaveGame(slotIndex, newData);
 
@@ -67,4 +69,15 @@ public class SelectData : MonoBehaviour
 
         SceneManager.LoadScene("Game");
     }
+
+    public void DeletSlot(int slotID)
+    {
+        SaveManager.Instance.DeleteSlot(slotID);
+        place[slotID].text = "";
+        collectables[slotID].text = "Vacío";
+        time[slotID].text = "";
+        progress[slotID].text = "";
+
+    }
+
 }
