@@ -26,6 +26,8 @@ public class EnemyStats : MonoBehaviour
     private Coroutine delayedRoutine;
     public Slider postureBar;
     public GameObject canvas;
+    public GameObject iconAlert, iconStun, iconConfused;
+    public bool alert, stun, confused;
 
     public bool isBoss;
     bool isBlocking;
@@ -41,6 +43,7 @@ public class EnemyStats : MonoBehaviour
         canvas.GetComponent<Canvas>().worldCamera = Camera.main;
         currentHp = maxHp;
         currentPosture = maxPosture;
+        canvas.SetActive(false);
     }
 
     void Update()
@@ -51,6 +54,8 @@ public class EnemyStats : MonoBehaviour
     // Recibir daño
     public void Damage(float damage, float postureDamage, bool isHeavyAttack = false)
     {
+        canvas.SetActive(true);
+        
         if (!isAlive) return;
 
         if (isBlocking)
@@ -185,12 +190,42 @@ public class EnemyStats : MonoBehaviour
             StartCoroutine(Stagger());
         }
     }
+    public void ConfusedState()
+    {
+        if (isAlive)
+        {
+            confused = true;
+            ActivateStatus(iconConfused,4);
+            anim.SetBool("confused", true);
+            anim.Play("Confused");
+        }
+    }
+
+    public void NormalState()
+    {
+        confused = false;
+        anim.SetBool("confused", false);
+    }
+
+    public void ActivateStatus(GameObject icon, float duration)
+    {
+        canvas.SetActive(true);
+        StartCoroutine(StatusRoutine(icon, duration));
+    }
+
+    IEnumerator StatusRoutine(GameObject icon, float duration)
+    {
+        icon.SetActive(true);
+        yield return new WaitForSeconds(duration);
+        icon.SetActive(false);
+    }
 
     // Tambaleo
     System.Collections.IEnumerator Stagger()
     {
         isStaggered = true;
         PlayTargetAnimation("Stagger",true);
+        ActivateStatus(iconStun, 2f);
         Debug.Log("¡Enemigo tambaleado!");
         yield return new WaitForSeconds(postureBreakTime);
         currentPosture = maxPosture * 0.6f;
@@ -204,7 +239,6 @@ public class EnemyStats : MonoBehaviour
         enemyBehavior.SendMessage("DieEvent");
         anim.SetBool("dead", true);
         canvas.SetActive(false);
-        Debug.Log("Enemigo muerto.");
         // Aquí puedes desactivar IA, colisiones, etc.
     }
 

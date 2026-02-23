@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FollowWithDelay : MonoBehaviour
 {
-    Transform target;     // El jugador
+    public Transform target;     // El jugador
     public float smoothSpeed = 5f;  // Qué tanto delay
     public bool follow = true;      // Si debe seguir o quedarse quieto
 
@@ -11,6 +11,11 @@ public class FollowWithDelay : MonoBehaviour
         target = transform.parent;
         // Dejar de ser hijo del jugador
         transform.SetParent(null);
+    }
+
+    private void OnEnable()
+    {
+        if(target != null) transform.position = target.position;
     }
 
     void Update()

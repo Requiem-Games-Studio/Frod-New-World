@@ -13,12 +13,16 @@ public class WeakEnemyStats : MonoBehaviour
     public Animator anim;
     GameObject controller;
 
-    bool red;
-    float timer, timerAlert, timerStun, timerConfused;
+    float timerAlert, timerStun, timerConfused;
 
-    public Canvas canvasEnemy;
+    public GameObject canvasEnemy;
     public Slider sliderHealt;
     public GameObject healtBar;
+    public Slider delayedBar;
+    public float delayBeforeDrop = 0.3f; // Tiempo que espera antes de bajar
+    public float dropSpeed = 0.5f;       // Velocidad de bajada
+    private Coroutine delayedRoutine;
+
     public GameObject iconAlert, iconStun, iconConfused;
     public bool alert, stun, confused;
 
@@ -37,68 +41,22 @@ public class WeakEnemyStats : MonoBehaviour
         }
         controller = this.gameObject;
 
-        canvasEnemy.worldCamera = Camera.main;
+        canvasEnemy.GetComponent<Canvas>().worldCamera = Camera.main;
         currentHp = maxHp;
-        sliderHealt.maxValue = maxHp;
-        sliderHealt.value = currentHp;
-        canvasEnemy.enabled = false;
-    }
-
-    private void Update()
-    {
-        if (red)
-        {
-            timer += Time.deltaTime;
-            if (timer >= 0.5f)
-            {
-                sprite.color = Color.white;
-                red = false;
-                timer = 0;
-            }
-        }
-
-        if (alert)
-        {
-            timerAlert += Time.deltaTime;
-            if (timerAlert >= 2f)
-            {
-                iconAlert.SetActive(false);
-                alert = false;
-                timerAlert = 0;
-            }
-        }
-        if (stun)
-        {
-            timerStun += Time.deltaTime;
-            if (timerStun >= 2f)
-            {
-                iconStun.SetActive(false);
-                stun = false;
-                timerStun = 0;
-            }
-        }
-        if (confused)
-        {
-            timerConfused += Time.deltaTime;
-            if (timerConfused >= 2f)
-            {
-                iconConfused.SetActive(false);
-                confused = false;
-                timerConfused = 0;
-            }
-        }
+        //sliderHealt.maxValue = maxHp;
+        //sliderHealt.value = currentHp;
+        //delayedBar.maxValue = currentHp;
+        canvasEnemy.SetActive(false);
     }
 
     public void Damage(float damage)
     {
         if (!dead)
         {
-            canvasEnemy.enabled = true;
-            sprite.color = Color.red;
-            red = true;
+            canvasEnemy.SetActive(true);
             anim.Play("Damage");
             currentHp -= damage;
-            sliderHealt.value = currentHp;
+            UpdateHealthBar();
             Instantiate(bloodPrefab, transform.position, transform.rotation);
             if (currentHp <= 0)
             {
@@ -108,26 +66,64 @@ public class WeakEnemyStats : MonoBehaviour
                     anim.SetBool("Die", true);
                     anim.Play("Dead");
                     controller.SendMessage("Dead");
-                    canvasEnemy.enabled = false;
+                    canvasEnemy.SetActive(false);
                 }
             }
         }
+    }
+    private void UpdateHealthBar()
+    {
+        if (sliderHealt != null)
+        {
+            float newValue = (float)currentHp / maxHp;
+            sliderHealt.value = newValue;
+            // Iniciar la corrutina cada vez que cambie la vida
+            if (delayedRoutine != null)
+                StopCoroutine(delayedRoutine);
+
+            delayedRoutine = StartCoroutine(UpdateDelayedBar(newValue));
+        }
+    }
+    private IEnumerator UpdateDelayedBar(float targetValue)
+    {
+        // Esperar antes de empezar a bajar
+        yield return new WaitForSeconds(delayBeforeDrop);
+
+        // Bajar lentamente hasta el valor real
+        while (delayedBar.value > targetValue)
+        {
+            delayedBar.value -= dropSpeed * Time.deltaTime;
+            yield return null;
+        }
+
+        delayedBar.value = targetValue; // Asegurar que llegue exacto
+    }
+
+    public void ActivateStatus(GameObject icon, float duration)
+    {
+        canvasEnemy.SetActive(true);
+        StartCoroutine(StatusRoutine(icon, duration));
+    }
+
+    IEnumerator StatusRoutine(GameObject icon, float duration)
+    {
+        icon.SetActive(true);
+        yield return new WaitForSeconds(duration);
+        icon.SetActive(false);
     }
 
     public void AlertState()
     {
         if (!stun && !confused && !dead)
         {
-            alert = true;
-            iconAlert.SetActive(true);
+            ActivateStatus(iconAlert, timerAlert);
         }
     }
     public void StunState()
     {
         if (!dead)
         {
-            stun = true;
-            iconStun.SetActive(true);
+            ActivateStatus(iconStun, timerStun);
         }
     }
     public void ConfusedState()
@@ -135,13 +131,9 @@ public class WeakEnemyStats : MonoBehaviour
         if (!dead)
         {
             confused = true;
-            iconConfused.SetActive(true);
+            ActivateStatus(iconConfused,timerConfused);
             anim.SetBool("confused", true);
             anim.Play("Confused");
-            //if (executionAnimator != null)
-            //{
-            //executionAnimator.MovePoliStop();
-            //}
         }
     }
 
@@ -158,6 +150,7 @@ public class WeakEnemyStats : MonoBehaviour
     public void NormalState()
     {
         confused = false;
+        iconConfused.SetActive(false);
         anim.SetBool("confused", false);
     }
 

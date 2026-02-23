@@ -19,7 +19,8 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck; // Punto en los pies para detectar el suelo
     public LayerMask groundLayer; // Capa del suelo
 
-    
+    public GameObject particulaAgua;
+
     public float currentSpeed = 5f;
     public float LegsSpeed = 5f;
     public float downSpeed = 1f;
@@ -55,6 +56,7 @@ public class PlayerController : MonoBehaviour
     private Form currentForm = Form.Ball;
 
     public bool isHidden;
+    public VignetteController vignetteController;
 
     void Start()
     {
@@ -436,6 +438,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("HidingPlace"))
         {
             isHidden = true;
+            vignetteController.SetVignetteIntensity(0.5f);
         }
     }
 
@@ -444,6 +447,39 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("HidingPlace"))
         {
             isHidden = false;
+            vignetteController.ResetVignetteIntensity();
+        }
+    }
+
+    //Collisions
+    public void OnWater()
+    {
+        Instantiate(particulaAgua, transform.position, Quaternion.identity);
+        if (!isBall)
+        {
+            PlayTargetAnimation("Water");            
+        }
+    }
+
+    public void OffWater()
+    {
+        Instantiate(particulaAgua, transform.position, Quaternion.identity);
+        if (!isBall)
+        {
+            PlayTargetAnimation("Water");
+        }
+    }
+
+    public void HideFrod(bool isHiding)
+    {
+        isHidden = isHiding;
+        if(isHiding)
+        {
+            vignetteController.SetVignetteIntensity(0.6f);
+        }
+        else
+        {
+            vignetteController.ResetVignetteIntensity();
         }
     }
 

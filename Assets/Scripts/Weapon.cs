@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class Weapon : MonoBehaviour
 {
     public PlayerStats playerStats;
@@ -7,12 +8,19 @@ public class Weapon : MonoBehaviour
 
     public bool canFlip;
     public AudioSource AudioSource;
+    public Sprite icon;
 
     private void Start()
     {
         followWithDelay = GetComponentInParent<FollowWithDelay>();
         canFlip = true;
     }
+
+    private void OnEnable()
+    {
+        transform.position = transform.parent.position;
+    }
+
     public void SetBlock()
     {
         playerStats.SetBlock(false);

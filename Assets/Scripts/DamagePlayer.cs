@@ -8,12 +8,16 @@ public class DamagePlayer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy") || collision.CompareTag("Object"))
         {
             EnemyStats stats = collision.GetComponent<EnemyStats>();
             if (stats != null)
             {
                 stats.Damage(damage, postureDamage);
+            }
+            else
+            {
+                collision.SendMessage("Damage",damage);
             }
 
             if (downAttack)

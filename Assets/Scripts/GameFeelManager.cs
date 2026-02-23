@@ -15,6 +15,7 @@ public class GameFeelManager : MonoBehaviour
     public float shakeMagnitude = 0.05f;
 
     public static GameFeelManager Instance;
+    public VignetteController controller;
 
     void Awake()
     {
@@ -24,6 +25,7 @@ public class GameFeelManager : MonoBehaviour
     public void DoImpactPlayer()
     {
         Debug.Log("Impact To Player");
+        controller.PlayDamageEffect();
         DoSlowMotion(0.4f, 0.2f);
         cameraShake?.Shake(0.08f, 0.05f);
     }

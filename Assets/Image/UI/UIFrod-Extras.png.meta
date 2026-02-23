@@ -158,10 +158,10 @@ TextureImporter:
       name: UIFrod-Extras_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 662
-        width: 206
-        height: 148
+        x: 21
+        y: 663
+        width: 204
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,10 +180,10 @@ TextureImporter:
       name: UIFrod-Extras_1
       rect:
         serializedVersion: 2
-        x: 343
-        y: 638
-        width: 219
-        height: 172
+        x: 278
+        y: 628
+        width: 184
+        height: 184
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,9 +202,9 @@ TextureImporter:
       name: UIFrod-Extras_2
       rect:
         serializedVersion: 2
-        x: 613
-        y: 638
-        width: 219
+        x: 509
+        y: 637
+        width: 178
         height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -224,10 +224,10 @@ TextureImporter:
       name: UIFrod-Extras_3
       rect:
         serializedVersion: 2
-        x: 22
-        y: 503
-        width: 123
-        height: 143
+        x: 734
+        y: 654
+        width: 138
+        height: 139
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: UIFrod-Extras_4
       rect:
         serializedVersion: 2
-        x: 151
-        y: 548
-        width: 28
-        height: 55
+        x: 23
+        y: 504
+        width: 213
+        height: 141
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,79 +265,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UIFrod-Extras_5
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 529
-        width: 34
-        height: 93
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab991df81a00f6400800000000000000
-      internalID: 319474792469207482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIFrod-Extras_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 507
-        width: 44
-        height: 136
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 602c47312124e4660800000000000000
-      internalID: 7371902285455344134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIFrod-Extras_7
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 400
-        width: 219
-        height: 172
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a24a9c5dfdc39fc0800000000000000
-      internalID: -3489218798217968992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: UIFrod-Extras_8
       rect:
         serializedVersion: 2
-        x: 613
-        y: 400
-        width: 219
-        height: 172
+        x: 17
+        y: 343
+        width: 225
+        height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +290,10 @@ TextureImporter:
       name: UIFrod-Extras_9
       rect:
         serializedVersion: 2
-        x: 16
-        y: 342
-        width: 227
-        height: 145
+        x: 31
+        y: 105
+        width: 97
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +312,10 @@ TextureImporter:
       name: UIFrod-Extras_10
       rect:
         serializedVersion: 2
-        x: 30
-        y: 106
-        width: 99
-        height: 180
+        x: 176
+        y: 111
+        width: 34
+        height: 174
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +334,10 @@ TextureImporter:
       name: UIFrod-Extras_11
       rect:
         serializedVersion: 2
-        x: 175
-        y: 113
-        width: 36
-        height: 173
+        x: 263
+        y: 115
+        width: 155
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,23 +353,67 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UIFrod-Extras_12
+      name: UIFrod-Extras_5
       rect:
         serializedVersion: 2
-        x: 261
-        y: 113
-        width: 159
-        height: 171
+        x: 277
+        y: 386
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b7a33b87446f6f7d0800000000000000
-      internalID: -2884847737341003141
+      spriteID: 91f9414547a02ae41a293f557a4a3f5c
+      internalID: 319474792469207482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_6
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 2
+        width: 487
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c83e92ac7f245468748599f100eaad
+      internalID: 7371902285455344134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_7
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 398
+        width: 487
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766afae77243ddb4a909cf925ac32888
+      internalID: -3489218798217968992
       vertices: []
       indices: 
       edges: []
@@ -459,6 +437,7 @@ TextureImporter:
       UIFrod-Extras_10: 7793372365246190830
       UIFrod-Extras_11: -4791511282829520688
       UIFrod-Extras_12: -2884847737341003141
+      UIFrod-Extras_13: -105843406
       UIFrod-Extras_2: -2855350892232442380
       UIFrod-Extras_3: -7999682202888449965
       UIFrod-Extras_4: -7597636875465607817

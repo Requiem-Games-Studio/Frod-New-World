@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1870164273096150866}
   - component: {fileID: 2327556881360728111}
-  - component: {fileID: 7785260306613821580}
   - component: {fileID: 8830180406028818941}
+  - component: {fileID: 1772003333277449233}
   m_Layer: 0
   m_Name: PowerUp
   m_TagString: Untagged
@@ -89,19 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7785260306613821580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3782105286598806700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75a5e99a9b5b35640b897c6f8feb4898, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectableID: Hand
 --- !u!58 &8830180406028818941
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -138,3 +125,17 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.8
+--- !u!114 &1772003333277449233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3782105286598806700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50075e80773ad64c9a7922e232fc8ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 0}
+  collectableID: Hand

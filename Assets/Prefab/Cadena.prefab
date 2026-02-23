@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 6056956157879780623}
   - component: {fileID: 6948062583278569974}
   - component: {fileID: 5234141196649214409}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Cadena (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}

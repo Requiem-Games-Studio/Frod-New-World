@@ -204,6 +204,7 @@ MonoBehaviour:
   followWithDelay: {fileID: 0}
   canFlip: 0
   AudioSource: {fileID: 344842570403638196}
+  icon: {fileID: -2855350892232442380, guid: daa442e23c1733e4fb965809765eaca8, type: 3}
 --- !u!82 &344842570403638196
 AudioSource:
   m_ObjectHideFlags: 0
@@ -315,3 +316,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 20
   postureDamage: 10
+  controller: {fileID: 0}

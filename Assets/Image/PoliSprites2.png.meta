@@ -284,6 +284,94 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: PoliSprites2_7
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 777
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.3561208, y: 0.31483322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b527c8bd291fa46b93185983ee8516
+      internalID: 1040264877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites2_8
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 775
+        width: 299
+        height: 284
+      alignment: 9
+      pivot: {x: 0.35711038, y: 0.31810772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97ac2b96525bf8449eb8d8ad0424bb5
+      internalID: -627079507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites2_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 321
+        width: 273
+        height: 326
+      alignment: 9
+      pivot: {x: 0.37145174, y: 0.26928523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ec55adc13637f49a3e0d20e6828496
+      internalID: 977948787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliSprites2_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 316
+        width: 286
+        height: 333
+      alignment: 9
+      pivot: {x: 0.35233644, y: 0.27855107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946fc19b0e59d6a4796fb54dc5ab266d
+      internalID: -837906606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -300,11 +388,15 @@ TextureImporter:
     nameFileIdTable:
       PoliSprites2_0: -3150147543409987115
       PoliSprites2_1: 1295684349327696255
+      PoliSprites2_10: -837906606
       PoliSprites2_2: -4339581228925261420
       PoliSprites2_3: 4235262161472503522
       PoliSprites2_4: 1898366699693861862
       PoliSprites2_5: -682396237726035159
       PoliSprites2_6: -7134266733240436640
+      PoliSprites2_7: 1040264877
+      PoliSprites2_8: -627079507
+      PoliSprites2_9: 977948787
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

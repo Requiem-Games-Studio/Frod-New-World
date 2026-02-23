@@ -1,4 +1,7 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using System;
 
 public class WeaponInventory : MonoBehaviour
 {
@@ -11,22 +14,35 @@ public class WeaponInventory : MonoBehaviour
     private int currentWeaponIndex = 0;
 
     public GameObject[] wPrefab;
+    public Sprite handIcon;
+    [SerializeField] private Image uiImage;
+    [SerializeField] private TMP_Text noSlot;
+
 
     void Start()
     {
-        EquipWeapon(0);
         saveController = GameObject.FindWithTag("Manager").GetComponent<SaveController>();
         
         if(saveController.data.takenCollectables.Contains("Sword"))
         {
             AddWeapon(wPrefab[0]);
         }
+
+        if (SaveManager.Instance.currentData.takenCollectables.Contains("Hand"))
+        {
+            EquipHand();
+        }
+        else
+        {
+            BlockCursor();
+        }
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) EquipWeapon(0);
-        if (Input.GetKeyDown(KeyCode.Alpha2)) EquipWeapon(1);
+        if (Input.GetKeyDown(KeyCode.Alpha1) && SaveManager.Instance.currentData.takenCollectables.Contains("Hand")) EquipHand();
+        if (Input.GetKeyDown(KeyCode.Alpha2)) EquipWeapon(0);
+        if (Input.GetKeyDown(KeyCode.Alpha3)) EquipWeapon(1);
         if (Input.GetKeyDown(KeyCode.Alpha3)) EquipWeapon(2);
 
         if (Input.GetKeyDown(KeyCode.Q)) NextWeapon();
@@ -58,22 +74,49 @@ public class WeaponInventory : MonoBehaviour
         Debug.Log("Inventario lleno, no se pudo añadir el arma.");
     }
 
-    void EquipWeapon(int index)
+    public void EquipHand()
     {
-        if (index < 0 || index >= equippedWeapons.Length) return;
-
         foreach (GameObject weapon in equippedWeapons)
         {
             if (weapon != null) weapon.SetActive(false);
         }
 
+        uiImage.sprite = handIcon;
+        noSlot.text = "1";
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        playerController.weaponAnim = null;
+    }
+
+    void EquipWeapon(int index)
+    {
+        if (index < 0 || index >= equippedWeapons.Length) return;
+
         if (equippedWeapons[index] != null)
         {
+            foreach (GameObject weapon in equippedWeapons)
+            {
+                if (weapon != null) weapon.SetActive(false);
+            }
+
+            BlockCursor();
+
+
             equippedWeapons[index].SetActive(true);
+            var Weapon = equippedWeapons[index].GetComponent<Weapon>();
+            uiImage.sprite = Weapon.icon;
+            noSlot.text = (index+2).ToString() ;
             //asignar anim del arma en playercontrolles
             playerController.weaponAnim = equippedWeapons[index].GetComponent<Animator>();
             currentWeaponIndex = index;
         }
+    }
+
+    void BlockCursor()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void NextWeapon()

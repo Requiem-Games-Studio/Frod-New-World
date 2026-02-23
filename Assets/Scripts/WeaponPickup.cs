@@ -24,7 +24,14 @@ public class WeaponPickup : MonoBehaviour
             {
                 // Guardamos este ID en el save
                 SaveManager.Instance.currentData.takenCollectables.Add(collectableID);
-                inventory.AddWeapon(weaponPrefab);
+                if(weaponPrefab != null)
+                {
+                    inventory.AddWeapon(weaponPrefab);
+                }
+                else
+                {
+                    inventory.EquipHand();
+                }
                 Destroy(gameObject); // Eliminar el pickup del suelo
             }
         }
