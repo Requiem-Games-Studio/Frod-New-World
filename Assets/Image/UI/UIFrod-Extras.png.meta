@@ -224,8 +224,8 @@ TextureImporter:
       name: UIFrod-Extras_3
       rect:
         serializedVersion: 2
-        x: 734
-        y: 654
+        x: 709
+        y: 662
         width: 138
         height: 139
       alignment: 0
@@ -418,6 +418,72 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_12
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 675
+        width: 169
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799b1ba4e92c56344af65235eb8bce90
+      internalID: -2884847737341003141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_13
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 109
+        width: 181
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc4b3d537f348f429fc63d1def58ce9
+      internalID: -105843406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_14
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 662
+        width: 123
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a2b9da73a43cf46a9d8bb5befee9cf
+      internalID: 1573964227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -438,6 +504,7 @@ TextureImporter:
       UIFrod-Extras_11: -4791511282829520688
       UIFrod-Extras_12: -2884847737341003141
       UIFrod-Extras_13: -105843406
+      UIFrod-Extras_14: 1573964227
       UIFrod-Extras_2: -2855350892232442380
       UIFrod-Extras_3: -7999682202888449965
       UIFrod-Extras_4: -7597636875465607817

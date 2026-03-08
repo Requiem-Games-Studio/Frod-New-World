@@ -8,4 +8,9 @@ public class DestroyByTime : MonoBehaviour
     {
         Destroy(gameObject, destroyTime);
     }
+
+    public void DestroyImmediately()
+    {
+        Destroy(gameObject);
+    }
 }

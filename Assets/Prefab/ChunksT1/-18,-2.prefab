@@ -10374,7 +10374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4597917514905595011, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
       propertyPath: m_Intensity
-      value: 3.54
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 4597917514905595011, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size

@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 5788721906473418623}
   m_Layer: 0
   m_Name: follaje (5)
-  m_TagString: Untagged
+  m_TagString: HidingPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

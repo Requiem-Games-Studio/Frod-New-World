@@ -6,6 +6,8 @@ public class WeaponPickup : MonoBehaviour
     [Header("ID único")]
     public string collectableID;
 
+    public GameObject tutorial;
+
     void Start()
     {
         // Si este collectable ya fue tomado antes no aparece
@@ -19,6 +21,13 @@ public class WeaponPickup : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            if (tutorial != null)
+            {
+                GameObject canvas = GameObject.FindGameObjectWithTag("Canvas");
+                Instantiate(tutorial, canvas.transform);
+            }
+
+
             WeaponInventory inventory = other.GetComponent<WeaponInventory>();
             if (inventory != null)
             {

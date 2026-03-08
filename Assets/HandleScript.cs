@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class HandleScript : MonoBehaviour
@@ -7,7 +8,8 @@ public class HandleScript : MonoBehaviour
     [SerializeField] private float maxDownDistance = 1f;
 
     [Header("Door")]
-    [SerializeField] private Animator objectToActive; // Asignar en Inspector
+    [SerializeField] private GameObject[] objectToActive;
+    [SerializeField] private Animator[] objectAnim;
 
     [Header("State")]
     [SerializeField] private bool estaAbierta;
@@ -90,21 +92,35 @@ public class HandleScript : MonoBehaviour
     {
         if (isAobject)
         {
-            objectToActive = GameObject.FindWithTag("AObject").GetComponent<Animator>();
+            objectToActive = GameObject.FindGameObjectsWithTag("AObject");
         }
         else
         {
-            objectToActive = GameObject.FindWithTag("BObject").GetComponent<Animator>();
+            objectToActive = GameObject.FindGameObjectsWithTag("BObject");
         }
+
+        //for (int i = 0; i < objectToActive.Length; i++)
+        //{
+        //    objectAnim[i] = objectToActive[i].GetComponent<Animator>();
+        //}
     }
 
     private void ActivarPuerta()
     {
+        
         if (objectToActive != null)
         {
             // Si la palanca está abierta, la puerta se desactiva (se abre)
-            audioSource.Play(); 
-            objectToActive.SetBool("isActive", estaAbierta);
+            audioSource.Play();
+            for (int i = 0; i < objectToActive.Length; i++)
+            {
+                objectToActive[i].GetComponent<Animator>().SetBool("isActive", estaAbierta);
+            }
+        }
+        else
+        {
+            FindObject();
+            ActivarPuerta();
         }
     }
 }

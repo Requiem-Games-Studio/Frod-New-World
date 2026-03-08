@@ -9935,6 +9935,10 @@ PrefabInstance:
       value: 12.626
       objectReference: {fileID: 0}
     - target: {fileID: 4597917514905595011, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4597917514905595011, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
       value: 2
       objectReference: {fileID: 0}

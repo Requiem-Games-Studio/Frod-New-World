@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0ddd9895847e6541a67dc777e3528a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 80
+  maxHp: 40
   currentHp: 0
   bloodPrefab: {fileID: 2894347033598683775, guid: 20c95cb28746b28449967df83d3692f3, type: 3}
   sprite: {fileID: 7457168101255139422}

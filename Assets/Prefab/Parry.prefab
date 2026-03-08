@@ -138,3 +138,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: Parry
+  tutorial: {fileID: 1454662472605595706, guid: 8c1d91fc958597d439bb858d6f49e7b0, type: 3}

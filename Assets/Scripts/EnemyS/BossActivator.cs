@@ -8,15 +8,34 @@ public class BossActivator : MonoBehaviour
     bool activated;
 
     public GameObject barrera;
+    public AudioSource music;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !activated)
         {
-            activated = true;
-            bossController.SendMessage("ActivateBoss");
-            bossHealth.ActivateBossBar();
-            barrera.SetActive(true);
+            Activate();
+        }
+    }
+
+    public void Activate()
+    {
+        activated = true;
+        bossController.SendMessage("ActivateBoss");
+        bossHealth.ActivateBossBar();
+        barrera.SetActive(true);
+        if(music != null)
+        {
+            music.Play();
+        }
+    }
+
+    public void Desactivate()
+    {
+        barrera.SetActive(false);
+        if (music != null)
+        {
+            music.Stop();
         }
     }
 }

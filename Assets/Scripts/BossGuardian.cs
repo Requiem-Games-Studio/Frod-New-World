@@ -49,7 +49,7 @@ public class BossGuardian : MonoBehaviour
     public Transform swordAttackPoint;
     public GameObject ataque2Right, ataque2Left;
 
-    public GameObject barreras;
+    public BossActivator activator;
 
     float startScale;
 
@@ -181,7 +181,7 @@ public class BossGuardian : MonoBehaviour
         anim.SetBool("Diying", true);
         active = false;
         chase = false;
-        barreras.SetActive(false);
+        activator.Desactivate();
         if (impaled)
         {
             PlayTargetAnimation("Impaled", true);

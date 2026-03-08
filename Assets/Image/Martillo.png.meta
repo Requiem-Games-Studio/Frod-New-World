@@ -1,0 +1,675 @@
+fileFormatVersion: 2
+guid: 02446c13b6873f24380107f235cdb7e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4080464657369389634
+    second: Martillo_0
+  - first:
+      213: -657472908849019475
+    second: Martillo_1
+  - first:
+      213: -345710121919676593
+    second: Martillo_2
+  - first:
+      213: -2552160483091013435
+    second: Martillo_3
+  - first:
+      213: 1152912746806380562
+    second: Martillo_4
+  - first:
+      213: -3275322486937678054
+    second: Martillo_5
+  - first:
+      213: 7391379595669038476
+    second: Martillo_6
+  - first:
+      213: -7741913800130776179
+    second: Martillo_7
+  - first:
+      213: 2080686465545313263
+    second: Martillo_8
+  - first:
+      213: 1696314372163706634
+    second: Martillo_9
+  - first:
+      213: -8085168051672848296
+    second: Martillo_10
+  - first:
+      213: 3827255251809915792
+    second: Martillo_11
+  - first:
+      213: 9060361397004269816
+    second: Martillo_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Martillo_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 893
+        width: 185
+        height: 139
+      alignment: 9
+      pivot: {x: 0.6347142, y: 0.41803592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ad9059cf8b0a830800000000000000
+      internalID: 4080464657369389634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 876
+        width: 194
+        height: 189
+      alignment: 9
+      pivot: {x: 0.64681643, y: 0.41711426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da58c927fdf20e6f0800000000000000
+      internalID: -657472908849019475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_2
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 892
+        width: 190
+        height: 156
+      alignment: 9
+      pivot: {x: 0.62367326, y: 0.16679187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f78bbc97ac33bf0800000000000000
+      internalID: -345710121919676593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_3
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 868
+        width: 225
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5031646, y: 0.1288652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c022930097e49cd0800000000000000
+      internalID: -2552160483091013435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_4
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 854
+        width: 300
+        height: 207
+      alignment: 9
+      pivot: {x: 0.4952527, y: 0.3073651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2180a6ae808ffff00800000000000000
+      internalID: 1152912746806380562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_5
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 556
+        width: 166
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f0b313d87bb82d0800000000000000
+      internalID: -3275322486937678054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_6
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 559
+        width: 165
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c856cefb494739660800000000000000
+      internalID: 7391379595669038476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_7
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 551
+        width: 152
+        height: 198
+      alignment: 9
+      pivot: {x: 0.36882982, y: 0.45684475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83b28dca623f8490800000000000000
+      internalID: -7741913800130776179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_8
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 813
+        width: 220
+        height: 252
+      alignment: 9
+      pivot: {x: 0.34787792, y: 0.37002054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb9ac3015510ec10800000000000000
+      internalID: 2080686465545313263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 44
+        width: 196
+        height: 191
+      alignment: 9
+      pivot: {x: 0.40190998, y: 0.6826751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f153c1fe48a8710800000000000000
+      internalID: 1696314372163706634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 40
+        width: 194
+        height: 152
+      alignment: 9
+      pivot: {x: 0.58808976, y: 0.8185533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858e3ba7e76bbcf80800000000000000
+      internalID: -8085168051672848296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_11
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 40
+        width: 184
+        height: 199
+      alignment: 9
+      pivot: {x: 0.7399335, y: 0.6109239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093d0e4bf542d1530800000000000000
+      internalID: 3827255251809915792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_12
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 40
+        width: 176
+        height: 204
+      alignment: 9
+      pivot: {x: 0.6820606, y: 0.46509513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8f91dcfaedcbd70800000000000000
+      internalID: 9060361397004269816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_13
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 558
+        width: 177
+        height: 206
+      alignment: 9
+      pivot: {x: 0.16002762, y: 0.3411815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692ee9aef53c49843969a5b889bebc25
+      internalID: -1949784610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 569
+        width: 181
+        height: 192
+      alignment: 9
+      pivot: {x: 0.28535402, y: 0.24135876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846a46d7704825648a50ee65eaa75f6b
+      internalID: 272035169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 584
+        width: 188
+        height: 177
+      alignment: 9
+      pivot: {x: 0.46737042, y: 0.25409728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd8cbca21ab06e4eaa6ca0cb3d5dabf
+      internalID: 1387180447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_16
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 547
+        width: 154
+        height: 198
+      alignment: 9
+      pivot: {x: 0.4771744, y: 0.50751936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef02bdbc4e3034b4fabee9eeb62ddb79
+      internalID: -1468179238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 321
+        width: 155
+        height: 185
+      alignment: 9
+      pivot: {x: 0.7154165, y: 0.47315112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67827b427d77c1d4b978c04e4a8ad9a6
+      internalID: 473678866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_18
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 320
+        width: 157
+        height: 187
+      alignment: 9
+      pivot: {x: 0.8498854, y: 0.4257775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8091897b590dbf645b1dabb2eb28d7ad
+      internalID: 1762321218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_19
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 287
+        width: 183
+        height: 206
+      alignment: 9
+      pivot: {x: 0.8995208, y: 0.3168489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dba4770ee5ede43a951204a7720085
+      internalID: 47818965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_20
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 267
+        width: 232
+        height: 267
+      alignment: 9
+      pivot: {x: 0.6943486, y: 0.44076195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a770be7f8de874e962e3d6b5623f2d
+      internalID: -1198782443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martillo_21
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 347
+        width: 296
+        height: 175
+      alignment: 9
+      pivot: {x: 0.5885253, y: 0.20997384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ba347bbd88dc340a7a244898357202
+      internalID: 1386173853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 56594057477b0c24eb7634b3b46b96ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Martillo_0: 4080464657369389634
+      Martillo_1: -657472908849019475
+      Martillo_10: -8085168051672848296
+      Martillo_11: 3827255251809915792
+      Martillo_12: 9060361397004269816
+      Martillo_13: -1949784610
+      Martillo_14: 272035169
+      Martillo_15: 1387180447
+      Martillo_16: -1468179238
+      Martillo_17: 473678866
+      Martillo_18: 1762321218
+      Martillo_19: 47818965
+      Martillo_2: -345710121919676593
+      Martillo_20: -1198782443
+      Martillo_21: 1386173853
+      Martillo_3: -2552160483091013435
+      Martillo_4: 1152912746806380562
+      Martillo_5: -3275322486937678054
+      Martillo_6: 7391379595669038476
+      Martillo_7: -7741913800130776179
+      Martillo_8: 2080686465545313263
+      Martillo_9: 1696314372163706634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -30,9 +30,19 @@ public class Collectable : MonoBehaviour
             SaveManager.Instance.currentData.takenCollectables.Add(collectableID);
             // Aumentamos contador general si usas eso
             SaveManager.Instance.currentData.collectables++;
-            rb2d.bodyType = RigidbodyType2D.Static;
+            if(rb2d != null)
+            {
+                rb2d.bodyType = RigidbodyType2D.Static;
+            }
             Instantiate(particle,this.transform.position,Quaternion.identity);
-            anim.Play("Taken");
+            if(anim != null)
+            {
+                anim.Play("Taken");
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
     }   
 

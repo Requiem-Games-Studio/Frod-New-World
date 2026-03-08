@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a90b2d48b9d656943962db71f467a430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _grassVelocityController: {fileID: 0}
+  _grassVelocityController: {fileID: 3827740694206004379}
   _player: {fileID: 0}
   _material: {fileID: 0}
   _playerRB: {fileID: 0}
@@ -9613,7 +9613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a90b2d48b9d656943962db71f467a430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _grassVelocityController: {fileID: 0}
+  _grassVelocityController: {fileID: 3827740694206004379}
   _player: {fileID: 0}
   _material: {fileID: 0}
   _playerRB: {fileID: 0}
@@ -10027,7 +10027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a90b2d48b9d656943962db71f467a430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _grassVelocityController: {fileID: 0}
+  _grassVelocityController: {fileID: 3827740694206004379}
   _player: {fileID: 0}
   _material: {fileID: 0}
   _playerRB: {fileID: 0}
@@ -10233,7 +10233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a90b2d48b9d656943962db71f467a430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _grassVelocityController: {fileID: 0}
+  _grassVelocityController: {fileID: 3827740694206004379}
   _player: {fileID: 0}
   _material: {fileID: 0}
   _playerRB: {fileID: 0}
@@ -10340,7 +10340,7 @@ GameObject:
   - component: {fileID: 2216968101785149338}
   m_Layer: 0
   m_Name: follaje (5)
-  m_TagString: Untagged
+  m_TagString: HidingPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10354,7 +10354,7 @@ Transform:
   m_GameObject: {fileID: 7392505954056894209}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.0040143305, w: 0.99999195}
-  m_LocalPosition: {x: 8.33, y: -5.1, z: 0}
+  m_LocalPosition: {x: 8.63, y: -4.18, z: 0}
   m_LocalScale: {x: 0.73998016, y: 0.73998016, z: 0.73998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10473,7 +10473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a90b2d48b9d656943962db71f467a430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _grassVelocityController: {fileID: 0}
+  _grassVelocityController: {fileID: 3827740694206004379}
   _player: {fileID: 0}
   _material: {fileID: 0}
   _playerRB: {fileID: 0}

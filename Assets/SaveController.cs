@@ -1,19 +1,27 @@
 using System.Collections.Generic;
 using UnityEditor.Overlays;
 using UnityEngine;
+using System.Linq;
 
 public class SaveController : MonoBehaviour
 {
 
     public GameObject player,mainCamera;
     public SaveData data;
+    public ChunkManagerByName chunkManager;
 
     void Start()
     {
         data = SaveManager.Instance.currentData;
+        LoadData();
+    }
+
+    void LoadData()
+    {
         player.transform.position = data.playerPosition;
         Debug.Log("posicion del jugador" + data.playerPosition);
         mainCamera.transform.position = new Vector3(data.playerPosition.x, data.playerPosition.y, -10);
+        chunkManager.exploredChunks = new HashSet<Vector2Int>(data.exploredChunks);
     }
 
     // Update is called once per frame
@@ -34,10 +42,13 @@ public class SaveController : MonoBehaviour
         data.playProgress = GetProgress();
         data.playerPosition = player.transform.position;
         data.health = GetHealth();
+        data.exploredChunks = chunkManager.exploredChunks.ToList();
         data.collectables = GetCollectables();
 
-        // Guardar en disco
-        SaveManager.Instance.SaveGame(
+
+
+    // Guardar en disco
+    SaveManager.Instance.SaveGame(
             SaveManager.Instance.currentSlot,
             data
         );

@@ -674,11 +674,11 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
+  m_Mass: 100
+  m_LinearDamping: 50
   m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_GravityScale: 60
+  m_Material: {fileID: 6200000, guid: 84004e83441d24341854dd92c1f46226, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -874,7 +874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2bff3ab1f925e4dade8bc586b4516e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 5
   startFacingRight: 1
   patrol: 1
   anim: {fileID: 5521193492415399715}

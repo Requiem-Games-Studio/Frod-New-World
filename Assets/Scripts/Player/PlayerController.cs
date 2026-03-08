@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
     private enum Form { Normal, Balloon, Ball,Worm }
     private Form currentForm = Form.Ball;
 
-    public bool isHidden;
+    public bool isHidden,isOccult;
     public VignetteController vignetteController;
 
     void Start()
@@ -156,8 +156,15 @@ public class PlayerController : MonoBehaviour
         }
 
         // **Control de animación Walk**
-        animator.SetBool("Walk", horizontal != 0);
-
+        if(isDown && !saveController.data.takenCollectables.Contains("Worm"))
+        {
+            animator.SetBool("Walk", false);
+        }
+        else
+        {
+            animator.SetBool("Walk", horizontal != 0);
+        }
+        
         // **Coyote Time**
         if (isGrounded)
         {
@@ -231,7 +238,14 @@ public class PlayerController : MonoBehaviour
         // Detectar mantener presionado "DownArrow"
         if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S) && isGrounded)
         {
-            currentSpeed = 0;
+            if (saveController.data.takenCollectables.Contains("Worm"))
+            {
+                currentSpeed = downSpeed;
+            }
+            else
+            {
+                currentSpeed = 0;
+            }
             gameObject.layer = LayerMask.NameToLayer("BackPlayer");
             animator.SetBool("Down", true);
             animator.Play("StartDown");
@@ -378,7 +392,9 @@ public class PlayerController : MonoBehaviour
                 break;
             case Form.Worm:
                 wormCollider.enabled = true;
+                rb.linearVelocityX = 0f;
                 //rb.gravityScale = wormGravity;
+                StartCoroutine(EnableWalkDelay(0.2f));
                 break;
             case Form.Ball:
                 //rb.linearVelocity = Vector2.zero;
@@ -435,7 +451,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("HidingPlace"))
+        if (collision.gameObject.CompareTag("HidingPlace") && !isOccult)
         {
             isHidden = true;
             vignetteController.SetVignetteIntensity(0.5f);
@@ -444,7 +460,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("HidingPlace"))
+        if (collision.gameObject.CompareTag("HidingPlace") && !isOccult)
         {
             isHidden = false;
             vignetteController.ResetVignetteIntensity();
@@ -472,6 +488,7 @@ public class PlayerController : MonoBehaviour
 
     public void HideFrod(bool isHiding)
     {
+        isOccult = isHiding;
         isHidden = isHiding;
         if(isHiding)
         {

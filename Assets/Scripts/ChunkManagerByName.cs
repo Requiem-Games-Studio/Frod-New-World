@@ -10,11 +10,15 @@ public class ChunkManagerByName : MonoBehaviour
     public int loadRadius = 1;
 
     private Transform player;
+    public float xOffset, yOffset;
 
     private Dictionary<Vector2Int, GameObject> loadedChunks = new Dictionary<Vector2Int, GameObject>();
     private Dictionary<Vector2Int, GameObject> chunkPrefabMap = new Dictionary<Vector2Int, GameObject>();
 
     private Vector2Int currentPlayerChunk;
+
+    public WorldMapManager mapManager;
+    public HashSet<Vector2Int> exploredChunks = new HashSet<Vector2Int>();
 
     void Awake()
     {
@@ -116,8 +120,8 @@ public class ChunkManagerByName : MonoBehaviour
 
     Vector2Int GetPlayerChunk()
     {
-        int chunkX = Mathf.FloorToInt(player.position.x / chunkWidth);
-        int chunkY = Mathf.FloorToInt(player.position.y / chunkHeight);
+        int chunkX = Mathf.FloorToInt((player.position.x + xOffset) / chunkWidth);
+        int chunkY = Mathf.FloorToInt((player.position.y + yOffset) / chunkHeight);
 
         return new Vector2Int(chunkX, chunkY);
     }
@@ -132,6 +136,15 @@ public class ChunkManagerByName : MonoBehaviour
         newChunk.name = $"Chunk_{chunkCoord.x}_{chunkCoord.y}";
 
         loadedChunks.Add(chunkCoord, newChunk);
+
+        // MARCAR COMO EXPLORADO
+        if (!exploredChunks.Contains(chunkCoord))
+        {
+            exploredChunks.Add(chunkCoord);
+
+            // aquí puedes avisar al minimapa
+            mapManager.RevealChunk(chunkCoord);
+        }
     }
 
     void UnloadChunk(Vector2Int chunkCoord)

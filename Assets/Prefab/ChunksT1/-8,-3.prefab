@@ -9032,7 +9032,7 @@ GameObject:
   - component: {fileID: 7611141141084866991}
   m_Layer: 0
   m_Name: follaje (2)
-  m_TagString: Untagged
+  m_TagString: HidingPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10299,6 +10299,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 82735526143167529}
     m_Modifications:
+    - target: {fileID: 1437797373912464076, guid: cdff82bd06c42554bb3f1cf7fa85cdfb, type: 3}
+      propertyPath: tutorial
+      value: 
+      objectReference: {fileID: 1454662472605595706, guid: 21b2c2ea5b721624889fdb7574f88c53, type: 3}
     - target: {fileID: 1870164273096150866, guid: cdff82bd06c42554bb3f1cf7fa85cdfb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.03

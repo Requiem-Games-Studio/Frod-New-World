@@ -126,6 +126,22 @@ public class PlayerStats : MonoBehaviour
             GameFeelManager.Instance.DoImpactPlayer();
         }      
     }
+
+    public void StartRegeneration()
+    {
+        StartCoroutine(Regenerate());
+    }
+
+    private IEnumerator Regenerate()
+    {
+        while (currentHealth < maxHealth)
+        {
+            currentHealth += 1;
+            UpdateHealthBar();
+            yield return new WaitForSeconds(1f);
+        }
+    }
+
     public void Heal()
     {
         if (healPotionCount > 0)
@@ -135,6 +151,13 @@ public class PlayerStats : MonoBehaviour
             UpdateHealthBar();
         }
     }
+
+    public void Healt(int heal)
+    {
+        currentHealth = Mathf.Min(currentHealth + heal, maxHealth);
+        UpdateHealthBar();
+    }
+
     public void AddPotion()
     {
         if (healPotionCount < 3)

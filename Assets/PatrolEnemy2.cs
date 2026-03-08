@@ -48,7 +48,7 @@ public class PatrolEnemy2 : MonoBehaviour
     private Transform player;
     private bool isSeeingPlayer;
 
-    private float flipCooldown = 0.3f;
+    //private float flipCooldown = 0.3f;
     private float flipTimer;
 
     // =========================
@@ -83,7 +83,7 @@ public class PatrolEnemy2 : MonoBehaviour
 
     void Update()
     {
-        if (player == null || enemyStats.confused || dead) return;
+        if (player == null || enemyStats.confused || enemyStats.isStaggered || dead) return;
 
         HandleVision();
 
@@ -93,7 +93,7 @@ public class PatrolEnemy2 : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!patrol || enemyStats.confused || dead) return;
+        if (!patrol || enemyStats.confused || enemyStats.isStaggered || dead) return;
 
         rb.linearVelocity = new Vector2(direction * currentSpeed, rb.linearVelocity.y);
 
@@ -128,12 +128,10 @@ public class PatrolEnemy2 : MonoBehaviour
     void HandleVision()
     {
         int visionIndex = CheckVision();
-        Debug.Log("CheckVision = " + visionIndex);
         bool canSee = visionIndex != 0;
 
         if (canSee && !isSeeingPlayer)
         {
-            Debug.Log("Enemigo Attack");
             patrol = false;
             rb.linearVelocity = Vector2.zero;
 
@@ -148,7 +146,6 @@ public class PatrolEnemy2 : MonoBehaviour
 
         if (!canSee && isSeeingPlayer)
         {
-            Debug.Log("Enemigo Patrol");
             anim.SetBool("Shooting", false);
             //patrol = true;
             anim.SetBool("walk", true);
@@ -172,7 +169,6 @@ public class PatrolEnemy2 : MonoBehaviour
     {
         if(CheckVision() == 0)
         {
-            Debug.Log("Enemigo Patrol");
             anim.SetBool("Shooting", false);
             patrol = true;
             anim.SetBool("walk", true);

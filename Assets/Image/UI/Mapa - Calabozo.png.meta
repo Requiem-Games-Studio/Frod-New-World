@@ -1,0 +1,1720 @@
+fileFormatVersion: 2
+guid: d2f67a8ce2aedb6408bd89e4b9811732
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -99525870437305596
+    second: Mapa - Calabozo_0
+  - first:
+      213: -8562640884354986390
+    second: Mapa - Calabozo_1
+  - first:
+      213: -6650082061260947713
+    second: Mapa - Calabozo_2
+  - first:
+      213: 8738425075155882739
+    second: Mapa - Calabozo_3
+  - first:
+      213: -3815969439037132119
+    second: Mapa - Calabozo_4
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mapa - Calabozo_1
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 656
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ec8c48b736b2980800000000000000
+      internalID: -8562640884354986390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_2
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 656
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffef753599926b3a0800000000000000
+      internalID: -6650082061260947713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_3
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 656
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f25805ce4f154970800000000000000
+      internalID: 8738425075155882739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_4
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 656
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2f1785304fa0bc0800000000000000
+      internalID: -3815969439037132119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_12
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 584
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca358ef99897694a990145e74abb97e
+      internalID: -247466573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_14
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 584
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdf503292390e84e800b42ba5e8914b
+      internalID: -1335944232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_15
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 584
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e379c4a70960f794987cb8470dd6c612
+      internalID: -1388699109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_16
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 584
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7b70fe41956f0428982c5577269f56
+      internalID: -114781023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_17
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 584
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45d1da19a928bf4f84d3149f78b4afc
+      internalID: -804315751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d296cdc1a343fbb4da05e4d80856c46f
+      internalID: 595568306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_20
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e479e58f7577e84bb1f0a401162b3fe
+      internalID: -1863996202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47afa571facc674fb128ef06ad7dc01
+      internalID: 333932899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_22
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36ac3fef6030fc4a883cbb0e97453d5
+      internalID: -313559312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_24
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d61f248abffa2645a7e6791b6c0816f
+      internalID: 885043226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_25
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49a58ce818c7ff40b54ef530cf2db33
+      internalID: 429541219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_26
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1176045f96565164380b610394f45c3c
+      internalID: -1280302286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_27
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beee34fbaf82afe4785923da2cad0657
+      internalID: 2145750620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_28
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e093c0531b0348440976c7d5b507a318
+      internalID: -671755500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_29
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cacabac0c7a206489159ae7196efcd4
+      internalID: -590789866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_30
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c082ca4788a9ce4ebe67e5be8272333
+      internalID: 660399806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_31
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 512
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c675b46de2cc048971202633535493
+      internalID: 430091569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_33
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 440
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8ae4bcdedef61408bb5328173e253c
+      internalID: -729462060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_34
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 440
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b67b7e852add0458a6d6b5920e07a5
+      internalID: -1453770546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_35
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 440
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28960a4a5e7a4444ca8ed87b05985681
+      internalID: -1745524477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_36
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 440
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450d6e7036588d1488d7ad99cbf5df47
+      internalID: 821532011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_37
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 440
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3954a5122dea449bbca36474f52a67
+      internalID: -1447291095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_38
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 440
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a528b68ccffbfe4fabe85029120711c
+      internalID: -1970601587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_39
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 440
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73501e6cf3658f42a40f694f3a5001a
+      internalID: 516752635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_40
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 440
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb464e9049d73741b6596423e37afbd
+      internalID: -1302780668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_41
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 440
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96369ed1d66c7754caeb89dba9f52da4
+      internalID: 764002302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_42
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 440
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2146350ed5b0afe4c9ba581ae489ff01
+      internalID: 1771397797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_43
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 440
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cea450849b1f9444be3090e5a19249c
+      internalID: 557751551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_50
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 368
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2885a3886b1e9824fac20193bfe0c37d
+      internalID: -1683585780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_51
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 368
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ff41f7c8586dd44a990ae7c83da3b4
+      internalID: -1580034700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_52
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 368
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c521d0afabcdfbd4f999fc72785a595f
+      internalID: -1611411830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_53
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 368
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc468de59a2d814592b99b1e44e1503
+      internalID: -397215167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_54
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 368
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8d795892467d6488b76e340c99e586
+      internalID: 1071403387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_55
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 368
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f51bb173530f8d4b815ccc850e91cf6
+      internalID: -1722499468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_56
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 368
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e74841c03e0cd44b617f397f992d1a
+      internalID: 1452994138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_59
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 296
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d0ae1ffadf81f4293f5ce5c64a5c42
+      internalID: 1808510142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_60
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 296
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b790be897974d34ba046351f10d0046
+      internalID: -1356152008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_61
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 296
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a88c27c3f29b24982c452086044bd8
+      internalID: 652412784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_62
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 296
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd21cfcbf235f74d8f3a6ff76650dbb
+      internalID: 739665774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_63
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 296
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83143004b6edb4a44977a8c212b25fcc
+      internalID: -2121670010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_64
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 296
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fd2b86529527842ac6ce1b8ef6f371
+      internalID: 1815362233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_65
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 296
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3cf278427ef20439787a6b73551e28
+      internalID: 1916884445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_68
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 224
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9246986c7e84b9e4b826a0203c860b2f
+      internalID: 599164174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_72
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 224
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9373711e5f699145a9c10cbf226d19f
+      internalID: 480116329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_73
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 224
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576d25ed27a173445820146debdc0ce0
+      internalID: -2212348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_74
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 224
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6467b8e89137fd4381649b102d5e956
+      internalID: 1415425644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_77
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 152
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb9582dfc8af594182d57b3789f12e8
+      internalID: 1490809573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_78
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 152
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1be9a8564262547946f6fc972ad810
+      internalID: 866704593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_79
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 152
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e46bd3e64fd4442bf210e09590734d
+      internalID: -385495936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_80
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 152
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2de6844494db4d47883723b05f96147
+      internalID: -1685634868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_81
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 152
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f206da4146646e24b98b4b5f85614bc5
+      internalID: 1712450200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_85
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 80
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3589e5e776e029741969783ff4c971e0
+      internalID: -760937534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_86
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 80
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7551238386f48b047b022c165bd23802
+      internalID: 1408715749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_87
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 80
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76fb8ea16be76e43a42fa5e1998d273
+      internalID: -1375778155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_88
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 80
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc48a3ebdbcd8ea4a9af6224c2d81c5e
+      internalID: -1510166212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_89
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 80
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e244fceb0cdfb4dbf8cc30a613c288
+      internalID: 1664591413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_90
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 80
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8c5ce9febc37b40b12d65aa420cf13
+      internalID: -1804388147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_91
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 80
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f253c8ba040f6c478d61226c6d39a9f
+      internalID: 1118927339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_95
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 8
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d17e50cd76e8142b4f0fc03b1108b3
+      internalID: 1231145263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_96
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 8
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c4a5ac862f0734da79edcdba499549
+      internalID: 276181789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_97
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 8
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70cc6b162eaabd47bcbc9c9b121170a
+      internalID: -1522017008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_98
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 8
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a818d044a38c55144b668787e2cb2c75
+      internalID: 369070674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa - Calabozo_99
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 8
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba821683823e3b748810d02c99725d67
+      internalID: 1930065454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c7567341866975047b09df742a9c5d3a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mapa - Calabozo_0: -99525870437305596
+      Mapa - Calabozo_1: -8562640884354986390
+      Mapa - Calabozo_10: 1987197884
+      Mapa - Calabozo_100: 86844114
+      Mapa - Calabozo_11: -1366577438
+      Mapa - Calabozo_12: -247466573
+      Mapa - Calabozo_13: -1195887972
+      Mapa - Calabozo_14: -1335944232
+      Mapa - Calabozo_15: -1388699109
+      Mapa - Calabozo_16: -114781023
+      Mapa - Calabozo_17: -804315751
+      Mapa - Calabozo_18: 1943842364
+      Mapa - Calabozo_19: 595568306
+      Mapa - Calabozo_2: -6650082061260947713
+      Mapa - Calabozo_20: -1863996202
+      Mapa - Calabozo_21: 333932899
+      Mapa - Calabozo_22: -313559312
+      Mapa - Calabozo_23: 205770970
+      Mapa - Calabozo_24: 885043226
+      Mapa - Calabozo_25: 429541219
+      Mapa - Calabozo_26: -1280302286
+      Mapa - Calabozo_27: 2145750620
+      Mapa - Calabozo_28: -671755500
+      Mapa - Calabozo_29: -590789866
+      Mapa - Calabozo_3: 8738425075155882739
+      Mapa - Calabozo_30: 660399806
+      Mapa - Calabozo_31: 430091569
+      Mapa - Calabozo_32: 652101299
+      Mapa - Calabozo_33: -729462060
+      Mapa - Calabozo_34: -1453770546
+      Mapa - Calabozo_35: -1745524477
+      Mapa - Calabozo_36: 821532011
+      Mapa - Calabozo_37: -1447291095
+      Mapa - Calabozo_38: -1970601587
+      Mapa - Calabozo_39: 516752635
+      Mapa - Calabozo_4: -3815969439037132119
+      Mapa - Calabozo_40: -1302780668
+      Mapa - Calabozo_41: 764002302
+      Mapa - Calabozo_42: 1771397797
+      Mapa - Calabozo_43: 557751551
+      Mapa - Calabozo_44: 447457036
+      Mapa - Calabozo_45: -1764960287
+      Mapa - Calabozo_46: -41506376
+      Mapa - Calabozo_47: -399165221
+      Mapa - Calabozo_48: 845857813
+      Mapa - Calabozo_49: -1598852112
+      Mapa - Calabozo_5: 83337632
+      Mapa - Calabozo_50: -1683585780
+      Mapa - Calabozo_51: -1580034700
+      Mapa - Calabozo_52: -1611411830
+      Mapa - Calabozo_53: -397215167
+      Mapa - Calabozo_54: 1071403387
+      Mapa - Calabozo_55: -1722499468
+      Mapa - Calabozo_56: 1452994138
+      Mapa - Calabozo_57: -1418667012
+      Mapa - Calabozo_58: -1257754830
+      Mapa - Calabozo_59: 1808510142
+      Mapa - Calabozo_6: -1293678793
+      Mapa - Calabozo_60: -1356152008
+      Mapa - Calabozo_61: 652412784
+      Mapa - Calabozo_62: 739665774
+      Mapa - Calabozo_63: -2121670010
+      Mapa - Calabozo_64: 1815362233
+      Mapa - Calabozo_65: 1916884445
+      Mapa - Calabozo_66: 124590737
+      Mapa - Calabozo_67: 180696199
+      Mapa - Calabozo_68: 599164174
+      Mapa - Calabozo_69: 1813530197
+      Mapa - Calabozo_7: -1823063330
+      Mapa - Calabozo_70: -1619162798
+      Mapa - Calabozo_71: -1276153295
+      Mapa - Calabozo_72: 480116329
+      Mapa - Calabozo_73: -2212348
+      Mapa - Calabozo_74: 1415425644
+      Mapa - Calabozo_75: 2036985476
+      Mapa - Calabozo_76: -1700702105
+      Mapa - Calabozo_77: 1490809573
+      Mapa - Calabozo_78: 866704593
+      Mapa - Calabozo_79: -385495936
+      Mapa - Calabozo_8: -984946619
+      Mapa - Calabozo_80: -1685634868
+      Mapa - Calabozo_81: 1712450200
+      Mapa - Calabozo_82: 836987673
+      Mapa - Calabozo_83: 1917556250
+      Mapa - Calabozo_84: 503571081
+      Mapa - Calabozo_85: -760937534
+      Mapa - Calabozo_86: 1408715749
+      Mapa - Calabozo_87: -1375778155
+      Mapa - Calabozo_88: -1510166212
+      Mapa - Calabozo_89: 1664591413
+      Mapa - Calabozo_9: 154999840
+      Mapa - Calabozo_90: -1804388147
+      Mapa - Calabozo_91: 1118927339
+      Mapa - Calabozo_92: -4376275
+      Mapa - Calabozo_93: -1255269919
+      Mapa - Calabozo_94: 2063272087
+      Mapa - Calabozo_95: 1231145263
+      Mapa - Calabozo_96: 276181789
+      Mapa - Calabozo_97: -1522017008
+      Mapa - Calabozo_98: 369070674
+      Mapa - Calabozo_99: 1930065454
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

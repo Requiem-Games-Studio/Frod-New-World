@@ -10,6 +10,7 @@ public class SaveData
     public Vector2 playerPosition = new Vector3(-547, -48.4f, 0);
     public int health;
     public int collectables;
+    public List<Vector2Int> exploredChunks;
 
     // NUEVO: IDs de collectables ya tomados
     public List<string> takenCollectables = new List<string>();

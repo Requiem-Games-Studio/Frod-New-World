@@ -5,6 +5,7 @@ public class CheckPoint : MonoBehaviour
     bool saved;
 
     public SaveController saveController;
+    public GameObject particles;
 
     private void Start()
     {
@@ -21,8 +22,11 @@ public class CheckPoint : MonoBehaviour
                 {
                     saved = true;
                     saveController.SavePlayerData();
+                    Instantiate(particles,transform.position,Quaternion.identity);
+                    GameFeelManager.Instance.DoSlowMotion(0.2f, 0.6f);
                 }                
             }
+            collision.SendMessage("StartRegeneration");
         }
     }
 }
