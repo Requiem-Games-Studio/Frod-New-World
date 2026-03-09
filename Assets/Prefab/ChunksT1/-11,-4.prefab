@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newCameraBounds: {fileID: 7663966310283558571}
   transitionTime: 0.5
+  coord: {x: -11, y: -4}
 --- !u!61 &1666695715413073199
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10111,7 +10112,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8054048276539717010, guid: ad2b58b876af68040a98136e7d40acd1, type: 3}
       propertyPath: m_Mass
-      value: 0.3954945
+      value: 0.22123043
       objectReference: {fileID: 0}
     - target: {fileID: 8458651636755649141, guid: ad2b58b876af68040a98136e7d40acd1, type: 3}
       propertyPath: m_Name

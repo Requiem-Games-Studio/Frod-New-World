@@ -1918,6 +1918,7 @@ GameObject:
   - component: {fileID: 247838565}
   - component: {fileID: 247838567}
   - component: {fileID: 247838568}
+  - component: {fileID: 247838570}
   - component: {fileID: 247838569}
   m_Layer: 0
   m_Name: Manager
@@ -1982,6 +1983,7 @@ MonoBehaviour:
     collectables: 0
     exploredChunks: []
     takenCollectables: []
+  chunkManager: {fileID: 247838570}
 --- !u!82 &247838568
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2093,6 +2095,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volume: {fileID: 631698386}
   normalIntensity: 0
+--- !u!114 &247838570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247838564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c062613f076bade469238405b9715060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  calabozoMaps: {fileID: 1147262032}
 --- !u!1 &254888999
 GameObject:
   m_ObjectHideFlags: 0
@@ -2581,7 +2596,6 @@ GameObject:
   - component: {fileID: 324343049}
   - component: {fileID: 324343048}
   - component: {fileID: 324343051}
-  - component: {fileID: 324343052}
   m_Layer: 5
   m_Name: MapMenu
   m_TagString: Untagged
@@ -2665,73 +2679,11 @@ MonoBehaviour:
   yOffset: 0
   mapContainer: {fileID: 1045050583}
   playerIcon: {fileID: 236306018}
-  mapManager: {fileID: 324343052}
+  mapManager: {fileID: 247838570}
   worldMin: {x: -935, y: -492}
   worldMax: {x: 935, y: 492}
   percentX: 0
   percentY: 0
---- !u!114 &324343052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324343047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c062613f076bade469238405b9715060, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  map0:
-  - {fileID: 2135608790}
-  - {fileID: 602564396}
-  - {fileID: 816381715}
-  - {fileID: 36124406}
-  - {fileID: 724494917}
-  - {fileID: 1626241013}
-  - {fileID: 1759202501}
-  - {fileID: 1638469951}
-  - {fileID: 437920311}
-  - {fileID: 140516272}
-  - {fileID: 1307083365}
-  - {fileID: 281895091}
-  - {fileID: 1177196619}
-  - {fileID: 1726244133}
-  - {fileID: 687775959}
-  - {fileID: 599699948}
-  - {fileID: 534247213}
-  - {fileID: 1958173817}
-  - {fileID: 1429982738}
-  - {fileID: 504645675}
-  - {fileID: 226287356}
-  - {fileID: 851602921}
-  - {fileID: 778871050}
-  - {fileID: 1302055956}
-  - {fileID: 677575801}
-  - {fileID: 1512624981}
-  - {fileID: 1398151261}
-  - {fileID: 1926425032}
-  - {fileID: 798733429}
-  - {fileID: 566560324}
-  - {fileID: 716268165}
-  - {fileID: 2071251986}
-  - {fileID: 908529407}
-  - {fileID: 1431029401}
-  - {fileID: 129680860}
-  - {fileID: 596492915}
-  - {fileID: 1575476482}
-  - {fileID: 1797726338}
-  - {fileID: 194375902}
-  - {fileID: 1238820941}
-  - {fileID: 507840114}
-  - {fileID: 1057749821}
-  - {fileID: 1077958713}
-  - {fileID: 554617166}
-  - {fileID: 931319227}
-  - {fileID: 520886019}
-  - {fileID: 595086076}
-  - {fileID: 1637802125}
-  calabozoMaps: {fileID: 1147262032}
 --- !u!1 &358834203
 GameObject:
   m_ObjectHideFlags: 0
@@ -10043,7 +9995,6 @@ MonoBehaviour:
   loadRadius: 1
   xOffset: 7
   yOffset: 7
-  mapManager: {fileID: 324343052}
 --- !u!1 &1177196619
 GameObject:
   m_ObjectHideFlags: 0

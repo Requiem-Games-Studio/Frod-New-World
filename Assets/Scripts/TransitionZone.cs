@@ -1,5 +1,5 @@
 using UnityEngine;
-using System.Collections;
+using static System.TimeZoneInfo;
 
 public class TransitionZone : MonoBehaviour
 {
@@ -11,15 +11,27 @@ public class TransitionZone : MonoBehaviour
 
     private bool isTransitioning = false;
 
+    public Vector2Int coord;
+
+    private void Start()
+    {
+        string parentName = transform.parent.name;
+
+        string[] parts = parentName.Split(',');
+
+        if (parts.Length == 2 &&
+            int.TryParse(parts[0], out int x) &&
+            int.TryParse(parts[1], out int y))
+        {
+            coord = new Vector2Int(x, y);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && !isTransitioning)
+        if (other.CompareTag("Player"))
         {
-            CameraFollow camFollow = Camera.main.GetComponent<CameraFollow>();
-            if (camFollow != null && newCameraBounds != null)
-            {
-                StartCoroutine(ChangeBoundsSmooth(camFollow, newCameraBounds));
-            }
+            WorldMapManager.Instance.SaveChunkExplored(coord);
         }
     }
 

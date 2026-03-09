@@ -17,9 +17,6 @@ public class ChunkManagerByName : MonoBehaviour
 
     private Vector2Int currentPlayerChunk;
 
-    public WorldMapManager mapManager;
-    public HashSet<Vector2Int> exploredChunks = new HashSet<Vector2Int>();
-
     void Awake()
     {
         InitializeChunkMap();
@@ -133,18 +130,10 @@ public class ChunkManagerByName : MonoBehaviour
         GameObject chunkPrefab = chunkPrefabMap[chunkCoord];
 
         GameObject newChunk = Instantiate(chunkPrefab, chunkPosition, Quaternion.identity);
-        newChunk.name = $"Chunk_{chunkCoord.x}_{chunkCoord.y}";
+        newChunk.name = ""+chunkCoord;
 
         loadedChunks.Add(chunkCoord, newChunk);
 
-        // MARCAR COMO EXPLORADO
-        if (!exploredChunks.Contains(chunkCoord))
-        {
-            exploredChunks.Add(chunkCoord);
-
-            // aquí puedes avisar al minimapa
-            mapManager.RevealChunk(chunkCoord);
-        }
     }
 
     void UnloadChunk(Vector2Int chunkCoord)

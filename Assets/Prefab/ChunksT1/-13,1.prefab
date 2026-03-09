@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newCameraBounds: {fileID: 7066039355238956867}
   transitionTime: 1
+  coord: {x: 0, y: 0}
 --- !u!61 &9075810827840402131
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8570,6 +8571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newCameraBounds: {fileID: 4590309713525526936}
   transitionTime: 1
+  coord: {x: -13, y: 1}
 --- !u!61 &1902496150340271673
 BoxCollider2D:
   m_ObjectHideFlags: 0

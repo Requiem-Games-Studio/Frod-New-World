@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newCameraBounds: {fileID: 7066039355238956867}
   transitionTime: 1
+  coord: {x: -14, y: 1}
 --- !u!61 &72736803612051409
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3919,7 +3920,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 67
-      m_TileSpriteIndex: 57
+      m_TileSpriteIndex: 59
       m_TileMatrixIndex: 0
       m_TileColorIndex: 4
       m_TileObjectToInstantiateIndex: 65535
@@ -4828,12 +4829,12 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 3
     m_Data: {fileID: -583640132, guid: f9b5e457dc1edc0449764781091f2c4b, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 204182351, guid: f9b5e457dc1edc0449764781091f2c4b, type: 3}
-  - m_RefCount: 186
-    m_Data: {fileID: 232662914, guid: ff6d4948d3232764fbbf3e5f1922e1ea, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 186
+    m_Data: {fileID: 232662914, guid: ff6d4948d3232764fbbf3e5f1922e1ea, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 204182351, guid: f9b5e457dc1edc0449764781091f2c4b, type: 3}
   - m_RefCount: 29
     m_Data: {fileID: -732468000, guid: ff6d4948d3232764fbbf3e5f1922e1ea, type: 3}
   - m_RefCount: 62

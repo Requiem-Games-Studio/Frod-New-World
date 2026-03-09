@@ -94,6 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newCameraBounds: {fileID: 7066039355238956867}
   transitionTime: 1
+  coord: {x: -13, y: 0}
 --- !u!61 &72736803612051409
 BoxCollider2D:
   m_ObjectHideFlags: 0

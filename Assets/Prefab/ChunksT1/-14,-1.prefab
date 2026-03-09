@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newCameraBounds: {fileID: 7066039355238956867}
   transitionTime: 1
+  coord: {x: -14, y: -1}
 --- !u!61 &9075810827840402131
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7212,10 +7213,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5075691686952038095}
+  - {fileID: 3702736856404681660}
   - {fileID: 5848667183341928877}
   - {fileID: 7493592123213003486}
   - {fileID: 1643083843382529592}
-  - {fileID: 3702736856404681660}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4418476711934464193

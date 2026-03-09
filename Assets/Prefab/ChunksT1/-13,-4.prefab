@@ -7834,6 +7834,7 @@ MonoBehaviour:
   bossController: {fileID: 5403656365012950426}
   bossHealth: {fileID: 7617882113366446246}
   barrera: {fileID: 0}
+  music: {fileID: 0}
 --- !u!1 &4233129108531763440
 GameObject:
   m_ObjectHideFlags: 0
@@ -8383,6 +8384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newCameraBounds: {fileID: 1636537765939438801}
   transitionTime: 1
+  coord: {x: -13, y: -4}
 --- !u!61 &7061240584044261450
 BoxCollider2D:
   m_ObjectHideFlags: 0
