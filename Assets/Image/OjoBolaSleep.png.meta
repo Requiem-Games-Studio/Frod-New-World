@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: 008f7e2d3434cc14f85c5cb45b941b80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1264207479104883130
+    second: OjoBolaSleep_0
+  - first:
+      213: -6059828375580859133
+    second: OjoBolaSleep_1
+  - first:
+      213: -1107812127966700806
+    second: OjoBolaSleep_2
+  - first:
+      213: -1813291902230908292
+    second: OjoBolaSleep_3
+  - first:
+      213: 701922429208055917
+    second: OjoBolaSleep_4
+  - first:
+      213: -6811125955076687066
+    second: OjoBolaSleep_5
+  - first:
+      213: -414436096075905272
+    second: OjoBolaSleep_6
+  - first:
+      213: -4604314480633374246
+    second: OjoBolaSleep_7
+  - first:
+      213: 7758132465113490853
+    second: OjoBolaSleep_8
+  - first:
+      213: 2317608692055535120
+    second: OjoBolaSleep_9
+  - first:
+      213: 2151477035187068370
+    second: OjoBolaSleep_10
+  - first:
+      213: 1180418057374529704
+    second: OjoBolaSleep_11
+  - first:
+      213: 6576559383735113293
+    second: OjoBolaSleep_12
+  - first:
+      213: 416032307218734591
+    second: OjoBolaSleep_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OjoBolaSleep_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 212
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646bf8deef1a47ee0800000000000000
+      internalID: -1264207479104883130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 212
+        width: 84
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305aba1e23a27eba0800000000000000
+      internalID: -6059828375580859133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 212
+        width: 88
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afadca23db240a0f0800000000000000
+      internalID: -1107812127966700806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 212
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c723f654f94e5d6e0800000000000000
+      internalID: -1813291902230908292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 144
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6053dcfababdb900800000000000000
+      internalID: 701922429208055917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62bf53fd7050a71a0800000000000000
+      internalID: -6811125955076687066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 144
+        width: 84
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807cb4ff090af3af0800000000000000
+      internalID: -414436096075905272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 144
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad919a3ef503a10c0800000000000000
+      internalID: -4604314480633374246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 73
+        width: 77
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5e3876f5c6aab60800000000000000
+      internalID: 7758132465113490853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 74
+        width: 77
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ee35283dcc92020800000000000000
+      internalID: 2317608692055535120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 74
+        width: 77
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd5cb8e6f49bdd10800000000000000
+      internalID: 2151477035187068370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_11
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 75
+        width: 78
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8f34418ffa16010800000000000000
+      internalID: 1180418057374529704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 11
+        width: 77
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d461bc75ae1a44b50800000000000000
+      internalID: 6576559383735113293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 13
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffddbdedd2b06c500800000000000000
+      internalID: 416032307218734591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_14
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 15
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691c12332fbe97648a55661f48b401b2
+      internalID: -1288377536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OjoBolaSleep_15
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 13
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2b6ccfbbc1855408f8edd5cfcfdf71
+      internalID: -2072900201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 03eedbe724bff4346bf1ee090ee9d902
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OjoBolaSleep_0: -1264207479104883130
+      OjoBolaSleep_1: -6059828375580859133
+      OjoBolaSleep_10: 2151477035187068370
+      OjoBolaSleep_11: 1180418057374529704
+      OjoBolaSleep_12: 6576559383735113293
+      OjoBolaSleep_13: 416032307218734591
+      OjoBolaSleep_14: -1288377536
+      OjoBolaSleep_15: -2072900201
+      OjoBolaSleep_2: -1107812127966700806
+      OjoBolaSleep_3: -1813291902230908292
+      OjoBolaSleep_4: 701922429208055917
+      OjoBolaSleep_5: -6811125955076687066
+      OjoBolaSleep_6: -414436096075905272
+      OjoBolaSleep_7: -4604314480633374246
+      OjoBolaSleep_8: 7758132465113490853
+      OjoBolaSleep_9: 2317608692055535120
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

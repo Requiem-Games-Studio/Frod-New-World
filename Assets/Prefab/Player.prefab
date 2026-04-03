@@ -49,7 +49,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.6
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 9b33583db78b789cd91b63bc00000000c7a97d770de290a5
@@ -253,7 +253,7 @@ MonoBehaviour:
   particulaAgua: {fileID: 421487749826947341, guid: 33d868f32fde3e444a9583206beb7094, type: 3}
   currentSpeed: 8
   LegsSpeed: 6
-  downSpeed: 1
+  downSpeed: 2
   ballSpeed: 8
   jumpForce: 10
   bounceForce: 10

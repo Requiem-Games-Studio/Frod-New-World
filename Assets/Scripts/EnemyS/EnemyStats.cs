@@ -16,7 +16,7 @@ public class EnemyStats : MonoBehaviour
     public bool isStaggered = false;
 
     public Animator anim;
-    private bool isAlive = true;
+    public bool isAlive = true;
     public GameObject enemyBehavior;
 
     public Slider healthBar;
@@ -26,7 +26,7 @@ public class EnemyStats : MonoBehaviour
     private Coroutine delayedRoutine;
     public Slider postureBar;
     public GameObject canvas;
-    public GameObject iconAlert, iconStun, iconConfused;
+    public GameObject iconAlert, iconStun, iconConfused,red,black;
     public bool alert, stun, confused;
 
     public bool isBoss;
@@ -36,7 +36,6 @@ public class EnemyStats : MonoBehaviour
     public GameObject parryParticle,hitParticle,deadParticle;
 
     public FlashSprite flashSprite;
-
 
     void Start()
     {
@@ -106,13 +105,6 @@ public class EnemyStats : MonoBehaviour
         Instantiate(hitParticle, transform.position, transform.rotation);
         flashSprite.Flash();
     }
-
-    public void BreakObject(float postureDamage)
-    {
-        currentPosture -= postureDamage;
-        CheckPostureBreak();
-    }
-
     private void UpdateHealthBar()
     {
         if (healthBar != null)
@@ -146,6 +138,13 @@ public class EnemyStats : MonoBehaviour
     }
 
     // Reducir solo postura (por ejemplo, al recibir un parry)
+    public void BreakObject(float postureDamage)
+    {
+        currentPosture -= postureDamage;
+        UpdatePostureBar();
+        CheckPostureBreak();
+        StartCoroutine(RedBar());
+    }
     public void ReducePosture(float amount)
     {
         if (!isAlive || isStaggered) return;
@@ -153,6 +152,14 @@ public class EnemyStats : MonoBehaviour
         currentPosture -= amount;
         UpdatePostureBar();
         CheckPostureBreak();
+        StartCoroutine(RedBar());
+    }
+
+    System.Collections.IEnumerator RedBar()
+    {
+        red.SetActive(true);
+        yield return new WaitForSeconds(1);
+        red.SetActive(false);
     }
 
     // Recuperación de postura
@@ -224,12 +231,14 @@ public class EnemyStats : MonoBehaviour
     System.Collections.IEnumerator Stagger()
     {
         isStaggered = true;
+        black.SetActive(true);
         PlayTargetAnimation("Stagger",true);
         ActivateStatus(iconStun, 2f);
         Debug.Log("¡Enemigo tambaleado!");
         yield return new WaitForSeconds(postureBreakTime);
-        currentPosture = maxPosture * 0.6f;
+        currentPosture = maxPosture;
         isStaggered = false;
+        black.SetActive(false);
     }
 
     // Muerte

@@ -25,6 +25,16 @@ public class DamagePlayer : MonoBehaviour
                 controller.PogoJump();
             }
         }
+
+        if (collision.gameObject.CompareTag("WeakEnemy"))
+        {
+            WeakPoint weakPoint = collision.GetComponentInParent<WeakPoint>();
+
+            if (weakPoint != null)
+            {
+                weakPoint.Damage(damage, postureDamage);
+            }            
+        }
     }
 
     public void EnterDownAttack()

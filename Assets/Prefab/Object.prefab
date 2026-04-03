@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedc8ac4a5915d940af24e4855f650be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 65
   currentHealth: 0
   hitParticle: {fileID: 2894347033598683775, guid: 6a3af486affaefd45aadc23572c3a016, type: 3}
   deadParticle: {fileID: 2894347033598683775, guid: 71d430a5d01e80d4186d615482a997c0, type: 3}

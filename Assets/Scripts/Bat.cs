@@ -16,7 +16,9 @@ public class Bat : MonoBehaviour
     public float flapSpeed = 8f;
 
     [Header("References")]
-    public Transform player;
+    GameObject player;
+    Transform playerTransform;
+    PlayerController playerController;
     public Animator animator;
     public WeakEnemyStats enemyStats;
 
@@ -28,11 +30,19 @@ public class Bat : MonoBehaviour
     public float attackDistance = 1.5f;
     private bool isAttacking,dead;
 
+    public bool seePlayer;
+    float scale;
+
+    public RectTransform canvasTransform;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0f; // Que no caiga
-        player = GameObject.FindWithTag("Player").GetComponent<Transform>();
+        player = GameObject.FindWithTag("Player");
+        playerTransform = player.transform;
+        playerController = player.GetComponent<PlayerController>();
+        scale = transform.localScale.x;
     }
 
     void Update()
@@ -56,11 +66,14 @@ public class Bat : MonoBehaviour
 
     void DetectPlayer()
     {
+        if (seePlayer && playerController != null && (playerController.isHidden || playerController.isOccult))
+            return;
+
         Collider2D hit = Physics2D.OverlapCircle(new Vector3(transform.position.x,transform.position.y + yDistancte,0), detectionRadius, playerLayer);
 
         if (hit != null)
         {
-            player = hit.transform;
+            playerTransform = hit.transform;
             WakeUp();
         }
     }
@@ -82,11 +95,11 @@ public class Bat : MonoBehaviour
 
     void ChasePlayer()
     {
-        if (player == null || enemyStats.confused || dead) return;
+        if (playerTransform == null || enemyStats.confused || dead) return;
 
         FlipTowardsPlayer();
 
-        Vector2 direction = (player.position - transform.position).normalized;
+        Vector2 direction = (playerTransform.position - transform.position).normalized;
 
         // Movimiento base hacia el jugador
         Vector2 baseMovement = direction * moveSpeed;
@@ -102,7 +115,7 @@ public class Bat : MonoBehaviour
 
         rb.linearVelocity = baseMovement + chaoticMovement;
 
-        float distance = Vector2.Distance(transform.position, player.position);
+        float distance = Vector2.Distance(transform.position, playerTransform.position);
 
         // Activar ataque si está cerca
         if (distance <= attackDistance)
@@ -116,16 +129,29 @@ public class Bat : MonoBehaviour
 
         if (animator != null)
             animator.SetBool("isAttacking", isAttacking);
+
+        //if (seePlayer && playerController != null && (playerController.isHidden || playerController.isOccult))
+        //{
+        //    currentState = BatState.Sleeping;
+        //    rb.linearVelocity = Vector2.zero;
+        //    return;
+        //}
     }
 
     void FlipTowardsPlayer()
     {
         if (player == null) return;
 
-        if (player.position.x > transform.position.x)
-            transform.localScale = new Vector3(1, 1, 1);
+        if (playerTransform.position.x > transform.position.x)
+        {
+            transform.localScale = new Vector3(scale, scale, scale);
+            canvasTransform.localScale = new Vector3(-1, 1, 1);
+        }
         else
-            transform.localScale = new Vector3(-1, 1, 1);
+        {
+            transform.localScale = new Vector3(-scale, scale, scale);
+            canvasTransform.localScale = new Vector3(1, 1, 1);
+        }            
     }
 
     void OnDrawGizmosSelected()

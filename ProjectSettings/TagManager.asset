@@ -13,6 +13,7 @@ TagManager:
   - HidingPlace
   - AObject
   - BObject
+  - WeakEnemy
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Draggable
   - BackPlayer
   - FrontGround
-  - 
+  - BackGround
   - 
   - 
   - 

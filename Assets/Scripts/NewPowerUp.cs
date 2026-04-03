@@ -22,11 +22,11 @@ public class NewPowerUp : MonoBehaviour
         {
             if(tutorial != null)
             {
-                GameObject canvas = GameObject.FindGameObjectWithTag("Canvas");
-                Instantiate(canvas, tutorial.transform);                    
+                Canvas canvas = FindFirstObjectByType<Canvas>();
+                Instantiate(tutorial, canvas.transform, false);
             }
-            
-            
+
+
             WeaponInventory inventory = other.GetComponent<WeaponInventory>();
             if (inventory != null)
             {

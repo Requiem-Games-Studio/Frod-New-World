@@ -82,7 +82,7 @@ public class PlayerController : MonoBehaviour
 
         if (weaponAnim!=null && !stats.isStaggered)
         {
-            if (Input.GetMouseButtonDown(0)) // Click izquierdo
+            if (Input.GetMouseButtonDown(0) && !isInteracting) // Click izquierdo
             {
                 if (vertical > 0)
                 {
@@ -96,13 +96,14 @@ public class PlayerController : MonoBehaviour
                 else
                 {
                     weaponAnim.Play("Attack");
+                    //detectar si esta siendo presionado
                 }
 
                 if (!isInteracting && !isDown && isGrounded)
                 {
                     if (isBallForm)
                     {
-                        animator.Play("ActionB");
+                        animator.Play("PreAttackB");
                     }
                     else
                     {
@@ -110,6 +111,14 @@ public class PlayerController : MonoBehaviour
                         animator.Play("Attack");
                     }
                 }
+
+                weaponAnim.SetBool("isAttacking", true);
+                animator.SetBool("isAttacking", true);
+            }
+            if (Input.GetMouseButtonUp(0))
+            {
+                weaponAnim.SetBool("isAttacking", false);
+                animator.SetBool("isAttacking", false);
             }
 
             if (Input.GetMouseButtonDown(1))// Click derecho
@@ -251,7 +260,7 @@ public class PlayerController : MonoBehaviour
             animator.Play("StartDown");
             ChangeForm(Form.Worm);
         }
-        if (Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S))
+        if ((Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S)) && !isHidden)
         {
             gameObject.layer = LayerMask.NameToLayer("Player");
             animator.SetBool("Down", false);

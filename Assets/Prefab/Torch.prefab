@@ -372,8 +372,9 @@ MonoBehaviour:
   dragSpeed: 200
   dragGravity: 0
   spriteRenderer: {fileID: 4085961030883566812}
-  particles: {fileID: 2708980112926773132}
+  particles: {fileID: 3263757727097621802}
   audioSource: {fileID: 8035095853206195986}
+  mainMenu: 0
 --- !u!61 &5146780273781806524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5290,17 +5291,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8662514755408352908}
     m_Modifications:
+    - target: {fileID: 2601594451957838640, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
+      propertyPath: damage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601594451957838640, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
+      propertyPath: damToPlayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2693750075859428041, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
       propertyPath: m_Radius
-      value: 0.566768
+      value: 0.84
       objectReference: {fileID: 0}
     - target: {fileID: 2693750075859428041, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
       propertyPath: m_Offset.x
-      value: 0.15562412
+      value: 0.027166085
       objectReference: {fileID: 0}
     - target: {fileID: 2693750075859428041, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
       propertyPath: m_Offset.y
-      value: 0.4648699
+      value: 0.23478498
       objectReference: {fileID: 0}
     - target: {fileID: 3389287877816194030, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
       propertyPath: m_LocalScale.x
@@ -5364,7 +5373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4597917514905595011, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4597917514905595011, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
       propertyPath: 'm_ApplyToSortingLayers.Array.data[0]'
@@ -5378,13 +5387,17 @@ PrefabInstance:
       propertyPath: 'm_ApplyToSortingLayers.Array.data[2]'
       value: -1134355495
       objectReference: {fileID: 0}
+    - target: {fileID: 4597917514905595011, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
+      propertyPath: 'm_ApplyToSortingLayers.Array.data[3]'
+      value: 1029190555
+      objectReference: {fileID: 0}
     - target: {fileID: 9099886520638755884, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
       propertyPath: m_Name
       value: Fuego
       objectReference: {fileID: 0}
     - target: {fileID: 9099886520638755884, guid: f69663bc273bfbc4aabec07e79b1c286, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

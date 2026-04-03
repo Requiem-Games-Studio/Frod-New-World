@@ -21,7 +21,19 @@ public class BreakableObject : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            Debug.Log("Collision con enemigo");
             collision.gameObject.SendMessage("BreakObject", postureDamage);
+            BreakEvent();
+        }
+
+        if (collision.gameObject.CompareTag("WeakEnemy"))
+        {
+            WeakPoint weakPoint = collision.GetComponentInParent<WeakPoint>();
+
+            if (weakPoint != null)
+            {
+                weakPoint.BreakObject(postureDamage);
+            }           
             BreakEvent();
         }
     }

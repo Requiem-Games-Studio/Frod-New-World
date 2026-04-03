@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class BossController : MonoBehaviour
 {
@@ -36,6 +37,8 @@ public class BossController : MonoBehaviour
     public bool ground = false;
     public float margenX = 0.2f;
     public bool isFlying;
+
+    public BossActivator activator;
 
     private void Start()
     {
@@ -85,14 +88,14 @@ public class BossController : MonoBehaviour
 
                     if (distanceToPlayer < closeDistance)
                     {
-                        randomAnimation = Random.Range(0, closeAction.Length);
+                        randomAnimation = UnityEngine.Random.Range(0, closeAction.Length);
                         PlayTargetAnimation(closeAction[randomAnimation], true);
                         return;
                     }
 
 
                     //Ejecutar una de las animaciones asignadas desde el inspector
-                    randomAnimation = Random.Range(0, actionAnimations.Length);
+                    randomAnimation = UnityEngine.Random.Range(0, actionAnimations.Length);
                     PlayTargetAnimation(actionAnimations[randomAnimation], true);
                 }
             }
@@ -177,11 +180,15 @@ public class BossController : MonoBehaviour
 
     public void DieEvent()
     {
-        spriteRenderer.sortingLayerName = "Front";
-        anim.SetBool("Diying",true);
-        active = false;
-        chase = false;
-        PlayTargetAnimation ("Die",true);
+        if (active)
+        {
+            spriteRenderer.sortingLayerName = "Front";
+            anim.SetBool("Diying", true);
+            activator.Desactivate();
+            active = false;
+            chase = false;
+            PlayTargetAnimation("Die", true);
+        }
     }
 
     //Funcion para ejecutar animacion

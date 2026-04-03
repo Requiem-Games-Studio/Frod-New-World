@@ -98,7 +98,7 @@ EdgeCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: fddc034aaf3a93e43b1b1dd263bfcf8c, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -126,13 +126,13 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.28655225, y: 0.28054625}
-  - {x: -0.24499959, y: 0.25576234}
+  - {x: -0.25370854, y: 0.25431082}
   - {x: -0.24482739, y: -0.24419916}
   - {x: -0.16115554, y: -0.3008054}
   - {x: 0.1619746, y: -0.3015491}
   - {x: 0.21954568, y: -0.27049944}
-  - {x: 0.22105001, y: 0.26886722}
-  - {x: 0.26366284, y: 0.2905643}
+  - {x: 0.2399193, y: 0.26451272}
+  - {x: 0.26366284, y: 0.2920158}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0

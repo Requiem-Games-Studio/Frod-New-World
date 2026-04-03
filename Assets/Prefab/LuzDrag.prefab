@@ -5116,8 +5116,9 @@ MonoBehaviour:
   dragSpeed: 15
   dragGravity: 0
   spriteRenderer: {fileID: 2932086169161880382}
-  particles: {fileID: 5093382334867014135}
+  particles: {fileID: 1782592813239783115}
   audioSource: {fileID: 8867833330290459530}
+  mainMenu: 0
 --- !u!114 &3230370311325008621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5149,10 +5150,10 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.90711176, b: 0.3962264, a: 1}
-  m_Intensity: 1.64
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: d91b63bc00000000c7a97d77
+  m_ApplyToSortingLayers: d91b63bc00000000c7a97d779b33583d
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -5173,7 +5174,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 2.97
+  m_PointLightOuterRadius: 6
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1

@@ -13,7 +13,7 @@ public class DragObject : MonoBehaviour
 
     [Header("References")]
     [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private ParticleSystem particles;
+    [SerializeField] private GameObject particles;
     [SerializeField] private AudioSource audioSource;
 
     private Color originalColor;
@@ -36,7 +36,7 @@ public class DragObject : MonoBehaviour
         originalColor = spriteRenderer.color;
 
         if (particles)
-            particles.Stop();
+            particles.SetActive(true);
     }
 
     private void Update()
@@ -76,7 +76,7 @@ public class DragObject : MonoBehaviour
         spriteRenderer.color = Color.magenta;
         audioSource.Play();
         if (particles)
-            particles.Play();
+            particles.SetActive(false);
 
         // Plano perpendicular a la cámara que pasa por el objeto
         dragPlane = new Plane(-cam.transform.forward, transform.position);
@@ -107,6 +107,6 @@ public class DragObject : MonoBehaviour
         spriteRenderer.color = originalColor;
         audioSource.Pause();
         if (particles)
-            particles.Stop();
+            particles.SetActive (false);
     }
 }

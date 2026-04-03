@@ -25,6 +25,7 @@ public class BossGuardian : MonoBehaviour
     public SpriteRenderer spriteRenderer;
 
     public bool rightView;
+    public RectTransform canvasTransform;
     public string startCombatAnim;
     public string[] closeAction;
     public float closeDistance = 2.5f;
@@ -101,7 +102,7 @@ public class BossGuardian : MonoBehaviour
                     }
                     else
                     {
-                        if (distanceToPlayer < closeDistance)
+                        if (distanceToPlayer <= closeDistance)
                         {
                             randomAnimation = Random.Range(0, closeAction.Length);
                             PlayTargetAnimation(closeAction[randomAnimation], true);
@@ -121,11 +122,13 @@ public class BossGuardian : MonoBehaviour
                 if (player.transform.position.x > transform.position.x)
                 {
                     transform.localScale = new Vector3(-startScale, startScale, 1);  // Mira a la derecha
+                    canvasTransform.localScale = new Vector3(-1, 1, 1);
                     rightView = false;
                 }
                 if (player.transform.position.x < transform.position.x)
                 {
                     transform.localScale = new Vector3(startScale, startScale, 1); // Mira a la izquierda
+                    canvasTransform.localScale = new Vector3(1, 1, 1);
                     rightView = true;
                 }
             }
