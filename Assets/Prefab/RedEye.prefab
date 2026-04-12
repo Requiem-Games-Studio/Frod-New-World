@@ -767,6 +767,7 @@ MonoBehaviour:
   enemyStats: {fileID: 183813082966824272}
   attackDistance: 1.5
   seePlayer: 1
+  canvasTransform: {fileID: 7476405354615440831}
 --- !u!50 &1726298559316999729
 Rigidbody2D:
   serializedVersion: 5

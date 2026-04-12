@@ -10,14 +10,18 @@ public class Mouth : MonoBehaviour
     [Header("Configuración")]
     public float pullSpeed = 2f;
     public float eatDistance = 0.1f;
+    public float dropDistance;
 
     private Transform grabbedTarget;
     bool eatingPlayer, eatingEnemy, eatingObj;
-    GameObject player,enemy,Obj;
+    GameObject player,enemy,obj;
     private Rigidbody2D grabbedRb;
     float grabbedGravity;
-    private MonoBehaviour playerController; // para desactivar control
+    private PlayerController playerController; // para desactivar control
     public int damage, postureDamage;
+
+    public Animator anim,tongueAnim;
+    
 
 
     void Start()
@@ -51,10 +55,25 @@ public class Mouth : MonoBehaviour
             player = other.gameObject;
             GrabTarget(other);
         }
+
+        if (other.CompareTag("Object"))
+        {
+            eatingObj = true;
+            obj = other.gameObject;
+            GrabTarget(other);
+        }
+        if (other.CompareTag("Enemy"))
+        {
+            eatingEnemy= true;
+            enemy = other.gameObject;
+            GrabTarget(other);
+        }
     }
 
     void GrabTarget(Collider2D target)
     {
+        anim.SetBool("eating", true);
+        tongueAnim.Play("Suck");
         grabbedTarget = target.transform;
         grabbedRb = target.GetComponent<Rigidbody2D>();
         grabbedGravity = grabbedRb.gravityScale;
@@ -65,12 +84,15 @@ public class Mouth : MonoBehaviour
             grabbedRb.gravityScale = 0f;
         }
 
-        // Desactivar control del jugador (si existe)
-        playerController = target.GetComponent<MonoBehaviour>();
-        if (playerController != null)
+        if (player != null && eatingPlayer)
         {
-            playerController.enabled = false;
-        }
+            // Desactivar control del jugador (si existe)
+            playerController = target.GetComponent<PlayerController>();
+            if (playerController != null)
+            {
+                playerController.WrappedPlayer();
+            }
+        }         
     }
 
     void PullTarget()
@@ -87,19 +109,39 @@ public class Mouth : MonoBehaviour
         {
             EatTarget();
         }
+
+        if (distance >= dropDistance)
+        {
+            Debug.Log("Drop");
+            ReleaseTarget();
+        }
     }
 
     void EatTarget()
     {
+        Debug.Log("EatTArget");
         if (player != null && eatingPlayer)
         {
+            playerController.walk = true;
             PlayerStats stats = player.GetComponent<PlayerStats>();
             if (stats != null)
             {
                 stats.Damage(damage, postureDamage, this.gameObject);
             }
+            eatingPlayer = false;
+        }
+        if (obj != null && eatingObj)
+        {
+            obj.SendMessage("Damage", damage);
+            eatingObj = false;
+        }
+        if (enemy != null && eatingEnemy)
+        {
+            enemy.SendMessage("Damage", damage);
+            eatingEnemy = false;
         }
 
+        anim.SetBool("eating", false);
 
         ReleaseTarget();
         grabbedTarget = null;

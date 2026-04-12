@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
     private float coyoteTimeCounter;
 
     //Forms
-    bool walk = true;
+    public bool walk = true;
     private bool isBall = true;
     private enum Form { Normal, Balloon, Ball,Worm }
     private Form currentForm = Form.Ball;
@@ -72,6 +72,7 @@ public class PlayerController : MonoBehaviour
         isBallForm = animator.GetBool("isBallForm");
         isDown = animator.GetBool("Down");
         animator.SetBool("isJumping", isJumping);
+        animator.SetBool("Walk", walk);
 
         float vertical = Input.GetAxisRaw("Vertical");
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -148,7 +149,7 @@ public class PlayerController : MonoBehaviour
       
 
         // **Rotar sprite según dirección**
-        if (horizontal != 0)
+        if (horizontal != 0 && walk)
         {
             spriteRenderer.flipX = horizontal < 0;
 
@@ -260,7 +261,7 @@ public class PlayerController : MonoBehaviour
             animator.Play("StartDown");
             ChangeForm(Form.Worm);
         }
-        if ((Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S)) && !isHidden)
+        if ((Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S)))
         {
             gameObject.layer = LayerMask.NameToLayer("Player");
             animator.SetBool("Down", false);
@@ -430,6 +431,12 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(time); // ⏳ medio segundo (ajusta si quieres)
         walk = true;
+    }
+
+    public void WrappedPlayer()
+    {
+        walk = false;
+        PlayTargetAnimation("wrapped", true);
     }
 
     private void FixedUpdate()

@@ -102,8 +102,8 @@ public class WeaponInventory : MonoBehaviour
 
             BlockCursor();
 
-
-            equippedWeapons[index].SetActive(true);
+            equippedWeapons[index].transform.position = weaponPivot.transform.position;
+            equippedWeapons[index].SetActive(true);            
             var Weapon = equippedWeapons[index].GetComponent<Weapon>();
             uiImage.sprite = Weapon.icon;
             noSlot.text = (index+2).ToString() ;

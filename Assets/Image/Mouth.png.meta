@@ -151,7 +151,7 @@ TextureImporter:
         width: 98
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -173,7 +173,7 @@ TextureImporter:
         width: 102
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -195,7 +195,7 @@ TextureImporter:
         width: 98
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -217,7 +217,7 @@ TextureImporter:
         width: 84
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -239,7 +239,7 @@ TextureImporter:
         width: 84
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -261,7 +261,7 @@ TextureImporter:
         width: 84
         height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -283,7 +283,7 @@ TextureImporter:
         width: 92
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -305,7 +305,7 @@ TextureImporter:
         width: 76
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -327,7 +327,7 @@ TextureImporter:
         width: 76
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -348,8 +348,8 @@ TextureImporter:
         y: 9
         width: 25
         height: 319
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4468487, y: 0.97993714}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -366,12 +366,12 @@ TextureImporter:
       name: Mouth_10
       rect:
         serializedVersion: 2
-        x: 78
-        y: 8
+        x: 108
+        y: 9
         width: 27
         height: 286
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4671501, y: 0.98224497}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -388,12 +388,12 @@ TextureImporter:
       name: Mouth_11
       rect:
         serializedVersion: 2
-        x: 129
-        y: 9
+        x: 198
+        y: 10
         width: 25
         height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5000006, y: 0.971466}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -410,12 +410,12 @@ TextureImporter:
       name: Mouth_12
       rect:
         serializedVersion: 2
-        x: 174
-        y: 8
+        x: 285
+        y: 9
         width: 25
         height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.52661073, y: 0.9320105}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -432,12 +432,12 @@ TextureImporter:
       name: Mouth_13
       rect:
         serializedVersion: 2
-        x: 213
-        y: 9
+        x: 364
+        y: 11
         width: 25
         height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5000006, y: 0.8654599}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,6 +446,160 @@ TextureImporter:
       bones: []
       spriteID: 39ee800dde1406347827d5f2672b0b2f
       internalID: 997926439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouth_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 415
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deffbc4387eabc84d88f07b08edb84aa
+      internalID: 848945816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouth_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 26
+        width: 47
+        height: 286
+      alignment: 9
+      pivot: {x: 0.53302586, y: 0.97991914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402bda4a39cb22e4391af627ef9e9284
+      internalID: -1155244618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouth_16
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 20
+        width: 47
+        height: 287
+      alignment: 9
+      pivot: {x: 0.47641185, y: 0.97052073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e79aa1a12af7494489d5964a325ec6f
+      internalID: -1963903090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouth_17
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 9
+        width: 29
+        height: 304
+      alignment: 9
+      pivot: {x: 0.49088156, y: 0.97797847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af591fec6214c244d87b09b3e492bc08
+      internalID: 705901499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouth_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 10
+        width: 25
+        height: 253
+      alignment: 9
+      pivot: {x: 0.4788446, y: 0.96563035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18179b957628c3b44a830490467368c7
+      internalID: -567936662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouth_19
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 9
+        width: 27
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9612006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0061d09fcea52aa4087e325fb7bbe753
+      internalID: 394835255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouth_20
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 9
+        width: 26
+        height: 89
+      alignment: 9
+      pivot: {x: 0.52542585, y: 0.91893184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7c8ae4f0d62494b9bd2bad92c90db0
+      internalID: -1278185498
       vertices: []
       indices: 
       edges: []
@@ -470,7 +624,14 @@ TextureImporter:
       Mouth_11: -1022008843
       Mouth_12: -1613487473
       Mouth_13: 997926439
+      Mouth_14: 848945816
+      Mouth_15: -1155244618
+      Mouth_16: -1963903090
+      Mouth_17: 705901499
+      Mouth_18: -567936662
+      Mouth_19: 394835255
       Mouth_2: 5312185413237325137
+      Mouth_20: -1278185498
       Mouth_3: -4519287248795254462
       Mouth_4: 6345552600209510514
       Mouth_5: 5786952065901537605

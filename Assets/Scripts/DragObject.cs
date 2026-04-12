@@ -36,7 +36,7 @@ public class DragObject : MonoBehaviour
         originalColor = spriteRenderer.color;
 
         if (particles)
-            particles.SetActive(true);
+            particles.SetActive(false);
     }
 
     private void Update()
