@@ -12,8 +12,8 @@ public class Mouth : MonoBehaviour
     public float eatDistance = 0.1f;
     public float dropDistance;
 
-    private Transform grabbedTarget;
-    bool eatingPlayer, eatingEnemy, eatingObj;
+    public Transform grabbedTarget;
+    public bool eatingPlayer, eatingEnemy, eatingObj;
     GameObject player,enemy,obj;
     private Rigidbody2D grabbedRb;
     float grabbedGravity;
@@ -92,7 +92,12 @@ public class Mouth : MonoBehaviour
             {
                 playerController.WrappedPlayer();
             }
-        }         
+        } 
+        
+        if(obj != null && eatingObj)
+        {
+
+        }
     }
 
     void PullTarget()
@@ -141,8 +146,6 @@ public class Mouth : MonoBehaviour
             eatingEnemy = false;
         }
 
-        anim.SetBool("eating", false);
-
         ReleaseTarget();
         grabbedTarget = null;
         grabbedRb = null;
@@ -150,6 +153,7 @@ public class Mouth : MonoBehaviour
 
     public void ReleaseTarget()
     {
+        anim.SetBool("eating", false);
         if (grabbedTarget == null) return;       
         
         if (grabbedRb != null)

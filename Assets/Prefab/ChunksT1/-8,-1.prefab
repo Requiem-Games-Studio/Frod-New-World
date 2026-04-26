@@ -612,8 +612,8 @@ BoxCollider2D:
   m_Offset: {x: -0.03430742, y: 0.005424738}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.4492903, y: 0.94328755}
-    oldSize: {x: 1.74, y: 4.18}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.42, y: 3.41}
     newSize: {x: 0.65, y: 1.59}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8128,7 +8128,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.57, y: 2.56}
+    oldSize: {x: 3.59, y: 2.57}
     newSize: {x: 1.78, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8463,19 +8463,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 690898259323912942, guid: 1266dd575418630469644c4c73ce110e, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.0039673015
+      value: 0.0039675464
       objectReference: {fileID: 0}
     - target: {fileID: 690898259323912942, guid: 1266dd575418630469644c4c73ce110e, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.9477806
+      value: -0.94778043
       objectReference: {fileID: 0}
     - target: {fileID: 3266749071687593164, guid: 1266dd575418630469644c4c73ce110e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.25
+      value: -11.13
       objectReference: {fileID: 0}
     - target: {fileID: 3266749071687593164, guid: 1266dd575418630469644c4c73ce110e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.59
+      value: 6.65
       objectReference: {fileID: 0}
     - target: {fileID: 3266749071687593164, guid: 1266dd575418630469644c4c73ce110e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8523,11 +8523,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7688884293461075712, guid: 1266dd575418630469644c4c73ce110e, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.0039673015
+      value: 0.0039675464
       objectReference: {fileID: 0}
     - target: {fileID: 7688884293461075712, guid: 1266dd575418630469644c4c73ce110e, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.5517806
+      value: -0.55178094
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

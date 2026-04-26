@@ -14,6 +14,13 @@ public class GeneradorElectrico : MonoBehaviour
         {
             TriggerAction();
         }
+        else
+        {
+            if (!active)
+            {
+                lightObject.SetActive(false);
+            }
+        }
     }
 
     public void TriggerAction()

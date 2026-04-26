@@ -259,6 +259,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1ecoYDecoracion_6"
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 2370
+        width: 150
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dadcaa2ccc99a4ba76375d47b56737
+      internalID: -1903939882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1ecoYDecoracion_7"
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 2370
+        width: 262
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0c56b2e6e30ed4fa6da983f21d5ab1
+      internalID: -1233577181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -279,6 +323,8 @@ TextureImporter:
       "Mu\xF1ecoYDecoracion_3": 8145700749569054261
       "Mu\xF1ecoYDecoracion_4": -5897739391407767901
       "Mu\xF1ecoYDecoracion_5": 4476454188841194671
+      "Mu\xF1ecoYDecoracion_6": -1903939882
+      "Mu\xF1ecoYDecoracion_7": -1233577181
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8365,6 +8365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9080080020567961774, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8897,6 +8901,58 @@ PrefabInstance:
     - target: {fileID: 7112264499538527374, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
       propertyPath: m_Name
       value: Torre
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_LightType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_LocalBounds.m_Center.x
+      value: 1.054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_LocalBounds.m_Center.y
+      value: 0.28544998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.x
+      value: 2.5767999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.y
+      value: 1.74125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_ShapePath.Array.data[0].x
+      value: -1.0273215
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_ShapePath.Array.data[0].y
+      value: -0.942573
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_ShapePath.Array.data[1].x
+      value: 3.1271896
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_ShapePath.Array.data[1].y
+      value: -0.95669776
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_ShapePath.Array.data[2].x
+      value: 3.1318982
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_ShapePath.Array.data[2].y
+      value: 1.4698942
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_ShapePath.Array.data[3].x
+      value: -1.022613
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463491639621667088, guid: 9a49b3949b8c2f740a6852c32743c58e, type: 3}
+      propertyPath: m_ShapePath.Array.data[3].y
+      value: 1.526393
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

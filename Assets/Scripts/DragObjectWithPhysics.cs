@@ -20,7 +20,7 @@ public class DragObjectWithPhysics : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isDragging;
-    private bool canDrag;
+    public bool canDrag;
     public bool mainMenu = false;
 
     private Color originalColor;
@@ -130,7 +130,8 @@ public class DragObjectWithPhysics : MonoBehaviour
         );
     }
 
-    private void StopDrag()
+
+    public void StopDrag()
     {
         if (!isDragging) return;
 

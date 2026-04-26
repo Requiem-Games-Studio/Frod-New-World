@@ -183,8 +183,12 @@ MonoBehaviour:
   tongueTrigger: {fileID: 6563725520008974710}
   lineRenderer: {fileID: 1932378933778873785}
   pullSpeed: 1.3
-  eatDistance: 0.2
-  dropDistance: 7
+  eatDistance: 0.5
+  dropDistance: 10
+  grabbedTarget: {fileID: 0}
+  eatingPlayer: 0
+  eatingEnemy: 0
+  eatingObj: 0
   damage: 65
   postureDamage: 6
   anim: {fileID: 330530716014098020}
