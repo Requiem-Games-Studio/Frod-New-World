@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8340081863345012908}
   m_Layer: 3
   m_Name: RockDrag
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -279,6 +279,7 @@ MonoBehaviour:
   draggableMask:
     serializedVersion: 2
     m_Bits: 1032
+  outline: {fileID: 1793210909430636312}
   dragSpeed: 15
   dragGravity: 0
   spriteRenderer: {fileID: 159118378013020575}
@@ -5339,7 +5340,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0009509921, y: 0.6683942}
+  m_Offset: {x: -0.033225536, y: 0.65262103}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5349,5 +5350,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.6466842, y: 0.19745469}
+  m_Size: {x: 2.0630765, y: 0.11333138}
   m_EdgeRadius: 0

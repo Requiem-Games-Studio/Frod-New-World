@@ -5,6 +5,8 @@ public class DragObjectWithPhysics : MonoBehaviour
     [Header("Layers")]
     [SerializeField] private LayerMask draggableMask;
 
+    public GameObject outline;
+
     [Header("Drag Settings")]
     [SerializeField] private float dragSpeed = 15f;
     [SerializeField] private float dragGravity = 0f;
@@ -34,6 +36,7 @@ public class DragObjectWithPhysics : MonoBehaviour
     {
         cam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
+        canDrag = true;
 
         if (!spriteRenderer)
             spriteRenderer = GetComponent<SpriteRenderer>();
@@ -128,6 +131,18 @@ public class DragObjectWithPhysics : MonoBehaviour
         rb.MovePosition(
             Vector2.Lerp(rb.position, targetPos, dragSpeed * Time.fixedDeltaTime)
         );
+    }
+
+    public void CanDragging()
+    {
+        canDrag = true;
+        outline.SetActive(true);
+    }
+
+    public void CanNotDragging()
+    {
+        canDrag = false;
+        outline.SetActive(false);
     }
 
 

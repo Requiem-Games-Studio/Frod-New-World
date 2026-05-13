@@ -1,10 +1,9 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class AboveObject : MonoBehaviour
+public class AboveObject2 : MonoBehaviour
 {
-    public DragObjectWithPhysics dragObject;
-    bool playerB,objectB,enemyB;
+    public DragObject2 dragObject;
+    bool playerB, objectB, enemyB;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -56,7 +55,7 @@ public class AboveObject : MonoBehaviour
 
     public void CheckStatus()
     {
-        if(!playerB && !objectB && !enemyB)
+        if (!playerB && !objectB && !enemyB)
         {
             dragObject.CanDragging();
         }

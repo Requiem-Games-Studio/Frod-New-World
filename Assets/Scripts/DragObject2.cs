@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class DragObject2 : MonoBehaviour
 {            
@@ -21,10 +22,12 @@ public class DragObject2 : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isDragging;
-    private bool canDrag;
+    public bool canDrag;
 
     private Color originalColor;
     private float originalGravity;
+
+    public GameObject outline;
 
     // ===============================
     // UNITY
@@ -34,6 +37,7 @@ public class DragObject2 : MonoBehaviour
     {
         cam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
+        canDrag = true;
 
         if (!spriteRenderer)
             spriteRenderer = GetComponent<SpriteRenderer>();
@@ -50,7 +54,7 @@ public class DragObject2 : MonoBehaviour
 
     private void Update()
     {
-        if (!SaveManager.Instance.currentData.takenCollectables.Contains("Hand"))
+        if (!SaveManager.Instance.currentData.takenCollectables.Contains("Hand") || !canDrag)
             return;
 
         if (Input.GetMouseButtonDown(0))
@@ -119,7 +123,7 @@ public class DragObject2 : MonoBehaviour
         );
     }
 
-    private void StopDrag()
+    public void StopDrag()
     {
         if (!isDragging) return;
 
@@ -132,5 +136,17 @@ public class DragObject2 : MonoBehaviour
         spriteRenderer.color = originalColor;
         if (audioSource) audioSource.Pause();
         if (particles) particles.Stop();
+    }
+
+    public void CanDragging()
+    {
+        canDrag = true;
+        outline.SetActive(true);
+    }
+
+    public void CanNotDragging()
+    {
+        canDrag = false;
+        outline.SetActive(false);
     }
 }
