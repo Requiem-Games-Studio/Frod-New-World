@@ -68,6 +68,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+
         isInteracting = animator.GetBool("isInteracting");
         isBallForm = animator.GetBool("isBallForm");
         isDown = animator.GetBool("Down");
