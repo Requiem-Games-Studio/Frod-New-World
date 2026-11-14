@@ -25,8 +25,6 @@ public class Torch : MonoBehaviour
 
     public void OnWater()
     {
-        if (!isBurning) return;
-
         isBurning = false;
 
         burnParticles.SetActive(false);

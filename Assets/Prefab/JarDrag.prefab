@@ -281,6 +281,7 @@ MonoBehaviour:
   draggableMask:
     serializedVersion: 2
     m_Bits: 1032
+  outline: {fileID: 7907505380537260606}
   dragSpeed: 400
   dragGravity: 0
   spriteRenderer: {fileID: 150135368547316263}
