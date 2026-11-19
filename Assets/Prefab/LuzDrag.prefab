@@ -4849,6 +4849,8 @@ GameObject:
   - component: {fileID: 7416909357994186815}
   - component: {fileID: 3230370311325008621}
   - component: {fileID: 2542514284688733124}
+  - component: {fileID: 5366917301566814698}
+  - component: {fileID: 6778204176792440749}
   m_Layer: 3
   m_Name: LuzDrag
   m_TagString: Object
@@ -5114,6 +5116,7 @@ MonoBehaviour:
   draggableMask:
     serializedVersion: 2
     m_Bits: 1032
+  outline: {fileID: 7815696524719336235}
   dragSpeed: 15
   dragGravity: 0
   spriteRenderer: {fileID: 2932086169161880382}
@@ -5187,6 +5190,38 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &5366917301566814698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2452424799867433022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dedc8ac4a5915d940af24e4855f650be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  currentHealth: 0
+  hitParticle: {fileID: 2894347033598683775, guid: 6a3af486affaefd45aadc23572c3a016, type: 3}
+  deadParticle: {fileID: 2894347033598683775, guid: 71d430a5d01e80d4186d615482a997c0, type: 3}
+  flashSprite: {fileID: 6778204176792440749}
+  fragments: []
+--- !u!114 &6778204176792440749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2452424799867433022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afe195f6c2ed434a83ef5332b31e3ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: b4f9dbab3ac8d364e9b3e9fc20a8bc42, type: 2}
+  sr: {fileID: 2932086169161880382}
 --- !u!1 &3788631277762352238
 GameObject:
   m_ObjectHideFlags: 0

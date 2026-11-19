@@ -89,12 +89,11 @@ public class BossGuardian : MonoBehaviour
             if (timer >= timeAttack && ground)
             {
                 timer = 0;
-                DirectionBoss();
                 if (!isInteracting)
                 {                  
                     if(stats.currentHp <= stats.maxHp * 0.5f)
                     {
-
+                        Debug.Log("Attack Boss, isInteracting:" + isInteracting);
                         //Ejecutar una de las animaciones asignadas desde el inspector
                         randomAnimation = Random.Range(0, actionAnimations2.Length);
                         PlayTargetAnimation(actionAnimations2[randomAnimation], true);
@@ -132,19 +131,6 @@ public class BossGuardian : MonoBehaviour
                     rightView = true;
                 }
             }
-        }
-    }
-
-    //Checar direccion y posicion del jefe antes de actuar/atacar
-    void DirectionBoss()
-    {
-        if (rightView)
-        {
-
-        }
-        else
-        {
-
         }
     }
 
@@ -235,6 +221,14 @@ public class BossGuardian : MonoBehaviour
         {
             rgb2D.AddForce(new Vector2(-1 * dashForce, 0), ForceMode2D.Impulse);
         }
+    }
+
+    public void DownImpulse()
+    {
+        Debug.Log("DownImpulse");
+        rgb2D.gravityScale = originalGravity;
+        rgb2D.linearVelocity = Vector2.zero;
+        rgb2D.AddForce(new Vector2(0, -2 * jumpForce), ForceMode2D.Impulse);
     }
 
     // Impulso hacia el frente (en la dirección que está mirando)

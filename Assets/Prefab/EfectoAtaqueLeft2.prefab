@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 7720984973310290088}
   - component: {fileID: 5067063866988537066}
   - component: {fileID: 4966588348535203159}
-  - component: {fileID: 1580382457337768906}
-  - component: {fileID: 8294821267385122325}
+  - component: {fileID: 421502594536524570}
+  - component: {fileID: 5315986419405760920}
   m_Layer: 6
-  m_Name: EfectoAtaqueLeft
+  m_Name: EfectoAtaqueLeft2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,7 +101,7 @@ Animator:
   m_GameObject: {fileID: 5421558725771344335}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c0815f4216bbac8438ee6ad0d1c75707, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8847d5fa872ed854c806f3747e0daa68, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -159,7 +159,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0920001, y: 2.172503}
   m_EdgeRadius: 0
---- !u!114 &1580382457337768906
+--- !u!114 &421502594536524570
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,7 +177,7 @@ MonoBehaviour:
   damToEnemy: 0
   damToObject: 0
   enemyObject: {fileID: 0}
---- !u!114 &8294821267385122325
+--- !u!114 &5315986419405760920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 5003969616900704628}
   - component: {fileID: 6125765901897005649}
   - component: {fileID: 8340081863345012908}
+  - component: {fileID: 6447399630778855771}
+  - component: {fileID: 3455058725711798001}
   m_Layer: 3
   m_Name: RockDrag
   m_TagString: Object
@@ -287,6 +289,38 @@ MonoBehaviour:
   audioSource: {fileID: 6125765901897005649}
   canDrag: 0
   mainMenu: 0
+--- !u!114 &6447399630778855771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392921112751124173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dedc8ac4a5915d940af24e4855f650be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  hitParticle: {fileID: 2894347033598683775, guid: 6a3af486affaefd45aadc23572c3a016, type: 3}
+  deadParticle: {fileID: 2894347033598683775, guid: 71d430a5d01e80d4186d615482a997c0, type: 3}
+  flashSprite: {fileID: 3455058725711798001}
+  fragments: []
+--- !u!114 &3455058725711798001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392921112751124173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afe195f6c2ed434a83ef5332b31e3ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: b4f9dbab3ac8d364e9b3e9fc20a8bc42, type: 2}
+  sr: {fileID: 159118378013020575}
 --- !u!1 &1714253968139597929
 GameObject:
   m_ObjectHideFlags: 0

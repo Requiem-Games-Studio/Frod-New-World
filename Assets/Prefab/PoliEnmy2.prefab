@@ -732,7 +732,7 @@ GameObject:
   - component: {fileID: 5672654407156210619}
   - component: {fileID: 682190444730140285}
   - component: {fileID: 966528171763693461}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: PoliEnmy2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -883,6 +883,7 @@ MonoBehaviour:
   postureBreakTime: 2
   isStaggered: 0
   anim: {fileID: 5521193492415399715}
+  isAlive: 1
   enemyBehavior: {fileID: 3985106107801171815}
   healthBar: {fileID: 2536127850060527507}
   delayedBar: {fileID: 440579236694304256}

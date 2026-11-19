@@ -5,7 +5,6 @@ public class Mouth : MonoBehaviour
     [Header("Referencias")]
     public Transform mouthPoint;          // Punto donde "come"
     public Collider2D tongueTrigger;      // Trigger de la lengua
-    public LineRenderer lineRenderer;     // Opcional (visual lengua)
 
     [Header("Configuración")]
     public float pullSpeed = 2f;
@@ -37,11 +36,6 @@ public class Mouth : MonoBehaviour
         if (grabbedTarget != null)
         {
             PullTarget();
-            UpdateTongueVisual();
-        }
-        else
-        {
-            DisableTongueVisual();
         }
     }
 
@@ -67,6 +61,14 @@ public class Mouth : MonoBehaviour
             eatingEnemy= true;
             enemy = other.gameObject;
             GrabTarget(other);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.transform == grabbedTarget)
+        {
+            ReleaseTarget();
         }
     }
 
@@ -127,7 +129,7 @@ public class Mouth : MonoBehaviour
         Debug.Log("EatTArget");
         if (player != null && eatingPlayer)
         {
-            playerController.walk = true;
+
             PlayerStats stats = player.GetComponent<PlayerStats>();
             if (stats != null)
             {
@@ -164,6 +166,7 @@ public class Mouth : MonoBehaviour
         if (playerController != null)
         {
             playerController.enabled = true;
+            playerController.walk = true;
         }
 
         grabbedTarget = null;
@@ -174,20 +177,4 @@ public class Mouth : MonoBehaviour
         eatingObj = false;
     }
 
-    void UpdateTongueVisual()
-    {
-        if (lineRenderer == null || grabbedTarget == null) return;
-
-        lineRenderer.enabled = true;
-        lineRenderer.SetPosition(0, mouthPoint.position);
-        lineRenderer.SetPosition(1, grabbedTarget.position);
-    }
-
-    void DisableTongueVisual()
-    {
-        if (lineRenderer != null)
-        {
-            lineRenderer.enabled = false;
-        }
-    }
 }

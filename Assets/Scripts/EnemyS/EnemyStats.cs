@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class EnemyStats : MonoBehaviour
 {
@@ -26,10 +27,12 @@ public class EnemyStats : MonoBehaviour
     private Coroutine delayedRoutine;
     public Slider postureBar;
     public GameObject canvas;
+    GameObject bossBars;
     public GameObject iconAlert, iconStun, iconConfused,red,black;
     public bool alert, stun, confused;
 
     public bool isBoss;
+    bool setBars;
     bool isBlocking;
     public AudioSource audioSource;
     public AudioClip blockClip;
@@ -54,7 +57,12 @@ public class EnemyStats : MonoBehaviour
     public void Damage(float damage, float postureDamage, bool isHeavyAttack = false)
     {
         canvas.SetActive(true);
-        
+
+        if (isBoss && !setBars)
+        {
+            SetBossBars();
+        }
+
         if (!isAlive) return;
 
         if (isBlocking)
@@ -134,7 +142,29 @@ public class EnemyStats : MonoBehaviour
     }
     public void ActivateBossBar()
     {
+        if(isBoss && !setBars)
+        {
+            SetBossBars();
+            return;
+        }
         healthBar.enabled = true;
+    }
+
+    void SetBossBars()
+    {
+        setBars = true;
+        GameObject canvasBoss = GameObject.FindGameObjectWithTag("Canvas");
+        bossBars = canvasBoss.transform.Find("BossBars").gameObject;
+
+        bossBars.SetActive(true);
+
+        healthBar = bossBars.transform.Find("BossBar").GetComponent<Slider>();
+        delayedBar = bossBars.transform.Find("BossDelayBar").GetComponent<Slider>();
+        postureBar = bossBars.transform.Find("PoiseBar").GetComponent<Slider>();
+        black = bossBars.transform.Find("PoiseBar/Black").gameObject;
+        red = bossBars.transform.Find("Red").gameObject;
+
+        
     }
 
     // Reducir solo postura (por ejemplo, al recibir un parry)
@@ -248,6 +278,10 @@ public class EnemyStats : MonoBehaviour
         enemyBehavior.SendMessage("DieEvent");
         anim.SetBool("dead", true);
         canvas.SetActive(false);
+        if (isBoss)
+        {
+            bossBars.SetActive(false);
+        }
         // Aquí puedes desactivar IA, colisiones, etc.
     }
 

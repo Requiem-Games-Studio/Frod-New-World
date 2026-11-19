@@ -471,6 +471,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("HidingPlace") && !isOccult)
         {
             isHidden = true;
+            SetEnemyCollision(true);
             vignetteController.SetVignetteIntensity(0.5f);
         }
     }
@@ -480,6 +481,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("HidingPlace") && !isOccult)
         {
             isHidden = false;
+            SetEnemyCollision(false);
             vignetteController.ResetVignetteIntensity();
         }
     }
@@ -503,11 +505,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void SetEnemyCollision(bool ignore)
+    {
+        //11 backplayer  - 8 player
+        gameObject.layer = ignore ? 11 : 8;
+    }
+
     public void HideFrod(bool isHiding)
     {
         isOccult = isHiding;
         isHidden = isHiding;
-        if(isHiding)
+        SetEnemyCollision(isHiding);
+        if (isHiding)
         {
             vignetteController.SetVignetteIntensity(0.6f);
         }

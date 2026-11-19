@@ -5,6 +5,7 @@ public class GeneradorElectrico : MonoBehaviour
     public bool active;
     public GameObject bolaElectrica, lightObject;
     float timer;
+    public float timeSpaw = 3;
 
     public string collectableID;
 
@@ -35,7 +36,7 @@ public class GeneradorElectrico : MonoBehaviour
         {
             timer += Time.deltaTime;
 
-            if (timer >= 3f)
+            if (timer >= timeSpaw)
             {
                 timer = 0;
                 float x = Random.Range(transform.position.x + 5, transform.position.x - 5);

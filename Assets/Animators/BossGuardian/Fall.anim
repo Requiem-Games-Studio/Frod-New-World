@@ -21,10 +21,8 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -4015370746553374660, guid: ea893f433bd789940a0f7c532b51c74b, type: 3}
-    - time: 0.033333335
       value: {fileID: -2114232680515550783, guid: ea893f433bd789940a0f7c532b51c74b, type: 3}
-    - time: 0.06666667
+    - time: 0.033333335
       value: {fileID: 4279561385405606427, guid: ea893f433bd789940a0f7c532b51c74b, type: 3}
     - time: 0.41666666
       value: {fileID: 4279561385405606427, guid: ea893f433bd789940a0f7c532b51c74b, type: 3}
@@ -50,7 +48,6 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -4015370746553374660, guid: ea893f433bd789940a0f7c532b51c74b, type: 3}
     - {fileID: -2114232680515550783, guid: ea893f433bd789940a0f7c532b51c74b, type: 3}
     - {fileID: 4279561385405606427, guid: ea893f433bd789940a0f7c532b51c74b, type: 3}
     - {fileID: 4279561385405606427, guid: ea893f433bd789940a0f7c532b51c74b, type: 3}
@@ -78,4 +75,18 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.016666668
+    functionName: ChaseOff
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.033333335
+    functionName: DownImpulse
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

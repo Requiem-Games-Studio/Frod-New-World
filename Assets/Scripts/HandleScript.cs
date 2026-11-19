@@ -116,7 +116,10 @@ public class HandleScript : MonoBehaviour
             audioSource.Play();
             for (int i = 0; i < objectToActive.Length; i++)
             {
-                objectToActive[i].GetComponent<Animator>().SetBool("isActive", estaAbierta);
+                if(objectToActive[i] != null)
+                {
+                    objectToActive[i].GetComponent<Animator>().SetBool("isActive", estaAbierta);
+                }               
             }
         }
         else
