@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class CameraFollow : MonoBehaviour
 {
@@ -13,10 +14,14 @@ public class CameraFollow : MonoBehaviour
     private Vector3 offset;
     private Camera cam;
 
+    float initialFOV;
+    private Coroutine fovCoroutine;
+
     void Start()
     {
         cam = GetComponent<Camera>();
         offset = transform.position - player.position;
+        initialFOV = cam.fieldOfView;
     }
 
     void LateUpdate()
@@ -59,5 +64,49 @@ public class CameraFollow : MonoBehaviour
         // Movimiento suave
         transform.position = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed * Time.deltaTime);
 
+    }
+
+    public void NewFieldOfView(float newFieldOfView)
+    {
+        if (fovCoroutine != null)
+        {
+            StopCoroutine(fovCoroutine);
+        }
+
+        fovCoroutine = StartCoroutine(ChangeFieldOfView(newFieldOfView));
+    }
+
+    public void ResetFieldOfView()
+    {
+        if (fovCoroutine != null)
+        {
+            StopCoroutine(fovCoroutine);
+        }
+
+        fovCoroutine = StartCoroutine(ChangeFieldOfView(initialFOV));
+    }
+
+    IEnumerator ChangeFieldOfView(float targetFOV)
+    {
+        float startFOV = cam.fieldOfView;
+        float duration = 3f;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+
+            float t = elapsed / duration;
+
+            // Suavizado
+            t = Mathf.SmoothStep(0f, 1f, t);
+
+            cam.fieldOfView = Mathf.Lerp(startFOV, targetFOV, t);
+
+            yield return null;
+        }
+
+        cam.fieldOfView = targetFOV;
+        fovCoroutine = null;
     }
 }

@@ -471,7 +471,7 @@ TextureImporter:
         width: 123
         height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -480,6 +480,28 @@ TextureImporter:
       bones: []
       spriteID: 51a2b9da73a43cf46a9d8bb5befee9cf
       internalID: 1573964227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIFrod-Extras_15
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 434
+        width: 148
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab25707c4d1e054b94e30c243e8a40f
+      internalID: -901395685
       vertices: []
       indices: 
       edges: []
@@ -505,6 +527,7 @@ TextureImporter:
       UIFrod-Extras_12: -2884847737341003141
       UIFrod-Extras_13: -105843406
       UIFrod-Extras_14: 1573964227
+      UIFrod-Extras_15: -901395685
       UIFrod-Extras_2: -2855350892232442380
       UIFrod-Extras_3: -7999682202888449965
       UIFrod-Extras_4: -7597636875465607817

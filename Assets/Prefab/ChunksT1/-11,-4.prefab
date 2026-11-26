@@ -990,7 +990,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.74, y: 4.18}
+    oldSize: {x: 2.42, y: 3.41}
     newSize: {x: 0.87, y: 2.1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1231,7 +1231,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.57, y: 2.56}
+    oldSize: {x: 3.59, y: 2.57}
     newSize: {x: 1.78, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -9335,7 +9335,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.5, y: 7.03}
+    oldSize: {x: 1.77, y: 4.2}
     newSize: {x: 2.76, y: 3.52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10651,6 +10651,18 @@ PrefabInstance:
     - target: {fileID: 8458651636755649141, guid: ad2b58b876af68040a98136e7d40acd1, type: 3}
       propertyPath: m_Name
       value: EmptyBox (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213016096239972725, guid: ad2b58b876af68040a98136e7d40acd1, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8862745
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213016096239972725, guid: ad2b58b876af68040a98136e7d40acd1, type: 3}
+      propertyPath: m_Color.g
+      value: 0.88235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213016096239972725, guid: ad2b58b876af68040a98136e7d40acd1, type: 3}
+      propertyPath: m_Color.r
+      value: 0.654902
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

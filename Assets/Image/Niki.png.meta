@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: 567ad28f898915e49ac6f2054eff871b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7949521229049909143
+    second: Niki_0
+  - first:
+      213: -2782879876848148083
+    second: Niki_1
+  - first:
+      213: -6848959572462314794
+    second: Niki_2
+  - first:
+      213: -8826642378314907553
+    second: Niki_3
+  - first:
+      213: -186387923011625082
+    second: Niki_4
+  - first:
+      213: 5842563315508236998
+    second: Niki_5
+  - first:
+      213: -9040719493663192486
+    second: Niki_6
+  - first:
+      213: -4742093600209719518
+    second: Niki_7
+  - first:
+      213: 2024924328726304757
+    second: Niki_8
+  - first:
+      213: -2099831513140525862
+    second: Niki_9
+  - first:
+      213: -9047834877077579063
+    second: Niki_10
+  - first:
+      213: -2958878914041099664
+    second: Niki_11
+  - first:
+      213: -2721098398096486042
+    second: Niki_12
+  - first:
+      213: 1910361273555004118
+    second: Niki_13
+  - first:
+      213: -7170999203599122699
+    second: Niki_14
+  - first:
+      213: 5561878564777901070
+    second: Niki_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Niki_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 880
+        width: 290
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8122ef0f793169d0800000000000000
+      internalID: -2782879876848148083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Niki_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 880
+        width: 243
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da5f526e8b93f0a0800000000000000
+      internalID: -6848959572462314794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Niki_4
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 880
+        width: 248
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f187aeb21d96df0800000000000000
+      internalID: -186387923011625082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Niki_5
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 880
+        width: 243
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2d8965164f41150800000000000000
+      internalID: 5842563315508236998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Niki_7
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 874
+        width: 248
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fa8dbcef2b03eb0800000000000000
+      internalID: -4742093600209719518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Niki_8
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 874
+        width: 243
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f717cec2f9f91c10800000000000000
+      internalID: 2024924328726304757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Niki_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 475
+        width: 248
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca9665ed12af6280800000000000000
+      internalID: -9047834877077579063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Niki_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 475
+        width: 243
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07acf23fd43ffe6d0800000000000000
+      internalID: -2958878914041099664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Niki_13
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 469
+        width: 248
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6daa8eee477f28a10800000000000000
+      internalID: 1910361273555004118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Niki_14
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 469
+        width: 243
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe7dd8c73e7b7c90800000000000000
+      internalID: -7170999203599122699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Niki_15
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 34
+        width: 194
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c32792613cf2d40800000000000000
+      internalID: 5561878564777901070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3263114cce41d0b468751fdf9b2a4bdc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Niki_0: -7949521229049909143
+      Niki_1: -2782879876848148083
+      Niki_10: -9047834877077579063
+      Niki_11: -2958878914041099664
+      Niki_12: -2721098398096486042
+      Niki_13: 1910361273555004118
+      Niki_14: -7170999203599122699
+      Niki_15: 5561878564777901070
+      Niki_2: -6848959572462314794
+      Niki_3: -8826642378314907553
+      Niki_4: -186387923011625082
+      Niki_5: 5842563315508236998
+      Niki_6: -9040719493663192486
+      Niki_7: -4742093600209719518
+      Niki_8: 2024924328726304757
+      Niki_9: -2099831513140525862
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
